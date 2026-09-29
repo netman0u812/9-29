@@ -1,0 +1,1615 @@
+#STEM=ent-ipdataset-BUSINESS-CONTEXT-ENRICHMENT
+#VERSION=20260928r4
+#ROWS=850
+#DESCRIPTION=Business-context (owner/contact) enrichment of the live 3RD-PARTY-CONNECTION-MASTER from all 4 human trackers (KPMG+PSS_B2B+AZ_B2B+AETH_B2B)
+#GENERATOR=build_business_context_enrichment.py v1.1.0
+#SOURCE_FILES=ent-ipdataset-3RD-PARTY-CONNECTION-MASTER-v20260928r4.csv,3PLZ_connection_data_KPMG.xlsx,FW VPN Tunnel Master PSS b2b-contacts-ANDY LE PROJ.xlsx,CVS_AZ_B2B_VPN_Tunnel_Master.xlsx,AETH_B2B-Master-Inventory-Contact-2025.xlsx
+PARTNER_NAME,CONNECTION_TYPE,DEVICE,SITE,SHUTDOWN,PARTNER_PEER_IP,BUSINESS_CONTEXT_MATCH_TIER,BUSINESS_CONTEXT_SOURCES,BUSINESS_OWNER_NAME,BUSINESS_OWNER_EMAIL,PARTNER_CONTACT_RAW,INVALID_CONTACT,WRONG_CONTACT,EXISTING_MASTER_OWNER_NAME,EXISTING_MASTER_OWNER_EMAIL
+MEDHOKAWS_DR,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,100.21.166.200,,,,,,,,,
+BUPA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,103.108.49.126,PEER_IP,AETH_B2B|KPMG,Rich Aries,Manoch.Chadjuam@aetna.co.th,Manoch.Chadjuam@aetna.co.th,,,Rich Aries,Manoch.Chadjuam@aetna.co.th
+103_192_124_68,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,103.192.124.68,,,,,,,,,
+CSM_IPSEC_ACL_130,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,103.60.213.36,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"scott Deatherage - Scott.Deatherage@caremark.com - 972-813-3633
+Peter Rochard - Peter.Rochard@cvshealth.com - 480-452-7185",Scott.Deatherage@caremark.com,deepti.n@accelq.com,,,,
+TEMPUS_ELLKAY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,104.130.82.84,,,,,,,,paul Szeloag - ptszelag@cvshealth.com - 401-770-5201,ptszelag@cvshealth.com
+COTIVITI-NEW-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,104.152.173.20,PEER_IP,AETH_B2B|KPMG,"Kishore Ratakonda - RatakondaK@aetna.com
+Warren Duke - Warren.Duke@CVSHealth.com",,"Freeman, James <james.freeman@cotiviti.com> (MAIN POC)
+Tramonte, Amanda <Amanda.Tramonte@cotiviti.com>
+Gondek, Laurie <Laurie.Gondek@cotiviti.com>
+Chase Nelson <chase.nelson@cotiviti.com>
+Brian Tanner <brian.tanner@cotiviti.com>
+Hadley, Ryan <Ryan.Hadley@cotiviti.com>",,,"Kishore Ratakonda - RatakondaK@aetna.com
+Warren Duke - Warren.Duke@CVSHealth.com",RatakondaK@aetna.com
+YARDI_GRANDVIEW,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,104.156.174.3,,,,,,,,,
+FACTSPAN_GRP_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,106.51.64.78,,,,,,,,,
+CSM_IPSEC_ACL_281,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,107.198.23.9,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Terry  Werk,,,,,,
+CSM_IPSEC_ACL_328,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,108.166.101.205,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+EXL-SECONDARY-CHENNAI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,115.112.102.249,PEER_IP,AETH_B2B|KPMG,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com,Rubia.Rendon@exlservice.com/Saurabh.Sharma6@exlservice.com/eNOCSupport@exlservice.com/Sanjay.Kurkute2@exlservice.com,,,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com
+TCS_BANGALORE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,115.112.63.250,PEER_IP,AZ_B2B|KPMG|PSS_B2B,VIKAS PHOGAT - vikas.phogat@tcs.com - Ph:- +91 124 6214732 - Cell:- 9971793557,vikas.phogat@tcs.com,"Animesh Kumar, PMP, SAFe®|
+Tata Consultancy Services, Bangalore - 560066 |
+animesh1.kumar@tcs.com | Animesh.Kumar@CVSHealth.com | (+91) 8904038523(M)",,,VIKAS PHOGAT - vikas.phogat@tcs.com - Ph:- +91 124 6214732 - Cell:- 9971793557,vikas.phogat@tcs.com
+CSM_IPSEC_ACL_8,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,116.66.144.17,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Kranthi Sanka - kranthi.sanka@cvshealth.com - 785-501-4328,kranthi.sanka@cvshealth.com,,,,,
+CSM_IPSEC_ACL_8,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,116.66.144.17,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Kranthi Sanka - kranthi.sanka@cvshealth.com - 785-501-4328,kranthi.sanka@cvshealth.com,,,,,
+CSM_IPSEC_ACL_123,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.1.91.12,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Todd Reimann,,"Dan.Nashland@omnicare.com
+Matt.Kuehl@omnicare.com",,,,
+CSM_IPSEC_ACL_167,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.11.185.226,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Smith, Jeffrey <Jeffrey.Smith3@CVSHealth.com>",Jeffrey.Smith3@CVSHealth.com,Chante Foster <Chante.Foster@bcbsri.org>,,,,
+CSM_IPSEC_ACL_200,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,12.116.74.138,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Sean King - Sean.King3@CVSHealth.com - 480-314-8224,Sean.King3@CVSHealth.com,"WINNY, BOSE <bw6930@att.com>; DRIBER, GARY <gary.driber@directv.com>; AJ2618@ATT.COM <AJ2618@att.com>; Cheenepalli, Kartheek <Kartheek.Cheenepalli@CVSHealth.com>; WATERS, JOSEPH P <jw4927@att.com>; MCPHERSON, JONATHAN <jx639v@att.com>",,,,
+CSM_IPSEC_ACL_200,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.116.74.138,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Sean King - Sean.King3@CVSHealth.com - 480-314-8224,Sean.King3@CVSHealth.com,"WINNY, BOSE <bw6930@att.com>; DRIBER, GARY <gary.driber@directv.com>; AJ2618@ATT.COM <AJ2618@att.com>; Cheenepalli, Kartheek <Kartheek.Cheenepalli@CVSHealth.com>; WATERS, JOSEPH P <jw4927@att.com>; MCPHERSON, JONATHAN <jx639v@att.com>",,,,
+CSM_IPSEC_ACL_139,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.129.4.150,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Kurtis Mcvay, Daniel Capozzo,",bw6930@att.com,"WINNY, BOSE <bw6930@att.com>; DRIBER, GARY <gary.driber@directv.com>; AJ2618@ATT.COM <AJ2618@att.com>; Cheenepalli, Kartheek <Kartheek.Cheenepalli@CVSHealth.com>; WATERS, JOSEPH P <jw4927@att.com>; MCPHERSON, JONATHAN <jx639v@att.com>",,,,
+CSM_IPSEC_ACL_169,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.130.155.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Kelly Straub - kelly.straub@cvshealth.com,,,,,,
+CSM_IPSEC_ACL_283,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.131.122.20,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Lynrick Pleasant
+lynrick.pleasant@cvshealth.com",,,,,,
+CSM_IPSEC_ACL_141,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.133.35.1,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+LABCORP-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,12.145.88.12,PEER_IP,AETH_B2B|KPMG,"Kumar, Rajeev <rkumar@aetna.com>",rkumar@aetna.com,Donald Holley Phone: 336-436-8035 don_holley@labcorp.com,,,"Kane, Lisa R <LRKane@aetna.com>",LRKane@aetna.com
+CSM_IPSEC_ACL_270,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.147.152.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,ADRONEY@ADT.COM,ADRONEY@ADT.COM,,,,
+CSM_IPSEC_ACL_106,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.177.82.110,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Pasquaretta,Jen.viens@ibm.com,Jen.viens@ibm.com,,,,
+ACS-PITTSBURGH-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,12.180.115.103,PEER_IP,AETH_B2B|KPMG,Debbie Samples / Kathy Murr,Cliff.likens@acs-inc.com,Cliff.likens@acs-inc.com,,,"Debbie Samples / Kathy Murr
+Patricia Smith (not the appropriate contact)",Cliff.likens@acs-inc.com
+HDMS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,12.191.200.3,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Herman Nord - HNord@cvshealth.com - 401-770-1713,HNord@cvshealth.com,Lakshmi Indlamuri - lindlamuri@hdms.com - O: 312-881-1817 | C: 312-835-0747,,,Herman Nord - HNord@cvshealth.com - 401-770-1713 (Email no longer valid),HNord@cvshealth.com
+CSM_IPSEC_ACL_263,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.197.237.98,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+BOON3-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,12.205.25.6,PEER_IP,AETH_B2B|KPMG,Lisa Mandato,edi@boongroup.com,"Boon Technology Solutions edi@boongroup.com nthomas@boongroup.com  Katie Jones kjones@boongroup.com   jinsley@boongroup.com, Jacque Greene greene@boongroup.com  mgarrow@boongroup.com shernandez@boongroup.com",,,Lisa Mandato,edi@boongroup.com
+BENEFIT-PROG-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,12.227.198.99,PEER_IP,AETH_B2B|KPMG,,,dtroglen@benefitcommunications.com (invalid email),,,,dtroglen@benefitcommunications.com
+EXLNJ-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,12.227.225.254,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Kay Goebl - kay.goebl@cvshealth.com - 440-313-4890,kay.goebl@cvshealth.com,Raghu Kumar - raghukumar.alleliyappa@exlservices.com - +91 9894503528,,,,
+MEWBOURNE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,12.237.9.2,PEER_IP,AETH_B2B|KPMG,Jose E Castro 281-637-3132 CastroJ1@Aetna.com,CastroJ1@Aetna.com,Wes Roach WRoach@mewbourne.com,,,Jose E Castro 281-637-3132 CastroJ1@Aetna.com,CastroJ1@Aetna.com
+CSM_IPSEC_ACL_120,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.41.123.51,PEER_IP,AZ_B2B|KPMG|PSS_B2B,John Layton,saustin@healthfirst.org,"steven Austin - saustin@healthfirst.org
+Tsui Wing - wtsui@healthfirst.org",,,,
+CENT-OHIO-AAA-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,12.49.194.36,,,,,,,,"Smith, Jason <jrsmith@aetna.com>",jrsmith@aetna.com
+ORTHONET-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,12.53.175.2,PEER_IP,AETH_B2B|KPMG,"Yates, Michael",JPAGANO@orthonet-online.com,Jason Pagano JPAGANO@orthonet-online.com,,,"Yates, Michael",JPAGANO@orthonet-online.com
+CSM_IPSEC_ACL_99,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,12.89.73.10,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Sean King - sean.king3@cvshealth.com - 480-314-8224,sean.king3@cvshealth.com,"WINNY, BOSE <bw6930@att.com>; DRIBER, GARY <gary.driber@directv.com>; AJ2618@ATT.COM <AJ2618@att.com>; Cheenepalli, Kartheek <Kartheek.Cheenepalli@CVSHealth.com>; WATERS, JOSEPH P <jw4927@att.com>; MCPHERSON, JONATHAN <jx639v@att.com>",,,,
+CSM_IPSEC_ACL_99,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,12.89.73.10,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Sean King - sean.king3@cvshealth.com - 480-314-8224,sean.king3@cvshealth.com,"WINNY, BOSE <bw6930@att.com>; DRIBER, GARY <gary.driber@directv.com>; AJ2618@ATT.COM <AJ2618@att.com>; Cheenepalli, Kartheek <Kartheek.Cheenepalli@CVSHealth.com>; WATERS, JOSEPH P <jw4927@att.com>; MCPHERSON, JONATHAN <jx639v@att.com>",,,,
+CSM_IPSEC_ACL_305,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,120.138.242.130,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_16,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,120.29.232.2,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_218,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,121.241.116.210,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Joni Manohar - jmanohar@cvshealth.com - 401-770-5436,jmanohar@cvshealth.com,Vandita Kalia,,,,
+CSM_IPSEC_ACL_218,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,121.241.116.210,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Joni Manohar - jmanohar@cvshealth.com - 401-770-5436,jmanohar@cvshealth.com,Vandita Kalia,,,,
+EXL-INDUCTIS2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,121.241.119.244,PEER_IP,AETH_B2B|KPMG,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com,Rubia.Rendon@exlservice.com/Saurabh.Sharma6@exlservice.com/eNOCSupport@exlservice.com/Sanjay.Kurkute2@exlservice.com,,,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com
+CSM_IPSEC_ACL_274,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,121.241.146.28,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Kenneth Goldberg - kenneth.goldberg@cvshealth.com - 401-770-9194,kenneth.goldberg@cvshealth.com,TCS - kannan.subramanian@cvshealth.com,,,,
+TCS-12516,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,121.242.45.38,,,,,,,,,
+CSM_IPSEC_ACL_55,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,122.15.124.50,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Andrew Zehnder andrew.zehnder@cvshealth.com;,,"Omar Rivera - Omar.Rivera@wtwco.com
+Liz.Trimmer@wtwco.com
+Yemisi.Aladekomo@wtwco.com
+Ethan.Queen@wtwco.com
+Kwaku.Okrah@wtwco.com
+Manjula.Jayabalan@wtwco.com",,,,
+BARRIER_BREAK_IND,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,122.170.110.43,,,,,,,,,
+CSM_IPSEC_ACL_35,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,122.98.118.5,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Joe Mariano - imariano@cvshealth.com _ 401-770-3365,imariano@cvshealth.com,"ArunKumar Mahalingam - arunkumar_M11@infosys.com - +91 44 47425900
+Mahesh Prabhu (Mahesh.Prabhu@CVSHealth.com) c: 484–948–6657",,,,
+CSM_IPSEC_ACL_35,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,122.98.118.5,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Joe Mariano - imariano@cvshealth.com _ 401-770-3365,imariano@cvshealth.com,"ArunKumar Mahalingam - arunkumar_M11@infosys.com - +91 44 47425900
+Mahesh Prabhu (Mahesh.Prabhu@CVSHealth.com) c: 484–948–6657",,,,
+CSM_IPSEC_ACL_148,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,124.6.128.38,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Daniel Cornille - Daniel.Cornille@caremark.com - +18474849549
+Robert Muller - Robert.Muller@CVSHealth.com - 2019067621",Daniel.Cornille@caremark.com,"Charisse Divine - charisse.chosantos@pointwest.com
+John Mattaliano - jmatt@rmkcoonsulting.com - ( 940) - 914 - 6406",,,,
+CSM_IPSEC_ACL_21,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,125.16.214.25,,,,,,,,,
+CSM_IPSEC_ACL_21,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,125.16.214.25,,,,,,,,,
+TCS_JAS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,125.17.139.189,,,,,,,,,
+RETAIL_TCS_SIRUSERI,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,125.17.73.2,,,,,,,,Kenneth Goldberg - kenneth.goldberg@cvshealth.com - 401-770-9194,kenneth.goldberg@cvshealth.com
+CSM_IPSEC_ACL_224,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,128.136.204.97,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Mary Rogan - mary.rogan@caremark.com - 847-484-8436,mary.rogan@caremark.com,"Vicki Muscarella vmuscarella@covermymeds.com
+Hannah Spagnola Hspagnola@covermymeds.com
+Victoria Hawkins VHawkins@covermymeds.com",,,,
+CSM_IPSEC_ACL_322,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,128.249.1.174,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_134,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,129.150.118.167,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_134,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.150.118.167,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_172,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.33.201.104,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,sukalyan.gorai@cvshealth.com,Sukalyan Gorai - sukalyan.gorai@cvshealth.com - +91 9073055365,,,,
+CSM_IPSEC_ACL_264,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.33.201.120,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,vijaylakshmanan@in.ibm.com,vijaylakshmanan@in.ibm.com - +91 9686603011,,,,
+CSM_IPSEC_ACL_231,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.33.201.122,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz - jeffrey.kalmanowicz@cvshealth.com,,Neeraj Mehta - 972 792 4256,,,,
+CSM_IPSEC_ACL_67,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.33.201.128,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,mpallama@in.ibm.com,"Murali Pallamala <mpallama@in.ibm.com>
+Neeraj Mehta - 972 792 4256",,,,
+CSM_IPSEC_ACL_276,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.33.201.64,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,sukalyan.gorai@cvshealth.com,"Sukalyan Gorai - sukalyan.gorai@cvshealth.com - +91 9073055365
+AshiqueAhamed.Basheer@cognizant.com - +91-9944989114",,,,
+CSM_IPSEC_ACL_313,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.33.201.70,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz - jeffrey.kalmanowicz@cvshealth.com,,"Arun Venugopal
+    Location IT Manager & Technical Solution Architect -BT/IT-IBM Consulting
+    IBM-Chennai
+    MOB:09994869895,",,,,
+CSM_IPSEC_ACL_301,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,129.80.224.14,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Sean Bradley,,,,,,
+RANDSTAD_INDIA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,13.228.60.71,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+MICROSOFT_GRP_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,13.68.144.168,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Ryan Belkin,michele.petruzziello@microsoft.com,michele.petruzziello@microsoft.com,,,,
+MAJESCO-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,13.68.252.211,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CUBEX_SYSTEMS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,13.91.229.234,,,,,,,,,
+MOXIE_AWS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,130.250.132.164,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Raag Rajendra Kharadi - Raagrajendra.kharadi@cvshealth.com - 510-974-3342
+Freddy Herrera - Freddy.Herrera@cvshealth.com (602) 571-9138
+Peter Rochard - peter.rochard@cvshealth.com - 480-452-7185",Raagrajendra.kharadi@cvshealth.com,Kristopher Grimm - kgrimm@gomoxie.com - 425-327-0639,,,"Herrera, Freddy <Freddy.Herrera@CVSHealth.com>",Freddy.Herrera@CVSHealth.com
+PERFORMANT-PRI-IPSEC2,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,131.226.216.190,,,,,,,,,
+INTRUST_IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,131.239.182.163,PEER_IP,AETH_B2B|KPMG,,,,,,,
+HEARTBEAT_STUDYCAST,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,134.195.62.15,,,,,,,,,
+GD_WUS3_NVA2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,134.33.65.31,,,,,,,,,
+CLEAR-VISION-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,136.179.20.213,PEER_IP,AETH_B2B|KPMG,Matthias Cowley,cassie.winfrey@cviinfosys.com,Cassie Winfrey 805-477-3961 cassie.winfrey@cviinfosys.com,,,Matthias Cowley,cassie.winfrey@cviinfosys.com
+CHANGEHEALTHCARE_OPTUM_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,137.83.218.38,,,,,,,,,
+CONDUENT-NJ-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,138.69.2.1,PEER_IP,AETH_B2B|KPMG,"Levin, Judith A <Judith.Levin@cvshealth.com>",Judith.Levin@cvshealth.com,Greg Schwarz ; (609) 775-5829 gregory.schwarz@conduent.com,,,"Graham, Heather L. <Heather.Graham@CVSHealth.com>; (contact)
+
+Levin, Judith A <Judith.Levin@cvshealth.com>",Heather.Graham@CVSHealth.com
+CDR-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,138.69.2.25,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Chad Cook,matthew.neis@conduent.com,matthew.neis@conduent.com,,,"Chandrasekaran, Prakash K <ChandrasekaranP@aetna.com> (Potential CVS contact)",ChandrasekaranP@aetna.com
+BOSCH_POTS_GRP_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,138.91.125.18,,,,,,,,,
+TCS_GURUGRAM,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,14.140.37.25,,,,,,,,,
+CSM_IPSEC_ACL_93,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,14.140.94.85,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Andrew Zehnder andrew.zehnder@cvshealth.com;,,"Omar Rivera - Omar.Rivera@wtwco.com
+Liz.Trimmer@wtwco.com
+Yemisi.Aladekomo@wtwco.com
+Ethan.Queen@wtwco.com
+Kwaku.Okrah@wtwco.com
+Manjula.Jayabalan@wtwco.com",,,,
+CSM_IPSEC_ACL_107,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,14.141.183.28,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Jed Knutson - jed.knutson@caremark.com - 612-240-5504
+Ilango J - ilango.jothikarunakaran@cvshealth.com - 508-283-0563",jed.knutson@caremark.com,ArunKumar Nachimuthu - arunkumar.nachimuthu@tcs.com - +91-484 6186433,,,,
+CSM_IPSEC_ACL_107,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,14.141.183.28,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Jed Knutson - jed.knutson@caremark.com - 612-240-5504
+Ilango J - ilango.jothikarunakaran@cvshealth.com - 508-283-0563",jed.knutson@caremark.com,ArunKumar Nachimuthu - arunkumar.nachimuthu@tcs.com - +91-484 6186433,,,,
+TCS-12517,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,14.141.66.181,,,,,,,,,
+TCS_JAS_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,14.142.208.221,,,,,,,,,
+CSM_IPSEC_ACL_14,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,14.142.6.157,,,,,,,,,
+CSM_IPSEC_ACL_14,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,14.142.6.157,,,,,,,,,
+INDIAN-HEALTH-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,14.143.11.178,PEER_IP,AETH_B2B|KPMG,Ashley Gamble gamblea@aetna.com 267.207.1334,gamblea@aetna.com,"Nikhil goel' - Nikhil.goel@iho.in  +91-9833679739
+Tech contact Sanjeev Kumar - Sanjeev.kumar@iho.in +91- 9873251108",,,Ashley Gamble gamblea@aetna.com (incorrect POC),gamblea@aetna.com
+CSM_IPSEC_ACL_83,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,140.177.8.79,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Prahlad Athreya - Prahlad.Athreya@CVSHealth.com - 401 772 8218,Prahlad.Athreya@CVSHealth.com,"Eve Paul - evep@wolfram.com - Ph :217-398-0700, extension 5556",,,,
+CSM_IPSEC_ACL_83,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,140.177.8.79,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Prahlad Athreya - Prahlad.Athreya@CVSHealth.com - 401 772 8218,Prahlad.Athreya@CVSHealth.com,"Eve Paul - evep@wolfram.com - Ph :217-398-0700, extension 5556",,,,
+CSM_IPSEC_ACL_13,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,141.202.179.17,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+TERADATA_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,141.206.235.58,,,,,,,,"Ramachandran, Janardhanan <Janardhanan.Ramachandran@CVSHealth.com>
+Chauvie, Steven L <Steven.Chauvie@CVSHealth.com>",Janardhanan.Ramachandran@CVSHealth.com
+TERADATA_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,141.206.240.80,,,,,,,,"Ramachandran, Janardhanan <Janardhanan.Ramachandran@CVSHealth.com>
+Chauvie, Steven L <Steven.Chauvie@CVSHealth.com>",Janardhanan.Ramachandran@CVSHealth.com
+CSM_IPSEC_ACL_321,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,143.112.112.1,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lisa Errett,Jenna.Smith@mckesson.com,Jenna Smith - Jenna.Smith@mckesson.com,,,,
+CSM_IPSEC_ACL_302,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,143.112.123.68,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_302,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,143.112.123.68,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_131,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,143.112.144.250,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lisa Errett,heather.houston@mckesson.com,"Heather Houston - heather.houston@mckesson.com - 415-983-7517
+Evelyn Lu - velyn.lu@mckesson.com - 415-983-7561
+Aditya Sethi - 972-446-5495 (w)",,,,
+CSM_IPSEC_ACL_319,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,143.112.144.68,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lisa Errett,heather.houston@mckesson.com,"Heather Houston - heather.houston@mckesson.com - 415-983-7517
+Evelyn Lu - evelyn.lu@mckesson.com - 415-983-7561
+Aditya Sethi - 972-446-5495 (w)",,,,
+COORDINATED_BENEFITS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,144.129.17.146,PEER_IP,AETH_B2B|KPMG,KurdesM@aetna.com,KurdesM@aetna.com,rcabrera@cbpinsure.com,,,,
+ACCENTURE-CP3-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,144.36.168.4,,,,,,,,"Elizabeth Kugler - elizabeth.kugler@cvshealth.com - no longer the account owner
+Christopher Haynes - christopher.haynes@cvshealth.com - new account owner",elizabeth.kugler@cvshealth.com
+ACCENTURE-SECONDARY-CP3-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,144.36.169.4,,,,,,,,,
+JPCHASE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,146.143.156.65,,,,,,,,,
+JPCHASE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,146.143.221.65,,,,,,,,,
+CSM_IPSEC_ACL_54,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,146.143.29.65,,,,,,,,,
+CSM_IPSEC_ACL_54,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,146.143.92.65,,,,,,,,,
+MARTIN,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,147.202.22.89,,,,,,,,,
+SUNGARD-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,147.249.204.56,PEER_IP,AETH_B2B|KPMG,Eva Long - LongEJ@aetna.com,LongEJ@aetna.com,"No contact provided, work through Aetna business owner.",,,Eva Long - LongEJ@aetna.com,LongEJ@aetna.com
+FIS-NJ-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,147.249.53.2,PEER_IP,AETH_B2B|KPMG,"Eva Long - LongEJ@cvshealth.com (new potential POC)
+Todd Rooks - todd.rooks@cvshealth.com",,"Neil Dziadulewicz, neil.j.dziadulewicz@fisglobal.com, 414-341-5124 - not valid email
+Ritesh Sabharwal   (Ritesh.Sabharwal@fisglobal.com) - not valid email
+Katarina Jerolitsch   (Katarina.Jerolitsch@fisglobal.com) - not valid email",,,"Eva Long - LongEJ@cvshealth.com (new potential POC)
+Todd Rooks - todd.rooks@cvshealth.com",LongEJ@cvshealth.com
+FIS-NJ-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,147.249.53.2,PEER_IP,AETH_B2B|KPMG,"Eva Long - LongEJ@cvshealth.com (new potential POC)
+Todd Rooks - todd.rooks@cvshealth.com",,"Neil Dziadulewicz, neil.j.dziadulewicz@fisglobal.com, 414-341-5124 - not valid email
+Ritesh Sabharwal   (Ritesh.Sabharwal@fisglobal.com) - not valid email
+Katarina Jerolitsch   (Katarina.Jerolitsch@fisglobal.com) - not valid email",,,"Eva Long - LongEJ@cvshealth.com (new potential POC)
+Todd Rooks - todd.rooks@cvshealth.com",LongEJ@cvshealth.com
+HCB_PERFORMANT,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,149.137.192.222,PEER_IP,AETH_B2B|KPMG,,,,,,,
+NCHIE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,149.173.3.121,,,,,,,,,
+CSM_IPSEC_ACL_56,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,152.145.172.12,,,,,,,,,
+CSM_IPSEC_ACL_26,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,153.65.16.23,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Todd Rooks; Kathleen A Kadziolka,Thomas.Casey@teradata.com,Thomas.Casey@teradata.com,,,,
+CSM_IPSEC_ACL_50,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,156.55.150.225,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Todd Rooks,neil.j.dziadulewicz@fisglobal.com,"Neil Dziadulewicz, neil.j.dziadulewicz@fisglobal.com, 414-341-5124",,,,
+CSM_IPSEC_ACL_181,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,156.55.167.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Todd Rooks,neil.j.dziadulewicz@fisglobal.com,"Neil Dziadulewicz, neil.j.dziadulewicz@fisglobal.com, 414-341-5124
+Ritesh Sabharwal (Ritesh.Sabharwal@fisglobal.com)
+Katarina Jerolitsch (Katarina.Jerolitsch@fisglobal.com)",,,,
+FIS-DR-BROWNDEER-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,156.55.174.246,PEER_IP,AETH_B2B|KPMG,"Eva Long - LongEJ@cvshealth.com (new potential POC)
+Todd Rooks - todd.rooks@cvshealth.com",,"Neil Dziadulewicz, neil.j.dziadulewicz@fisglobal.com, 414-341-5124 - not valid email
+Ritesh Sabharwal   (Ritesh.Sabharwal@fisglobal.com) - not valid email
+Katarina Jerolitsch   (Katarina.Jerolitsch@fisglobal.com) - not valid email",,,,
+FIS-DR-BROWNDEER-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,156.55.174.246,PEER_IP,AETH_B2B|KPMG,"Eva Long - LongEJ@cvshealth.com (new potential POC)
+Todd Rooks - todd.rooks@cvshealth.com",,"Neil Dziadulewicz, neil.j.dziadulewicz@fisglobal.com, 414-341-5124 - not valid email
+Ritesh Sabharwal   (Ritesh.Sabharwal@fisglobal.com) - not valid email
+Katarina Jerolitsch   (Katarina.Jerolitsch@fisglobal.com) - not valid email",,,,
+CSM_IPSEC_ACL_211,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,157.154.11.1,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Mitchell Super - Mitchell.Super@CVSHealth.com - 480/391-4511,Mitchell.Super@CVSHealth.com,shane.brown@highmark.com; Jody.campbell@highmark.com; david.hulings@highmark.com; Brittany.Reitler@highmark.com,,,,
+EXXONMOBIL2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,158.26.5.34,PEER_IP,AETH_B2B|KPMG,"Aguirre, Laura Y//Carlton, Clint S",gis.external.connection.requests@exxonmobil.com,gis.external.connection.requests@exxonmobil.com/brian.y.wang@exxonmobil.com,,,"Aguirre, Laura Y <AguirreL@aetna.com>
+Martinez, Paul <MartinezPJ@aetna.com>",AguirreL@aetna.com
+EXXONMOBIL2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,158.26.5.34,PEER_IP,AETH_B2B|KPMG,"Aguirre, Laura Y//Carlton, Clint S",gis.external.connection.requests@exxonmobil.com,gis.external.connection.requests@exxonmobil.com/brian.y.wang@exxonmobil.com,,,"Aguirre, Laura Y <AguirreL@aetna.com>
+Martinez, Paul <MartinezPJ@aetna.com>",AguirreL@aetna.com
+EXXONMOBIL-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,158.35.254.112,PEER_IP,AETH_B2B|KPMG,"Aguirre, Laura Y//Carlton, Clint S",gis.external.connection.requests@exxonmobil.com,gis.external.connection.requests@exxonmobil.com/brian.y.wang@exxonmobil.com,,,"Aguirre, Laura Y <AguirreL@aetna.com>
+Martinez, Paul <MartinezPJ@aetna.com>",AguirreL@aetna.com
+CSM_IPSEC_ACL_94,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,159.136.224.25,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Eileen.Erenberg@cvshealth.com
+Robert.Merenick@CVSHealth.com
+Sherri Zarra - sherri.zarra@cvshealth.com - supporter POC (in charge of BCBS-CA)",,Kathy Muench - kathleen.muench@bluecrossmn.com - (651) 662-6915,,,,
+INFOR,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,159.172.241.8,,,,,,,,,
+AHCCCS-IPSEC,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,159.87.17.249,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Santo Anzaldi,Chris.Francis@azahcccs.gov,Chris Francis at AZAHCCCS mailto:Chris.Francis@azahcccs.gov,,,"Cavanaugh, Paul M/Atkin, James R",netsvcs@azahcccs.gov
+AHCCCS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,159.87.17.249,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Santo Anzaldi,Chris.Francis@azahcccs.gov,Chris Francis at AZAHCCCS mailto:Chris.Francis@azahcccs.gov,,,"Cavanaugh, Paul M/Atkin, James R",netsvcs@azahcccs.gov
+CSM_IPSEC_ACL_89,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,160.109.98.44,PEER_IP,AZ_B2B|KPMG|PSS_B2B,David Krikorian - david.krikorian@cvshealth.com - 401-770-2529,david.krikorian@cvshealth.com,Sherri Jones 317-735-5313 Sherri.Jones@WoltersKluwer.com,,,,
+CSM_IPSEC_ACL_206,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,160.34.15.221,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Ryan Belkin; Nancy G Saraceno,SAM.CARLISLE@ORACLE.COM,SAM.CARLISLE@ORACLE.COM,,,,
+CSM_IPSEC_ACL_206,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,160.34.15.221,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Ryan Belkin; Nancy G Saraceno,SAM.CARLISLE@ORACLE.COM,SAM.CARLISLE@ORACLE.COM,,,,
+CITYOFNEWYORK-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,161.185.130.146,PEER_IP,AETH_B2B|KPMG,"Remekie, Dawn-Marie/Patterson, Jennifer K <PattersonJ@aetna.com>",PattersonJ@aetna.com,reinbinder@doitt.nyc.gov,,,"Gaetano Sabino - SabinoG@aetna.com (Not the correct POC)
+Remekie, Dawn-Marie <remekied@aetna.com> /Patterson, Jennifer K <PattersonJ@aetna.com> (No longer POC)",SabinoG@aetna.com
+TARGET,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,161.225.176.10,,,,,,,,,
+EQUIAN-NEW-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,161.249.144.108,PEER_IP,AETH_B2B|KPMG,"Michele Kurdes -KurdesM@AETNA.com
+Jaylynn Keener - KeenerJ@aetna.com",,,,,"Michele Kurdes -KurdesM@AETNA.com
+Jaylynn Keener - KeenerJ@aetna.com",-KurdesM@AETNA.com
+LABCORP,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,162.134.70.20,NORMALIZED_NAME,AETH_B2B|KPMG,"Kumar, Rajeev <rkumar@aetna.com>",rkumar@aetna.com,Donald Holley Phone: 336-436-8035 don_holley@labcorp.com,,,"Kane, Lisa R <LRKane@aetna.com>",LRKane@aetna.com
+CSM_IPSEC_ACL_280,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,162.212.51.1,,,,,,,,,
+CSM_IPSEC_ACL_280,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,162.212.53.1,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Norwood COnway,HZN-MF-Network@horizonblue.com,"Maheswaran K
+Horizon Mainframe Network Support Team - HZN-MF-Network@horizonblue.com - (973) 466-5561",,,,
+HARMONY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,162.245.158.2,,,,,,,,,
+HEALTH-PLAN-ONE-TAMPA2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,162.246.143.212,PEER_IP,AETH_B2B|KPMG,,,,,,,
+IOWA-BENEFIT-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,162.253.44.108,,,,,,,,Deborah Martorelli - MartorelliD@aetna.com,MartorelliD@aetna.com
+MILLER_COORS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,162.73.248.10,,,,,,,,,
+CSM_IPSEC_ACL_182,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,162.95.216.11,,,,,,,,,
+KANSAS-DEPARTMENT-OF-HEALTH-AND-ENVIRONMENT,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,165.201.142.50,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_266,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,165.251.45.1,,,,,,,,,
+CSM_IPSEC_ACL_266,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,165.251.45.1,,,,,,,,,
+CSM_IPSEC_ACL_20,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,165.253.34.140,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Doreen Stables,Rebecca.MacGillivray@blueshieldca.com,"Rebecca MacGillvray Rebecca.MacGillivray@blueshieldca.com 714.428.4858
+Jackie Shaffer jackie.shaffer@cvshealth.com 412-639-1594
+David R Gerry drgerry@dstsystems.com 816.843.5836",,,,
+CSM_IPSEC_ACL_101,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,165.85.175.55,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Swarun Joginpelly - swarun.jogineplly@cvshealth.com - 508-834-0980
+Paul Szelag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713 Conway.NorwoodII",swarun.jogineplly@cvshealth.com,"Katie Benoit - katie.benoit@changehealthcare.com - 614-783-4446
+Email:isscognizantnetwork@changehealthcare.com - 323-781-2168",,,,
+CSM_IPSEC_ACL_52,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,165.85.48.130,,,,,,,,,
+NATIONAL-HEALTHCARE-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,166.0.197.130,NORMALIZED_NAME,AETH_B2B|KPMG,Patrick McCormick,support@sbsproactive.com,support@sbsproactive.com Omar Giraldo ogiraldo@vumigroup.com,,,Patrick McCormick,support@sbsproactive.com
+MERWIN_LYNGBLOMSTEN_2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.1,,,,,,,,,
+MERWIN_WALKER_METHODIST_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.10,,,,,,,,,
+CUYUNA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.12,,,,,,,,,
+MERWIN_LYNGBLOMSTEN_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.14,,,,,,,,,
+MERWIN_MASONIC_HOME_2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.17,,,,,,,,,
+MERWIN_PARK_RIVER,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.2,,,,,,,,,
+MERWIN_MASONIC_HOME_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.4,,,,,,,,,
+MERWIN_WALKER_METHODIST_3,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,166.165.130.6,,,,,,,,,
+CSM_IPSEC_ACL_9,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,166.82.46.100,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeremy Morse,MARC.ASHTON@CONNEXTIONS.COM,MARC.ASHTON@CONNEXTIONS.COM,,,,
+ESI-SECONDARY-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,167.18.24.1,PEER_IP,AETH_B2B|KPMG,"Verlisa Mcatee / Harbert, Paula K /Garberina Jr, Thomas J/Romano, Stephen",EOCCEventManagement@express-scripts.com,EOCCEventManagement@express-scripts.com CDHOutageNotification@express-scripts.com robert_violante@express-scripts.com Sue Sibal sibals@express-scripts.com,,,"Verlisa Mcatee / Harbert, Paula K <harbertp@aetna.com> /Garberina Jr, Thomas J/Romano, Stephen <romanos@cvshealth.com>",harbertp@aetna.com
+AFA_DICE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,167.206.49.86,,,,,,,,Anna Sliz - anna.przeczek@cvshealth.com (incorrect POC),anna.przeczek@cvshealth.com
+CSM_IPSEC_ACL_155,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,167.211.204.4,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Susan O'Donnell - ODonnellS1@aetna.com,ODonnellS1@aetna.com,"Rob Violante robert_violante@express-scripts.com
+Sue Sibal  sibals@express-scripts.com",,,,
+MRK-MEDCO-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,167.211.3.44,,,,,,,,"Black, Edward B <BlackEB@aetna.com>; Romano, Stephen <RomanoS@aetna.com>; 
+Lacey Stubbs- StubbsL@aetna.com",BlackEB@aetna.com
+DELOITTE_GRPPOLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,167.219.0.177,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Patricia Tetreault - patricia.tetreault@cvshealth.com - 401-770-2708,patricia.tetreault@cvshealth.com,"Keely Resing - kresing@deloitte.com - 312-438-7482
+Brad Bacci - bbacci@deloitte.com - 866-806-4997",,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+DELOITTE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,167.219.88.145,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Patricia Tetreault - patricia.tetreault@cvshealth.com - 401-770-2708,patricia.tetreault@cvshealth.com,"Keely Resing - kresing@deloitte.com - 312-438-7482
+Brad Bacci - bbacci@deloitte.com - 866-806-4997",,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+CSM_IPSEC_ACL_245,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,167.219.88.54,,,,,,,,,
+CSM_IPSEC_ACL_245,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,167.219.88.54,,,,,,,,,
+CSM_IPSEC_ACL_18,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,168.183.70.9,PEER_IP,AETH_B2B|KPMG,,,"Prosser, Brian <brian.prosser@optum.com>",,,,
+CSM_IPSEC_ACL_18,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,168.183.70.9,PEER_IP,AETH_B2B|KPMG,,,"Prosser, Brian <brian.prosser@optum.com>",,,,
+CSM_IPSEC_ACL_18,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,168.183.70.9,PEER_IP,AETH_B2B|KPMG,,,"Prosser, Brian <brian.prosser@optum.com>",,,,
+ELOYALTY2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,168.215.186.43,PEER_IP,AETH_B2B|KPMG,"Kanas, John W / Inman, Brian",support@eloyalty.com,support@eloyalty.com Subreina_jones@eloyalty.com,,,"Kanas, John W <kanasjw@cvshealth.com>
+Helton, Leslie - HeltonL1@cvshealth.com",kanasjw@cvshealth.com
+SAP_US,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,169.145.3.231,,,,,,,,,
+COE-19004,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,169.55.120.136,,,,,,,,,
+RTE-INTRANET-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,169.55.78.243,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,mpallama@in.ibm.com,"Murali Pallamala <mpallama@in.ibm.com>
+Neeraj Mehta - 972 792 4256",,,"Thandiakkal, Jinex Thomas <ThandiakkalJ@cvshealth.com>
+Duraiswamy Annamalai, Thangadurai <DuraiswamyAnnamalaiT@cvshealth.com>(new POC)",ThandiakkalJ@cvshealth.com
+RTE-INTRANET-IPSEC,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,169.55.78.243,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,mpallama@in.ibm.com,"Murali Pallamala <mpallama@in.ibm.com>
+Neeraj Mehta - 972 792 4256",,,"Thandiakkal, Jinex Thomas <ThandiakkalJ@cvshealth.com>
+Duraiswamy Annamalai, Thangadurai <DuraiswamyAnnamalaiT@cvshealth.com>(new POC)",ThandiakkalJ@cvshealth.com
+RTE-INTRANET-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,169.55.78.243,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,mpallama@in.ibm.com,"Murali Pallamala <mpallama@in.ibm.com>
+Neeraj Mehta - 972 792 4256",,,"Thandiakkal, Jinex Thomas <ThandiakkalJ@cvshealth.com>
+Duraiswamy Annamalai, Thangadurai <DuraiswamyAnnamalaiT@cvshealth.com>(new POC)",ThandiakkalJ@cvshealth.com
+CHANGE-HEALTHCARE-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,170.138.160.4,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Nak C Huoth - nchuoth@cvshealth.com - 401-770-1706. Conway.NorwoodII,nchuoth@cvshealth.com,"Katie Benoit - katie.benoit@changehealthcare.com - 614-783-4446
+Email:isscognizantnetwork@changehealthcare.com - 323-781-2168",,,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com
+CHANGE-HEALTHCARE-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,170.138.160.4,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Nak C Huoth - nchuoth@cvshealth.com - 401-770-1706. Conway.NorwoodII,nchuoth@cvshealth.com,"Katie Benoit - katie.benoit@changehealthcare.com - 614-783-4446
+Email:isscognizantnetwork@changehealthcare.com - 323-781-2168",,,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com
+CHANGE-HEALTH-CENTURY-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,170.138.220.13,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Swarun Joginpelly - swarun.jogineplly@cvshealth.com - 508-834-0980
+Paul Szelag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713. Conway.NorwoodII",swarun.jogineplly@cvshealth.com,"Katie Benoit - katie.benoit@changehealthcare.com - 614-783-4446
+Email:isscognizantnetwork@changehealthcare.com - 323-781-2168",,,Shirley Plourde PlourdeS@aetna.com 860-945-9011,PlourdeS@aetna.com
+CHANGE-HEALTH-CENTURY-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,170.138.220.13,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Swarun Joginpelly - swarun.jogineplly@cvshealth.com - 508-834-0980
+Paul Szelag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713. Conway.NorwoodII",swarun.jogineplly@cvshealth.com,"Katie Benoit - katie.benoit@changehealthcare.com - 614-783-4446
+Email:isscognizantnetwork@changehealthcare.com - 323-781-2168",,,Shirley Plourde PlourdeS@aetna.com 860-945-9011,PlourdeS@aetna.com
+CHANGE-HEALTH-CENTURY-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,170.138.220.13,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Swarun Joginpelly - swarun.jogineplly@cvshealth.com - 508-834-0980
+Paul Szelag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713. Conway.NorwoodII",swarun.jogineplly@cvshealth.com,"Katie Benoit - katie.benoit@changehealthcare.com - 614-783-4446
+Email:isscognizantnetwork@changehealthcare.com - 323-781-2168",,,Shirley Plourde PlourdeS@aetna.com 860-945-9011,PlourdeS@aetna.com
+CHANGE-HEALTH-MEMPHIS-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,170.138.39.72,PEER_IP,AETH_B2B|KPMG,Shirley Plourde PlourdeS@aetna.com 860-945-9011,PlourdeS@aetna.com,Shawn Webb SWebb@changehealthcare.com;  commandcenter@changehealthcare.com ; LyJohnson@changehealthcare.com ; AArmstrong@changehealthcare.com; Tatkinson@changehealthcare.com,,,Shirley Plourde PlourdeS@aetna.com 860-945-9011,PlourdeS@aetna.com
+CHANGE-HEALTH-MEMPHIS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,170.138.39.72,PEER_IP,AETH_B2B|KPMG,Shirley Plourde PlourdeS@aetna.com 860-945-9011,PlourdeS@aetna.com,Shawn Webb SWebb@changehealthcare.com;  commandcenter@changehealthcare.com ; LyJohnson@changehealthcare.com ; AArmstrong@changehealthcare.com; Tatkinson@changehealthcare.com,,,Shirley Plourde PlourdeS@aetna.com 860-945-9011,PlourdeS@aetna.com
+ACCENTURE-CHICHAGO-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,170.251.232.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Elizabeth Kugler,Kunal.E.Singh@accenture.com,"E-mail: Kunal.E.Singh@accenture.com
+Hand Phone: +91.998.631.7889",,,"Elizabeth Kugler - elizabeth.kugler@cvshealth.com - no longer the account owner
+Christopher Haynes - christopher.haynes@cvshealth.com - new account owner",elizabeth.kugler@cvshealth.com
+ACCENTURE-CHICHAGO-IPSEC,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,170.251.232.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Elizabeth Kugler,Kunal.E.Singh@accenture.com,"E-mail: Kunal.E.Singh@accenture.com
+Hand Phone: +91.998.631.7889",,,"Elizabeth Kugler - elizabeth.kugler@cvshealth.com - no longer the account owner
+Christopher Haynes - christopher.haynes@cvshealth.com - new account owner",elizabeth.kugler@cvshealth.com
+ACCENTURE-CHICHAGO-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,170.251.232.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Elizabeth Kugler,Kunal.E.Singh@accenture.com,"E-mail: Kunal.E.Singh@accenture.com
+Hand Phone: +91.998.631.7889",,,"Elizabeth Kugler - elizabeth.kugler@cvshealth.com - no longer the account owner
+Christopher Haynes - christopher.haynes@cvshealth.com - new account owner",elizabeth.kugler@cvshealth.com
+CSM_IPSEC_ACL_32,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,170.251.233.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Elizabeth Kugler,todd.e.efthimiou@accenture.com,"todd.e.efthimiou@accenture.com - 415-537-4644
+Kunal.E.Singh@accenture.com Hand Phone: +91.998.631.7889",,,,
+CSM_IPSEC_ACL_32,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,170.251.233.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Elizabeth Kugler,todd.e.efthimiou@accenture.com,"todd.e.efthimiou@accenture.com - 415-537-4644
+Kunal.E.Singh@accenture.com Hand Phone: +91.998.631.7889",,,,
+CSM_IPSEC_ACL_32,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,170.251.233.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Elizabeth Kugler,todd.e.efthimiou@accenture.com,"todd.e.efthimiou@accenture.com - 415-537-4644
+Kunal.E.Singh@accenture.com Hand Phone: +91.998.631.7889",,,,
+ACCENTURE-LLOCOS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,170.251.36.8,,,,,,,,"Elizabeth Kugler - elizabeth.kugler@cvshealth.com - no longer the account owner
+Christopher Haynes - christopher.haynes@cvshealth.com - new account owner",elizabeth.kugler@cvshealth.com
+ACCENTURE-SECONDARY-LLOCOS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,170.251.37.8,,,,,,,,,
+CHENNI-ACCENTURE-TW2-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,170.251.92.10,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CHENNI-ACCENTURE-TW1-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,170.251.92.8,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CHENNI-ACCENTURE-TW1-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,170.251.93.8,NORMALIZED_NAME,AETH_B2B|KPMG,,,,,,,
+CHENNI-ACCENTURE-TW2-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,170.251.93.9,NORMALIZED_NAME,AETH_B2B|KPMG,,,,,,,
+SSNC_WC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,170.40.160.154,,,,,,,,,
+SSNC_IC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,170.40.193.44,,,,,,,,,
+CSM_IPSEC_ACL_91,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,170.48.47.33,,,,,,,,,
+CSM_IPSEC_ACL_325,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,170.69.178.2,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Doreen Stables,kathleen.muench@bluecrossmn.com,Kathy Muench - kathleen.muench@bluecrossmn.com - (651) 662-6915,,,,
+CSM_IPSEC_ACL_43,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,170.69.2.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Delmerico, Mary E. <Mary.Delmerico@CVSHealth.com>",Mary.Delmerico@CVSHealth.com,Sheshan.Srivathsa@bcbsnc.com; Hiten.Sura@bcbsnc.com,,,,
+BANKOFAMERICA2-VA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,171.159.222.1,PEER_IP,AETH_B2B|KPMG,"Audenier, Irlande",bruce.billings@bankofamerica.com,bruce.billings@bankofamerica.com,,,"Paredes, Stacy A <ParedesS@aetna.com> (new potential contact)
+Anand, Amit <AnandA4@aetna.com> (new potential contact)",ParedesS@aetna.com
+BANKOFAMERICA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,171.159.79.3,PEER_IP,AETH_B2B|KPMG,"Audenier, Irlande",bruce.billings@bankofamerica.com,bruce.billings@bankofamerica.com,,,"Paredes, Stacy A <ParedesS@aetna.com> (new potential contact)
+Anand, Amit <AnandA4@aetna.com> (new potential contact)",ParedesS@aetna.com
+BANKOFAMERICA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,171.161.175.3,PEER_IP,AETH_B2B|KPMG,"Audenier, Irlande",bruce.billings@bankofamerica.com,bruce.billings@bankofamerica.com,,,"Paredes, Stacy A <ParedesS@aetna.com> (new potential contact)
+Anand, Amit <AnandA4@aetna.com> (new potential contact)",ParedesS@aetna.com
+BANKOFAMERICA2-TX-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,171.161.190.1,PEER_IP,AETH_B2B|KPMG,"Audenier, Irlande",bruce.billings@bankofamerica.com,bruce.billings@bankofamerica.com,,,,
+COPELAND,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,172.168.149.177,,,,,,,,,
+MAJESCO-PROD-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,172.173.251.234,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_53,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,172.179.105.182,,,,,,,,,
+HP_SAAS_RETAIL,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,172.212.123.62,,,,,,,,,
+MERWIN_LYNGBLOMSTEN_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,173.11.55.49,,,,,,,,,
+ZENITH-AMERICAN-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,173.226.115.9,PEER_IP,AETH_B2B|KPMG,"Entz, Jamie D/Aguirre, Monika M",hdp-it@zenith-american.com,hdp-it@zenith-american.com gwilliams@zenith-american.com,,,"Johnson, Gabriella M <JohnsonGM@aetna.com>
+Hostrawser, Melissa <HostrawserM@aetna.com>",JohnsonGM@aetna.com
+REHN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,173.227.225.188,PEER_IP,AETH_B2B|KPMG,"Nicole Brantley - BrantleyN@AETNA.com
+Sophia Berrios  - BerriosS1@aetna.com",BrantleyN@AETNA.com,John Graham johng@rehnonline.com,,,"Nicole Brantley - BrantleyN@AETNA.com (not found)
+Sophia Berrios  - BerriosS1@aetna.com (not found)",BrantleyN@AETNA.com
+AFSPA-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,174.140.129.100,PEER_IP,AETH_B2B|KPMG,Britt Pyritz pyritzb@aetna.com,pyritzb@aetna.com,"Yancy Meiller yancy.meiller@afspa.org 
+hsharaf@metrolinknetworks.com",,,,
+RANDSTAD_INDIA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,18.136.77.39,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+AVANEER,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,18.189.134.67,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Mark A Treshock; Morgan, Keith P <Keith.Morgan@CVSHealth.com>; Han, Xiaodan <Xiaodan.Han@CVSHealth.com>",Keith.Morgan@CVSHealth.com,MARY.BUTLER-EVERSON@AVANEERHEALTH.COM,,,"Mark A Treshock <mark.treshock@cvshealth.com>; Morgan, Keith P <Keith.Morgan@CVSHealth.com>; Han, Xiaodan <Xiaodan.Han@CVSHealth.com>",mark.treshock@cvshealth.com
+CSM_IPSEC_ACL_74,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,18.204.158.125,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,DANIELLE.MACK@ARRIVEHEALTH.COM,DANIELLE.MACK@ARRIVEHEALTH.COM; 'Iain Irwin-Powell' <iain.irwin-powell@arrivehealth.com>,,,,
+ION_TREASURY_ACTIVE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,18.206.110.25,,,,,,,,,
+18_216_139_189,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,18.216.139.189,,,,,,,,,
+CSM_IPSEC_ACL_10,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,18.232.206.110,,,,,,,,,
+21VIANET-PRIMARY-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,180.169.94.2,PEER_IP,AETH_B2B|KPMG,Jason Zhang  /  Steve Zhang,jin.lei-ts@21vianet.com,jin.lei-ts@21vianet.com  chang.lei@21vianet.com Yozi.Zhang-ts@21vianet.com,,,Jason Zhang  /  Steve Zhang,jin.lei-ts@21vianet.com
+EXL-CHENNAI-SECONDARY-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,182.19.48.94,PEER_IP,AETH_B2B|KPMG,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com,Rubia.Rendon@exlservice.com/Saurabh.Sharma6@exlservice.com/eNOCSupport@exlservice.com/Sanjay.Kurkute2@exlservice.com,,,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com
+GENPACT-IPSEC-DC1,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,182.94.236.81,,,,,,,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+CSM_IPSEC_ACL_11,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,182.94.237.3,,,,,,,,,
+GENPACT-IPSEC-DC2,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,182.94.239.224,,,,,,,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+CSM_IPSEC_ACL_5,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,182.94.240.30,,,,,,,,,
+CSM_IPSEC_ACL_25,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,184.80.140.146,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Knueven - michael.knueven@cvshealth.com,,,,,,
+LA-COLONIAL-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,190.122.109.82,PEER_IP,AETH_B2B|KPMG,,,,,,,
+ACI-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,192.122.149.9,PEER_IP,AETH_B2B|KPMG,Michelle L Palkanikos,mhitchcock@visit-aci.com,"Mark Hitchcock 
+610-293-9229 x142
+mhitchcock@visit-aci.com",,,"Michelle L Palkanikos - PalacioML@cvshealth.com
+Jaylynn Keener - KeenerJ@aetna.com",PalacioML@cvshealth.com
+CSM_IPSEC_ACL_311,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,192.149.125.5,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Knueven,james.duque@ers.texas.gov,"James Duque - james.duque@ers.texas.gov - 512-867-7437
+Steven Kinney - steven.kinney@ers.state.tx.us - 512-867-7207/512-784-2534",,,,
+QUADAX,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,192.149.95.5,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"paul Szeloag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713",ptszelag@cvshealth.com,Jing Dasal - jingdasal@quadax.com - 440-777-6304 X 2740,,,paul Szeloag - ptszelag@cvshealth.com - 401-770-5201,ptszelag@cvshealth.com
+CITIBANK-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,192.193.216.50,PEER_IP,AETH_B2B|KPMG,"Allocca, Craig A",gnc.level.1.managers@imcnam.ssmb.com,"gnc.level.1.managers@imcnam.ssmb.com/Delivery has failed to these recipients or groups:
+gnc.level.1.managers@imcnam.ssmb.com/christopher.hogan@citi.com",,,"Allocca, Craig A",gnc.level.1.managers@imcnam.ssmb.com
+CSM_IPSEC_ACL_249,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,192.196.243.2,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Kelly Straub,mpeterson@teladoc.com,"Maylin Peterson <mpeterson@teladoc.com>
+Rajneesh Goyal <rgoyal@teladoc.com>
+Douglas Maguire <dmaguire@teladoc.com>",,,,
+DESCARTES,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,192.250.27.148,,,,,,,,,
+COMMONWEALTH-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,192.85.127.230,PEER_IP,AETH_B2B|KPMG,Fariba Alim-Marvasti,megan.satterwhite@hpe.com,"megan.satterwhite@hpe.com  KYXIXCycleMonitors@hpe.com/Peyton.Bowman@dxc.com 
+ky_edi_helpdesk@hpe.com",,,Fariba Alim-Marvasti,megan.satterwhite@hpe.com
+SAP_GERMANY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,194.39.131.181,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Gopinath Pariyaram,THOMAS.PORTER@SAP.COM,"THOMAS.PORTER@SAP.COM; Wirtanen, Damon <damon.wirtanen@sap.com>",,,Gopinath Pariyaram - gopinath.pariyaram@cvshealth.com,gopinath.pariyaram@cvshealth.com
+CSM_IPSEC_ACL_184,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,196.28.62.143,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Jed Knutson - jed.knutson@caremark.com - 612-240-5504
+Ilango J - ilango.jothikarunakaran@cvshealth.com - 508-283-0563",jed.knutson@caremark.com,ArunKumar Nachimuthu - arunkumar.nachimuthu@tcs.com - +91-484 6186433,,,,
+GRIZZLY-TSERV,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.0.60.210,,,,,,,,,
+FIVE9_SCL,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.105.204.213,,,,,,,,,
+FIVE9_SCL,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,198.105.204.213,,,,,,,,,
+FIVE9_SCL,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,198.105.204.213,,,,,,,,,
+CSM_IPSEC_ACL_36,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.105.205.213,,,,,,,,,
+CSM_IPSEC_ACL_36,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,198.105.205.213,,,,,,,,,
+CSM_IPSEC_ACL_36,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,198.105.205.213,,,,,,,,,
+TAYLOR-COMMUNICATIONS-IPSEC-2020,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,198.12.16.240,PEER_IP,AETH_B2B|KPMG,Tracie Bevan tracie.bevan@cvshealth.com,,"Joshua.McNamara@taylor.com;
+Kalpana.Kunwar@taylor.com",,,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com
+TEXAS-MUTUAL-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,198.136.250.65,PEER_IP,AETH_B2B|KPMG,Heather Tomhave - hatomhave@FirstHealth.com,hatomhave@FirstHealth.com,"Wanda Moore wmoore@texasmutual.com
+Darren Huntington dhuntington@texasmutual.com
+Ed Humes ehumes@texasmutual.com",,,Heather Tomhave - hatomhave@FirstHealth.com,hatomhave@FirstHealth.com
+ASM,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.17.160.2,,,,,,,,,
+INMAR_CRYPTOMAP,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.181.203.250,,,,,,,,,
+ECSL,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.186.6.10,,,,,,,,,
+CSM_IPSEC_ACL_70,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,198.186.7.10,,,,,,,,,
+SWISSLOG_IP,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.199.54.211,,,,,,,,,
+CSM_IPSEC_ACL_65,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,198.23.27.18,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+ATHENA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.36.124.36,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,KPROVOST@ATHENAHEALTH.COM,KPROVOST@ATHENAHEALTH.COM: Francoise Jean-Louis <fjeanlouis@athenahealth.com>,,,,KPROVOST@ATHENAHEALTH.COM
+CSM_IPSEC_ACL_197,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,198.39.200.20,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Joseph Trahan
+joseph.trahan@cvshealth.com",,"Pollock, Kim - Aegon <kpollock@aegonusa.com> (potential partner contact)",,,,
+RAWLINGS-NEW-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,198.41.14.4,PEER_IP,AETH_B2B|KPMG,"Cupelli, Leigh/Purvis, Amanda",jb9@rawlingscompany.com,Matthew Byrdwell  502-814-2184 jb9@rawlingscompany.com,,,"Cupelli, Leigh/Purvis, Amanda",jb9@rawlingscompany.com
+MEDIMPACT-SANDIEGO-DBAR-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,198.54.236.20,PEER_IP,AETH_B2B|KPMG,,,rtmsupport@MedImpact.com /Keith.Ferguson@MedImpact.com/Vasudeva.Bobba@MedImpact.com,,,,rtmsupport@MedImpact.com
+MEDIMPACT_CA,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,198.54.237.4,,,,,,,,"Madden, Dave",rtmsupport@MedImpact.com
+CSM_IPSEC_ACL_58,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,198.98.14.3,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Anna Sliz,hardware@dicecorp.com,Joshua Arthur - hardware@dicecorp.com - 989-891-2800-X 2,,,,
+CSM_IPSEC_ACL_58,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,198.98.14.3,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Anna Sliz,hardware@dicecorp.com,Joshua Arthur - hardware@dicecorp.com - 989-891-2800-X 2,,,,
+CSM_IPSEC_ACL_227,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.127.148.10,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Knueven - michael.knueven@cvshealth.com,,Mike Welliver - 719-423-4423,,,,
+CSM_IPSEC_ACL_33,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.168.255.150,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Sara Mahan,aminter@incomm.com,aminter@incomm.com,,,,
+ATHENA_VA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.168.57.251,,,,,,,,,KPROVOST@ATHENAHEALTH.COM
+ATHENA_MA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.168.58.251,,,,,,,,,KPROVOST@ATHENAHEALTH.COM
+ATHENA_TX,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.168.59.251,,,,,,,,,KPROVOST@ATHENAHEALTH.COM
+CSM_IPSEC_ACL_215,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.180.187.93,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Francis Gerace - ken.gerace@cvshealth.com - 813-473-0002
+xAlthea Benkoski - amunger@cvshealth.com - 813-473-0002",ken.gerace@cvshealth.com,813 304 2800 x1,,,,
+SCRIPTPRO,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.184.160.230,,,,,,,,,
+CSM_IPSEC_ACL_51,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.187.89.10,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Andrew Sutton - andrew.sutton@cvshealth.com,,"Deanna Alvarado /Deanna.Alvarado@PREMERA.com /425-918-4208 
+olga.piatek@premera.com",,,,
+CSM_IPSEC_ACL_229,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.187.89.11,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lars Sorensen - lars.sorensen@cvscaremark.com - 847-484-9406,lars.sorensen@cvscaremark.com,itinfranetworkservices@premera.com,,,,
+CSM_IPSEC_ACL_51,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.187.91.10,,,,,,,,,
+CSM_IPSEC_ACL_229,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.187.91.11,,,,,,,,,
+STATEOFNJ-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,199.20.74.36,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_30,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.204.139.93,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Francis Gerace - ken.gerace@cvshealth.com - 813-473-0002
+xAlthea Benkoski - amunger@cvshealth.com - 813-473-0002",ken.gerace@cvshealth.com,"Patrick Keene - Vendor Manager
+Vaishnavi Acharya, vacharya@medhok.com - 813-304-2800 ext 1010",,,,
+CSM_IPSEC_ACL_30,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,199.204.139.93,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Francis Gerace - ken.gerace@cvshealth.com - 813-473-0002
+xAlthea Benkoski - amunger@cvshealth.com - 813-473-0002",ken.gerace@cvshealth.com,"Patrick Keene - Vendor Manager
+Vaishnavi Acharya, vacharya@medhok.com - 813-304-2800 ext 1010",,,,
+CSM_IPSEC_ACL_57,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.204.59.137,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Mike Talman - Michael.Talman@CVSHealth.com - 401-770-3510,Michael.Talman@CVSHealth.com,Mike Talman -,,,,
+CSM_IPSEC_ACL_57,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.204.59.137,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Mike Talman - Michael.Talman@CVSHealth.com - 401-770-3510,Michael.Talman@CVSHealth.com,Mike Talman -,,,,
+CSM_IPSEC_ACL_62,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.230.170.205,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Connie Elmore,gmb-mcg-cardinal-mps-cyclone@cardinal.com,"Cardinal Health Service Center - gmb-mcg-cardinal-mps-cyclone@cardinal.com - 1-800-326-6457
+Pettit, Lyn - Lyn.Pettit@cardinalhealth.com - Pistone, Tom - Tom.Pistone@cardinalhealth.com - Zhang, Guangwen - guangwen.zhang@cardinalhealth.com",,,,
+CSM_IPSEC_ACL_1,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.27.40.174,,,,,,,,,
+SSNC_YKT,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,199.36.128.30,,,,,,,,,
+CSM_IPSEC_ACL_188,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,199.4.160.141,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Hannah R Valenti,craig.mcclellan@nuance.com,craig.mcclellan@nuance.com,,,,
+RETAIL_RNDC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.48.172.9,,,,,,,,,
+RETAIL_RNDC_NEW,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.48.173.254,,,,,,,,,
+CITIBANK-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,199.67.131.225,PEER_IP,AETH_B2B|KPMG,"Allocca, Craig A",gnc.level.1.managers@imcnam.ssmb.com,gnc.level.1.managers@imcnam.ssmb.com/christopher.hogan@citi.com,,,"Allocca, Craig A",gnc.level.1.managers@imcnam.ssmb.com
+IDA-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,199.73.111.98,PEER_IP,AETH_B2B|KPMG,,,,,,,
+SNOW_SANJ,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.91.136.20,,,,,,,,,
+SNOW_WASH,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.91.140.20,,,,,,,,,
+HCA-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,199.91.37.69,PEER_IP,AETH_B2B|KPMG,"Permar, Cheryl D (hcadedicatedcallteam@aetnao365.onmicrosoft.com)
+Midgett, Missy <MidgettM@aetna.com>",,"Oliver Andy <Andy.Oliver@HCAhealthcare.com>
+Information Protection & Security <Information.Protection@HCAHealthcare.com>
+Oxnam Heather - Nashville <heather.oxnam@hcahealthcare.com>
+Miller Ryan - Nashville <Ryan.Miller@hcahealthcare.com>
+Hall Patricia - Nashville <Patricia.Hall@HCAHealthcare.com>
+Tomlinson Jeremy <jeremy.tomlinson@hcahealthcare.com>",,,"Permar, Cheryl D (hcadedicatedcallteam@aetnao365.onmicrosoft.com)
+Midgett, Missy <MidgettM@aetna.com>",hcadedicatedcallteam@aetnao365.onmicrosoft.com
+EXPERIAN,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,199.96.232.11,,,,,,,,,
+CEDAR_GATE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,20.10.181.159,PEER_IP,AETH_B2B|KPMG,,,,,,,
+DBT_LABS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,20.110.122.130,,,,,,,,,
+GD_EUS_NVA1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,20.115.52.72,,,,,,,,,
+CSM_IPSEC_ACL_19,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,20.12.178.27,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lauren Doyle,Jose.Blanco@asembia.com,Jose Blanco <Jose.Blanco@asembia.com>,,,,
+GD_WUS3_NVA1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,20.171.9.254,,,,,,,,,
+AFSPA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,20.186.152.37,,,,,,,,,
+OMHC-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,20.39.134.205,PEER_IP,AETH_B2B|KPMG,,evalverde@omhc.com,evalverde@omhc.com/techsupport@omhc.com,,,,evalverde@omhc.com
+CSM_IPSEC_ACL_41,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,20.41.49.5,,,,,,,,,
+MD-ABROAD-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,200.68.111.139,PEER_IP,AETH_B2B|KPMG,,,,,,,
+TECHM_MEXICO,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,201.149.10.162,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Beaulieu, Laurie L <Laurie.Beaulieu@CVSHealth.com>",Laurie.Beaulieu@CVSHealth.com,LN.Srinivasan@TechMahindra.com; Sudha Nilakant <Sudha.Nilakant@TechMahindra.com>; Gnanasakthi Sabarathinam <Gnanasakthi.Sabarathinam@TechMahindra.com>,,,"Beaulieu, Laurie L <Laurie.Beaulieu@CVSHealth.com>
+Hariprasad.Balasubramanayam@CVSHealth.com
+ln.srinivasan@techmahindra.com",Laurie.Beaulieu@CVSHealth.com
+CSM_IPSEC_ACL_209,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,201.151.149.170,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,rajkumar1.b@tcs.com,"rajkumar1.b@tcs.com
+VIKAS PHOGAT - vikas.phogat@tcs.com - Ph:- +91 124 6214732 - Cell:- 9971793557",,,,
+NETCARE-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,202.128.4.155,PEER_IP,AETH_B2B|KPMG,,,,,,,
+NETCARE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,202.151.85.154,PEER_IP,AETH_B2B|KPMG,,,,,,,
+IBM_IND_BANGALORE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,202.74.122.166,,,,,,,,Jeff Kalmanowicz - jeffrey.kalmanowicz@cvshealth.com,jeffrey.kalmanowicz@cvshealth.com
+IBM_IND_PUNE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,202.74.122.167,,,,,,,,Jeff Kalmanowicz - jeffrey.kalmanowicz@cvshealth.com,jeffrey.kalmanowicz@cvshealth.com
+CSM_IPSEC_ACL_238,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,203.123.146.242,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_323,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,203.123.151.180,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_98,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,203.123.184.124,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+TCS_BANGALORE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,203.145.176.70,PEER_IP,AZ_B2B|KPMG|PSS_B2B,VIKAS PHOGAT - vikas.phogat@tcs.com - Ph:- +91 124 6214732 - Cell:- 9971793557,vikas.phogat@tcs.com,"Animesh Kumar, PMP, SAFe®|
+Tata Consultancy Services, Bangalore - 560066 |
+animesh1.kumar@tcs.com | Animesh.Kumar@CVSHealth.com | (+91) 8904038523(M)",,,VIKAS PHOGAT - vikas.phogat@tcs.com - Ph:- +91 124 6214732 - Cell:- 9971793557,vikas.phogat@tcs.com
+CSM_IPSEC_ACL_158,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,203.189.180.35,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+TCS-12518,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,203.197.226.19,,,,,,,,,
+CSM_IPSEC_ACL_172,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,203.99.209.250,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Kalmanowicz,sukalyan.gorai@cvshealth.com,Sukalyan Gorai - sukalyan.gorai@cvshealth.com - +91 9073055365,,,,
+CSM_IPSEC_ACL_306,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.107.52.50,PEER_IP,AZ_B2B|KPMG|PSS_B2B,John Simon - john.simon@caremark.com - 480-314-8640,john.simon@caremark.com,"Martin LunBeck - martin.lunbeck@healthnet.com - 916.935.1899
+Daniel Gragg - daniel.x.gragg@healthnet.com - 520-258-5220;",,,,
+CSM_IPSEC_ACL_119,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.115.255.234,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Munish Vij - Munish.Vij@caremark.com - 201-286-3942
+John Bowen - 224-213-1277; Edward Beauregard - Edward.Beauregard@cvscaremark.com - 401-770-1611; Merneedi, GangaPrasad <Ganga.Merneedi@CVSHealth.com>; Dreiling, Craig <Craig.Dreiling@CVSHealth.com>",Munish.Vij@caremark.com,,,,,
+CSM_IPSEC_ACL_269,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.124.254.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Bheemasankararao Pachava - bheemasamkararao.pachava@caremark.com - 609-678-7189
+Suresh Andrew - suresh.andrew@cvshealth.com - 972-310-9226",bheemasamkararao.pachava@caremark.com,Contact:	IT-Network-Mobility@centene.com,,,,
+CSM_IPSEC_ACL_219,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.145.114.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Puneet Poddar - puneet.poddar@caremark.com - 847-484-9857,puneet.poddar@caremark.com,Mike Kondo 559 493 8489,,,,
+AON-HEWITT-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,204.152.235.22,NORMALIZED_NAME,AETH_B2B|KPMG,Marie Wolven  WolvenM@aetna.com,WolvenM@aetna.com,"ken.laurel@aon.com, hashmath.khan.2@Aonhewitt.com, steve.wyble@aon.com",,,Marie Wolven  WolvenM@aetna.com,WolvenM@aetna.com
+AON-HEWITT-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,204.152.239.22,NORMALIZED_NAME,AETH_B2B|KPMG,Marie Wolven  WolvenM@aetna.com,WolvenM@aetna.com,"ken.laurel@aon.com, hashmath.khan.2@Aonhewitt.com, steve.wyble@aon.com",,,Marie Wolven  WolvenM@aetna.com,WolvenM@aetna.com
+GALLO_WINERY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,204.17.12.15,,,,,,,,,
+CSM_IPSEC_ACL_63,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.225.133.149,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_300,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.232.254.82,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Christopher Anderson - 2 accounts. Double check
+Pamela K Lumnah - pamela.lumnah@cvshealth.com;
+Ravi kakarla - ravi.kakarla@cvshealth.com",,,,,,
+ASPERA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,204.232.255.149,PEER_IP,AETH_B2B|KPMG,,,,,,,
+BLUEYONDER_GRP_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,204.245.104.10,,,,,,,,,
+CSM_IPSEC_ACL_193,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.250.15.8,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Joshua Weirick - joshua.weirick@cvshealth.com,,,,,,
+CSM_IPSEC_ACL_117,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.251.204.162,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Pasquaretta,Jen.viens@ibm.com,Jen.viens@ibm.com,,,,
+CSM_IPSEC_ACL_112,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.75.144.14,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Gabriel Morales,madhavi.chaliki@emc.com,Madhavi Chaliki (madhavi.chaliki@emc.com),,,,
+CSM_IPSEC_ACL_112,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,204.75.145.14,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Gabriel Morales,madhavi.chaliki@emc.com,Madhavi Chaliki (madhavi.chaliki@emc.com),,,,
+OMNICELL,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,205.140.220.3,,,,,,,,,
+CSM_IPSEC_ACL_46,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,205.144.146.14,,,,,,,,,
+CSM_IPSEC_ACL_46,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,205.144.146.14,,,,,,,,,
+CSM_IPSEC_ACL_39,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,205.144.147.10,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Ritesh Pal - Ritesh.pal2@cvshealth.com - 4017705466
+Ranjit Panda - ranjit.panda@cvshealth.com - 401-770-9342",Ritesh.pal2@cvshealth.com,"Chris Bormann - chris.bormann@csgi.com - 402-431-7141
+Gerry Hoffe - gerry.hoffe@csgi.com - 905-944-6961",,,,
+CSM_IPSEC_ACL_39,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,205.144.147.10,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Ritesh Pal - Ritesh.pal2@cvshealth.com - 4017705466
+Ranjit Panda - ranjit.panda@cvshealth.com - 401-770-9342",Ritesh.pal2@cvshealth.com,"Chris Bormann - chris.bormann@csgi.com - 402-431-7141
+Gerry Hoffe - gerry.hoffe@csgi.com - 905-944-6961",,,,
+CSM_IPSEC_ACL_111,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,205.145.108.10,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lars Sorensen - Lars.Sorensen@CVSCaremark.com - 847-343-2214,Lars.Sorensen@CVSCaremark.com,JBurt1@humana.com - AFulcher1@humana.com,,,,
+CSM_IPSEC_ACL_324,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,205.145.128.209,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+HEALTHFUSION2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,205.158.109.132,PEER_IP,AETH_B2B|KPMG,"Thompson, Deborah A/Conklin, Thomas/RichardsonL2@aetna.com",RichardsonL2@aetna.com,ykormuskins@nextgen.com/jlwong@nextgen.com/bherrington@nextgen.com,,,NextGen_IT_Support@AETNA.com,NextGen_IT_Support@AETNA.com
+OSH_CRYPTO_VPN,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,205.219.75.38,,,,,,,,,
+CSM_IPSEC_ACL_59,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,206.105.110.7,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Penick, Erin G <eagibson@aetna.com>
+Hepner, Mark A <mahepner@cvshealth.com> (Optum main POC)",,,,,,
+CSM_IPSEC_ACL_329,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,206.126.186.18,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jason J Fiore,nicole.kueker@concentrix.com,nicole.kueker@concentrix.com,,,,
+CSM_IPSEC_ACL_329,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,206.126.186.18,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jason J Fiore,nicole.kueker@concentrix.com,nicole.kueker@concentrix.com,,,,
+CSM_IPSEC_ACL_207,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,206.195.196.8,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Joseph Trahan - joseph.trahan@cvshealth.com,,,,,,
+CSM_IPSEC_ACL_180,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,206.230.63.2,,,,,,,,,
+CVSATS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,206.47.135.130,,,,,,,,,
+HEALTHFUSIONDR-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,206.71.166.162,PEER_IP,AETH_B2B|KPMG,"Thompson, Deborah A/Conklin, Thomas/RichardsonL2@aetna.com",RichardsonL2@aetna.com,ykormuskins@nextgen.com/jlwong@nextgen.com/bherrington@nextgen.com,,,NextGen_IT_Support@AETNA.com,NextGen_IT_Support@AETNA.com
+CSM_IPSEC_ACL_60,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,207.126.184.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Jaeger,Carol.Held@medica.com,"Carol Held - Carol.Held@medica.com - 952-992-2586
+Mark Lanie - mailto:Mark.lanie@medica.com - 952-992- 2653 - 612–385-3759",,,,
+CSM_IPSEC_ACL_171,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,207.126.188.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Jaeger,mark.lanie@medica.com,Mark Lanie - mark.lanie@medica.com - 952-992-2653/612-385-3759,,,,
+CSM_IPSEC_ACL_247,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,207.126.189.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Jaeger,mark.lanie@medica.com,Mark Lanie - mark.lanie@medica.com - 952-992-2653/612-385-3759,,,,
+TRANSAMERICAN-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,207.137.9.253,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_222,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,207.166.201.126,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+REHN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,207.170.228.198,NORMALIZED_NAME,AETH_B2B|KPMG,"Nicole Brantley - BrantleyN@AETNA.com
+Sophia Berrios  - BerriosS1@aetna.com",BrantleyN@AETNA.com,John Graham johng@rehnonline.com,,,"Nicole Brantley - BrantleyN@AETNA.com (not found)
+Sophia Berrios  - BerriosS1@aetna.com (not found)",BrantleyN@AETNA.com
+TALYST_ENCRYPT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,207.170.248.5,,,,,,,,,
+BOSCH_STORE_GRP_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,207.189.176.209,,,,,,,,,
+CSM_IPSEC_ACL_299,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,207.219.158.36,PEER_IP,AZ_B2B|KPMG|PSS_B2B,VIKAS PHOGAT <vikas.phogat@tcs.com>,vikas.phogat@tcs.com,,,,,
+CSM_IPSEC_ACL_299,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,207.219.158.36,PEER_IP,AZ_B2B|KPMG|PSS_B2B,VIKAS PHOGAT <vikas.phogat@tcs.com>,vikas.phogat@tcs.com,,,,,
+CAREMANAGEMENTNETWORK-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,207.219.198.18,PEER_IP,AETH_B2B|KPMG,KurdesM@aetna.com,KurdesM@aetna.com,dpearce@gghs.ca,,,,
+CSM_IPSEC_ACL_149,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,207.223.37.240,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,support@rkon.com,RKON technologies - support@rkon.com - 312-654-0300,,,,
+CSM_IPSEC_ACL_149,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,207.223.37.240,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,support@rkon.com,RKON technologies - support@rkon.com - 312-654-0300,,,,
+CSM_IPSEC_ACL_68,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,207.54.145.2,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Joshua Weirick - joshua.weirick@cvshealth.com,,,,,,
+MILLIMAN_CHICAGO,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.100.38.175,,,,,,,,,
+208_116_147_18,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.116.147.18,,,,,,,,,
+BASTIAN_SOLUTION,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.116.147.21,,,,,,,,,
+UPS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,208.14.182.1,PEER_IP,AETH_B2B|KPMG,"Lyew-Willis, Corine N",msherman@ups.com,msherman@ups.com,,,"Lyew-Willis, Corine N",msherman@ups.com
+COUNCILOFAGING-DR-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,208.173.159.141,PEER_IP,AETH_B2B|KPMG,"Hollie Tanzillo = TanzilloH@aetna.com
+Daniel Stegman - StegmanD@aetna.com",TanzilloH@aetna.com,Rick Ivey - rivey@help4seniors.org,,,,
+CARPENTERS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,208.187.205.52,PEER_IP,AETH_B2B|KPMG,"Melissa Hostrawser - HostrawserM@aetna.com
+ Kelli Higuera  - HigueraK@aetna.com",HostrawserM@aetna.com,Darren Kong - darrenk@ctww.org  Steve Erdman <stevee@ctww.org>,,,,
+CSM_IPSEC_ACL_45,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.191.62.10,,,,,,,,,
+CSM_IPSEC_ACL_258,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.250.33.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_42,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.255.180.100,PEER_IP,AZ_B2B|KPMG|PSS_B2B,John Piattoni │ p 480-259-9831,zamini@umwafunds.org,"AMINI, ZIAULLAH <zamini@umwafunds.org>
+Zia Amini - 202-521-2346",,,,
+CSM_IPSEC_ACL_317,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.31.35.82,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Lynrick Pleasant
+lynrick.pleasant@cvshealth.com",,Bryan Shnieder -,,,,
+CSM_IPSEC_ACL_109,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.44.232.50,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+HEALTH-PLAN-ONE-TRUMBULL-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,208.49.45.162,PEER_IP,AETH_B2B|KPMG,,,,,,,
+AFINITI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,208.54.250.10,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_88,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.66.124.17,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Denson, Carl J <DensonC@cvshealth.com>
+Karpf, Jeffrey S <KarpfJS@cvshealth.com>",,,,,,
+CSM_IPSEC_ACL_204,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.66.173.230,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Anna Sliz,marc.frydrychowicz@milliman.com,Marc Frydrychowicz - marc.frydrychowicz@milliman.com - 1 815 675 2929,,,,
+CSM_IPSEC_ACL_279,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.68.224.8,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_199,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.71.176.2,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Anna Sliz,tnwurth@intrado.com,"contact: tnwurth@intrado.com
+Ranjit Panda - 510-759-3631",,,,
+CSM_IPSEC_ACL_199,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.71.176.2,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Anna Sliz,tnwurth@intrado.com,"contact: tnwurth@intrado.com
+Ranjit Panda - 510-759-3631",,,,
+CSM_IPSEC_ACL_199,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,208.71.176.2,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Anna Sliz,tnwurth@intrado.com,"contact: tnwurth@intrado.com
+Ranjit Panda - 510-759-3631",,,,
+E911-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.71.179.2,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Anna Sliz,tnwurth@intrado.com,"contact: tnwurth@intrado.com
+Ranjit Panda - 510-759-3631",,,,
+E911-IPSEC,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.71.179.2,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Anna Sliz,tnwurth@intrado.com,"contact: tnwurth@intrado.com
+Ranjit Panda - 510-759-3631",,,,
+E911-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,208.71.179.2,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Anna Sliz,tnwurth@intrado.com,"contact: tnwurth@intrado.com
+Ranjit Panda - 510-759-3631",,,,
+SOUTHERN_GLAZERS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.73.106.254,,,,,,,,,
+CSM_IPSEC_ACL_244,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.74.228.19,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+ATHENAHEALTH,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.78.140.250,,,,,,,,,
+MULTIPLAN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,208.78.22.4,PEER_IP,AETH_B2B|KPMG,"Dianne Greenwald - GreenwaldD@aetna.com
+Amanda Purvis - ABPurvis@aetna.com",GreenwaldD@aetna.com,support@multiplan.com,,,"Dianne Greenwald - GreenwaldD@aetna.com
+Amanda Purvis - ABPurvis@aetna.com",GreenwaldD@aetna.com
+CSM_IPSEC_ACL_327,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.79.198.110,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_3,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.80.226.245,PEER_IP,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,"Dhiren Bohra - Dhiren.Bohra@teleperformancedibs.com - +91 98 2041-0370
+Lawrence Reinholt - jay.reinholt@teleperformance.com - (480) 492-7149
+Jay Reinholt - jay.reinholt@teleperformance.com - +1 757 389 2313",,,,
+CSM_IPSEC_ACL_3,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,208.80.226.245,PEER_IP,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,"Dhiren Bohra - Dhiren.Bohra@teleperformancedibs.com - +91 98 2041-0370
+Lawrence Reinholt - jay.reinholt@teleperformance.com - (480) 492-7149
+Jay Reinholt - jay.reinholt@teleperformance.com - +1 757 389 2313",,,,
+MEDIMPACT_AZ,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,208.91.224.4,,,,,,,,"Madden, Dave",rtmsupport@MedImpact.com
+MEDIMPACT-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,208.91.228.4,PEER_IP,AETH_B2B|KPMG,"Madden, Dave",rtmsupport@MedImpact.com,rtmsupport@MedImpact.com /Keith.Ferguson@MedImpact.com/Vasudeva.Bobba@MedImpact.com,,,"Madden, Dave",rtmsupport@MedImpact.com
+MEDIMPACT-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,208.91.228.4,PEER_IP,AETH_B2B|KPMG,"Madden, Dave",rtmsupport@MedImpact.com,rtmsupport@MedImpact.com /Keith.Ferguson@MedImpact.com/Vasudeva.Bobba@MedImpact.com,,,"Madden, Dave",rtmsupport@MedImpact.com
+OCUCO_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,208.98.208.33,,,,,,,,,
+TWOPOINT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.10.196.132,,,,,,,,,
+HELIX_OPCO,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.133.7.15,,,,,,,,,
+ZEROEYES,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.160.210.210,,,,,,,,,
+CARENET,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.163.241.67,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Meghan Hinds, Lidia Thomas",DDREGGORS@CARENETHEALTHCARE.COM,"DDREGGORS@CARENETHEALTHCARE.COM; Hanson, Katie N <knhanson@carenethealth.com>",,,"Meghan Hinds <meghan.hinds@cvshealth.com> - no longer correct
+Lidia Thomas <lidia.thomas@cvshealth.com>
+Carrie-Ann Tierney <carrie-ann.tierney@cvshealth.com>
+Abbey Cupp <abbey.cupp@cvshealth.com>",meghan.hinds@cvshealth.com
+TABULA_ANCHORAGE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.166.130.34,,,,,,,,,
+MERWIN_INTERLUDE_WEST_HEALTH,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.181.242.1,,,,,,,,,
+CSM_IPSEC_ACL_164,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,209.182.161.60,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Allison L Brown,ALEX_BRUMARU_98@YAHOO.COM,ALEX_BRUMARU_98@YAHOO.COM,,,,
+BEST-DOCTORS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,209.208.221.180,NORMALIZED_NAME,AETH_B2B|KPMG,Michele Kurdes    KurdesM@aetna.com,KurdesM@aetna.com,"BEN AMAH, 305.269.2521, BAmah@BestDoctorsInsurance.com",,,Michele Kurdes    KurdesM@aetna.com,KurdesM@aetna.com
+COTIVITI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,209.208.242.190,PEER_IP,AETH_B2B|KPMG,"James  Fiorino - FiorinoJJ@aetna.com
+David Leavitt - LeavittD@aetna.com",FiorinoJJ@aetna.com,"Sue McGill - sue.mcgill@cotiviti.com
+Andrew Burke - netops.data@cotiviti.com",,,"Kishore Ratakonda - RatakondaK@aetna.com
+Warren Duke - Warren.Duke@CVSHealth.com",RatakondaK@aetna.com
+CSM_IPSEC_ACL_295,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,209.210.196.196,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Mitchell Super - mitchell.super@cvshealth.com - 480-391-4511,mitchell.super@cvshealth.com,peter Cook - pdcook@telsoft.com - 602-308-1178,,,,
+CUYUNA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.212.33.190,,,,,,,,,
+VISTAR-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,209.213.103.70,PEER_IP,AETH_B2B|KPMG,"Jim Gifford 888-266-4532, EXT 120 jgifford@vistartech.com 
+support@vistartech.com 888-266-4532 (ext. 3 from 8:30-5:30 eastern, ext 128 after hours)",jgifford@vistartech.com,Daniella Kittridge 860-273-5963 jgifford@vistartech.com,,,,
+EATON_APOTHECARY_CANTON,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.213.92.102,,,,,,,,,
+EATON_APOTHECARY_PEABODY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.213.92.122,,,,,,,,,
+MAXOR-PDM-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,209.221.23.194,PEER_IP,AETH_B2B|KPMG,Patrick Kelley,jsellers@envisionrx.com,jsellers@envisionrx.com,,,"Kallaugher, Diane A/Kelley, Patrick",jsellers@envisionrx.com
+MAXOR-PDM-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,209.221.23.194,PEER_IP,AETH_B2B|KPMG,Patrick Kelley,jsellers@envisionrx.com,jsellers@envisionrx.com,,,"Kallaugher, Diane A/Kelley, Patrick",jsellers@envisionrx.com
+YARDI-2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.235.109.251,,,,,,,,,
+EQUIAN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,209.43.100.54,PEER_IP,AETH_B2B|KPMG,Carl Duvall - cduvall@equian.com/NOC - 502-214-1109,cduvall@equian.com,Tara Morales,,,"Michele Kurdes -KurdesM@AETNA.com
+Jaylynn Keener - KeenerJ@aetna.com",-KurdesM@AETNA.com
+YARD,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,209.46.28.20,,,,,,,,,
+INSPRO-DR-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,209.92.12.34,PEER_IP,AETH_B2B|KPMG,"LucianoM@aetna.com/Nelsen, Keith",LucianoM@aetna.com,ksherman@inspro.com/rzabaga@inspro.com,,,"Gordon, Clayton H <Clayton.Gordon@cvshealth.com>
+Dreelin, Alexander M <Alexander.Dreelin@cvshealth.com>
+Khan, Zaheer <Zaheer.Khan@aetna.com>",Clayton.Gordon@cvshealth.com
+CSM_IPSEC_ACL_75,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,210.213.230.213,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Daniel Cornille - Daniel.Cornille@caremark.com - +18474849549
+Robert Muller - Robert.Muller@CVSHealth.com - 2019067621",Daniel.Cornille@caremark.com,"Charisse Divine - charisse.chosantos@pointwest.com
+John Mattaliano - jmatt@rmkcoonsulting.com - ( 940) - 914 - 6406",,,,
+CSM_IPSEC_ACL_312,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,210.7.64.202,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+ACCENTURE-UK-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,213.212.122.204,PEER_IP,AETH_B2B|KPMG,Lori Carter <CarterLD@aetna.com>,CarterLD@aetna.com,"TfO UK NOC <TGPBPO.UK.NOC@accenture.com>, Fuerte, Dannielyn D. <dannielyn.d.fuerte@accenture.com> Dagar, Ashish <ashish.dagar@accenture.com; jagadish.krish@accenture.com",,,"Elizabeth Kugler - elizabeth.kugler@cvshealth.com - no longer the account owner
+Christopher Haynes - christopher.haynes@cvshealth.com - new account owner",elizabeth.kugler@cvshealth.com
+CSM_IPSEC_ACL_212,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,216.104.80.127,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Lars Sorensen - Lars.Sorensen@CVSCaremark.com - 847-484-9406
+Sreenivasarao Inturi - Sreenivasarao.Inturi@caremark.com - 8472277906",Lars.Sorensen@CVSCaremark.com,"Jeff Galando - Jeffrey.Galando@BCBSAL.ORG -
+Sahteesh - Satheesh.Abhiram@BCBSAL.ORG - 205-639-3708",,,,
+SONORAQUEST,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,216.118.167.110,,,,,,,,,
+CSM_IPSEC_ACL_233,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,216.118.182.70,,,,,,,,,
+ELOYAL,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,216.141.75.181,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Paulette S. Mudrey - paulette.mudrey@cvshealth.com - 614-652-3224,,"Network Infrastructure Operations - CTSInfrastructureOperations@teletech.com
+Phone Number: 1 866 927 7478",,,,
+CSM_IPSEC_ACL_271,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,216.150.186.245,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Matt Schuberth, Maureen Shea, Nicole Piotrowski",Vinod.Tekkale@sutherlandglobal.com,Vinod Tekkale <Vinod.Tekkale@sutherlandglobal.com>; Hari Krishna Naraharasetty <HariKrishna.N2@sutherlandglobal.com>; Venkatesh Sharma Akkipedi <VenkateshSharma.Akkipedi@sutherlandglobal.com>,,,,
+CSM_IPSEC_ACL_271,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,216.150.186.245,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Matt Schuberth, Maureen Shea, Nicole Piotrowski",Vinod.Tekkale@sutherlandglobal.com,Vinod Tekkale <Vinod.Tekkale@sutherlandglobal.com>; Hari Krishna Naraharasetty <HariKrishna.N2@sutherlandglobal.com>; Venkatesh Sharma Akkipedi <VenkateshSharma.Akkipedi@sutherlandglobal.com>,,,,
+DXCCOM,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,216.177.65.158,PEER_IP,AETH_B2B|KPMG,Thomas Rabbe - RabbeTR@aetna.com,RabbeTR@aetna.com,Alex Nastar Phone: 800-576-6412 x100 anastar@webclaim.net,,,Thomas Rabbe - RabbeTR@aetna.com,RabbeTR@aetna.com
+CSM_IPSEC_ACL_175,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,216.194.113.132,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Marcia Drummond,CWahl@solutran.com,Cory Wahl - CWahl@solutran.com - 612-599-9017 (M),,,,
+CSM_IPSEC_ACL_175,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,216.194.113.132,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Marcia Drummond,CWahl@solutran.com,Cory Wahl - CWahl@solutran.com - 612-599-9017 (M),,,,
+CSM_IPSEC_ACL_31,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,216.195.94.100,PEER_IP,KPMG,Abbas.Ali@CVSHealth.com,,Vinod Krishnan - 480-882-8997,,,,
+CSM_IPSEC_ACL_31,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,216.195.94.100,PEER_IP,KPMG,Abbas.Ali@CVSHealth.com,,Vinod Krishnan - 480-882-8997,,,,
+CSM_IPSEC_ACL_124,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,216.203.80.98,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_124,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,216.203.80.98,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+INDCONSULTING,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,216.223.162.165,,,,,,,,,
+FRONTIER-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,216.231.28.133,PEER_IP,AETH_B2B|KPMG,"Jandhyam, Rakesh <Rakesh.Jandhyam@CVSHealth.com>",,,,,"Jandhyam, Rakesh <Rakesh.Jandhyam@CVSHealth.com>",Rakesh.Jandhyam@CVSHealth.com
+INNOVATIVE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,216.25.141.202,PEER_IP,AETH_B2B|KPMG,"Nicole Brantley - BrantleyN@AETNA.com
+Sophia Berrios  - BerriosS1@aetna.com",BrantleyN@AETNA.com,"Rich Henderson - RHenderson@issisystems.com
+Patrick Sosalski - PSosalski@issisystems.com",,,"Nicole Brantley - BrantleyN@AETNA.com
+Sophia Berrios  - BerriosS1@aetna.com",BrantleyN@AETNA.com
+SCIO-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,216.27.58.102,PEER_IP,AETH_B2B|KPMG,,,,,,,
+HDI-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,216.58.151.4,PEER_IP,AETH_B2B|KPMG,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com,Soheil Naghian <soheil.naghian@hms.com> <Nets@hms.com>,,,"Rademacker, Lizabeth A <RademackerL@aetna.com>
+King, Jennifer A <KingJ5@AETNA.com>",RademackerL@aetna.com
+CSM_IPSEC_ACL_28,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,216.66.77.106,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Todd Reimann,,"Dan.Nashland@omnicare.com
+Matt.Kuehl@omnicare.com",,,,
+AIMHEALTH-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,216.84.36.241,,,,,,,,,
+CSM_IPSEC_ACL_310,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,23.22.139.157,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"David Huges - david.huges@caremark.com - 480-707-6546
+Criag Dreiling - craig.drreiling@caremark.com - 847-484-9353",david.huges@caremark.com,Richard/Kevin richard.krol@gemini.health / Kevin.Annis@flexential.com,,,,
+CSM_IPSEC_ACL_243,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,23.92.177.172,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lauren Doyle,Jose.Blanco@asembia.com,Jose Blanco <Jose.Blanco@asembia.com>,,,,
+CARNET_VPN,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,24.103.207.2,,,,,,,,,
+LOCAL-195-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,24.105.189.82,PEER_IP,AETH_B2B|KPMG,"Maureen Hughes - HughesM7@aetna.com
+David Norton - NortonD@aetna.com",HughesM7@aetna.com,"Mike Gilbert - gilbertm@twcny.rr.com
+Pattty Redhead - predhead@twcny.rr.com",,,"Maureen Hughes - HughesM7@aetna.com
+David Norton - NortonD@aetna.com",HughesM7@aetna.com
+FIRSTCHOICENW-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,24.111.7.242,PEER_IP,AETH_B2B|KPMG,Michael Webb mcwebb@cvs.com,mcwebb@cvs.com,"Shane Baer
+605-361-1300
+shane@dynbus.com",,,Michael Webb mcwebb@cvs.com,mcwebb@cvs.com
+HEALTH-PLAN-ONE-TAMPA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,24.73.116.227,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_293,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,27.34.245.44,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_293,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,27.34.245.44,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+TELADOC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,3.132.255.174,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Kelly Straub,mpeterson@teladoc.com,"Maylin Peterson <mpeterson@teladoc.com>
+Rajneesh Goyal <rgoyal@teladoc.com>
+Douglas Maguire <dmaguire@teladoc.com>",,,Kelly Straub - kelly.straub@cvshealth.com,kelly.straub@cvshealth.com
+CSM_IPSEC_ACL_84,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,3.213.166.204,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 480 707 6608
+Hessefort, Keith",Ankit.Shah3@CVSHealth.com,David Simko - p 888.963.3465 ext.1006 - 941.268.7422,,,,
+THOUGHTSPOT-NEW-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,3.213.223.14,PEER_IP,KPMG,"Julakanti, Rajini <Rajini.Julakanti@CVSHealth.com>
+Guntupalli, Srinivas <Srinivas.Guntupalli@CVSHealth.com>
+Malladi, Harish <Harish.Malladi@CVSHealth.com>
+Swain, Amitav <SwainA@aetna.com>
+Gupta, Vishal <vishal.gupta@cvshealth.com>",,"Pikharkar, Akshay <akshay.pokharkar2@cvshealth.com>",,,"Julakanti, Rajini <Rajini.Julakanti@CVSHealth.com>
+Guntupalli, Srinivas <Srinivas.Guntupalli@CVSHealth.com>
+Malladi, Harish <Harish.Malladi@CVSHealth.com>
+Swain, Amitav <SwainA@aetna.com>
+Gupta, Vishal <vishal.gupta@cvshealth.com>",Rajini.Julakanti@CVSHealth.com
+WORLDQUANT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,3.214.231.40,,,,,,,,,
+ARTERA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,3.217.103.115,,,,,,,,,
+VERINT_CLOUD,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,3.223.184.241,,,,,,,,,
+CSM_IPSEC_ACL_201,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,3.225.49.187,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lauren Doyle,DANIELLE.MACK@ARRIVEHEALTH.COM,DANIELLE.MACK@ARRIVEHEALTH.COM; 'Iain Irwin-Powell' <iain.irwin-powell@arrivehealth.com>,,,,
+COGITO-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,3.227.127.54,NORMALIZED_NAME,AETH_B2B|KPMG,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com,hemam@cogitocorp.com,,,"Denson, Carl J <DensonC@cvshealth.com>
+Karpf, Jeffrey S <KarpfJS@cvshealth.com>",DensonC@cvshealth.com
+TEMPUS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,3.228.251.91,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"paul Szeloag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713",ptszelag@cvshealth.com,"Rameez Syed- rameez.syed@tempus.com - 224-330-7169
+Joe Macak - joe.macak@tempus.com",,,paul Szeloag - ptszelag@cvshealth.com - 401-770-5201,ptszelag@cvshealth.com
+CSM_IPSEC_ACL_237,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,3.230.26.244,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Steve Villari,STEVE.DIETZ@PEGA.COM,STEVE.DIETZ@PEGA.COM,,,,
+END-GAME-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,32.223.192.5,PEER_IP,AETH_B2B|KPMG,,,,,,,
+END-GAME-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,32.223.192.5,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_7,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.102.80.36,,,,,,,,,
+CSM_IPSEC_ACL_7,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,34.102.80.36,,,,,,,,,
+STRATEGY,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,34.11.25.120,,,,,,,,,
+STRATEGY,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,34.11.25.120,,,,,,,,,
+CSM_IPSEC_ACL_22,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.145.231.85,,,,,,,,,
+CSM_IPSEC_ACL_22,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,34.145.231.85,,,,,,,,,
+CSM_IPSEC_ACL_150,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,34.193.175.86,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lauren Doyle,DANIELLE.MACK@ARRIVEHEALTH.COM,DANIELLE.MACK@ARRIVEHEALTH.COM; 'Iain Irwin-Powell' <iain.irwin-powell@arrivehealth.com>,,,,
+PEGA_B_ACL_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.193.91.251,,,,,,,,"Mishra, Amit K <Amit.Mishra4@CVSHealth.com>",Amit.Mishra4@CVSHealth.com
+TEMPUS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.195.71.70,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"paul Szeloag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713",ptszelag@cvshealth.com,"Rameez Syed- rameez.syed@tempus.com - 224-330-7169
+Joe Macak - joe.macak@tempus.com",,,paul Szeloag - ptszelag@cvshealth.com - 401-770-5201,ptszelag@cvshealth.com
+CSM_IPSEC_ACL_221,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,34.196.94.190,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lauren Doyle,DANIELLE.MACK@ARRIVEHEALTH.COM,DANIELLE.MACK@ARRIVEHEALTH.COM; 'Iain Irwin-Powell' <iain.irwin-powell@arrivehealth.com>,,,,
+PEGA_B_ACL_2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.199.23.122,,,,,,,,"Mishra, Amit K <Amit.Mishra4@CVSHealth.com>",Amit.Mishra4@CVSHealth.com
+PEGAAMAZON,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.205.165.117,,,,,,,,,
+AUTORABIT-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,34.209.96.131,PEER_IP,AETH_B2B|KPMG,Dennis Galvin <GalvinD@aetna.com>,GalvinD@aetna.com,Nagarjuna Chinni <nagarjuna.c@autorabit.com>,,,Dennis Galvin <GalvinD@aetna.com> (Not correct),GalvinD@aetna.com
+CSM_IPSEC_ACL_84,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,34.226.227.222,,,,,,,,,
+PARACHUTE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.231.7.78,,,,,,,,,
+CARERIGHTMEDRIGHT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.234.0.98,,,,,,,,,
+CSM_IPSEC_ACL_125,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,34.236.163.175,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lauren Doyle,DANIELLE.MACK@ARRIVEHEALTH.COM,DANIELLE.MACK@ARRIVEHEALTH.COM; 'Iain Irwin-Powell' <iain.irwin-powell@arrivehealth.com>,,,,
+34_236_93_148,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.236.93.148,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Scott Deatherage - scott.deatherage@caremark.com - 972-813-3633
+Peter Rochard - peter.rochard@cvshealth.com - 480-452-7185",scott.deatherage@caremark.com,Mehuld Soni - Mehuld.soni@nice.com - 782-990-4849,,,,
+PRODPAD,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,34.249.125.143,,,,,,,,,
+AUTORABBIT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,35.161.47.106,,,,,,,,,
+ALIGHT-AWS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,35.162.95.18,NORMALIZED_NAME,AETH_B2B|KPMG,,,"Hodge, Gary - Alight <gary.hodge@alight.com>
+Sandeeprajan S <sandeeprajan.s@alight.com>",,,,gary.hodge@alight.com
+CSM_IPSEC_ACL_251,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,35.164.80.211,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Raag Rajendra Kharadi - Raagrajendra.kharadi@cvshealth.com - 510-974-3342
+Freddy Herrera - Freddy.Herrera@cvshealth.com (602) 571-9138
+Peter Rochard - peter.rochard@cvshealth.com - 480-452-7185",Raagrajendra.kharadi@cvshealth.com,Kristopher Grimm - kgrimm@gomoxie.com - 425-327-0639,,,,
+CSM_IPSEC_ACL_251,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,35.164.80.211,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Raag Rajendra Kharadi - Raagrajendra.kharadi@cvshealth.com - 510-974-3342
+Freddy Herrera - Freddy.Herrera@cvshealth.com (602) 571-9138
+Peter Rochard - peter.rochard@cvshealth.com - 480-452-7185",Raagrajendra.kharadi@cvshealth.com,Kristopher Grimm - kgrimm@gomoxie.com - 425-327-0639,,,,
+BAMBOOHEALTH,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,35.168.166.143,,,,,,,,,
+CARERIGHTMEDRIGHT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,35.172.64.13,,,,,,,,,
+CLEAROBJECT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,35.199.2.52,NORMALIZED_NAME,AETH_B2B|KPMG,JUDITH.LEVIN@AETNA.COM,JUDITH.LEVIN@AETNA.COM,support@clearobject.com,,,JUDITH.LEVIN@AETNA.COM,JUDITH.LEVIN@AETNA.COM
+GCP,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,35.245.24.150,PEER_IP,AETH_B2B|KPMG,"Kura, Praveen K (pkkura@cvshealth.com) - incorrect POC",,,,,,
+AXA-IPSEC-2,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,38.104.229.10,PEER_IP,AETH_B2B|KPMG,Michele Kurdes <KurdesM@AETNA.com>,KurdesM@AETNA.com,DUONG Jimmy <jimmy.duong@axa-assistance.us,,,"Michele Kurdes <KurdesM@AETNA.com>
+Jaylynn Keener",KurdesM@AETNA.com
+CSM_IPSEC_ACL_262,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,38.32.108.122,PEER_IP,AZ_B2B|KPMG|PSS_B2B,desireemaejean.borrero@cvshealth.com,desireemaejean.borrero@cvshealth.com,NTURNER@CREDITMANAGEMENTCOMPANY.COM,,,,
+CSM_IPSEC_ACL_262,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,38.32.108.122,PEER_IP,AZ_B2B|KPMG|PSS_B2B,desireemaejean.borrero@cvshealth.com,desireemaejean.borrero@cvshealth.com,NTURNER@CREDITMANAGEMENTCOMPANY.COM,,,,
+HELIX_OPCO,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,4.14.41.98,,,,,,,,,
+TTEC-AUSTIN-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,4.14.63.194,PEER_IP,AETH_B2B|KPMG,JUDITH.LEVIN@AETNA.COM,JUDITH.LEVIN@AETNA.COM,zzzISEngineering@teletech.com,,,JUDITH.LEVIN@AETNA.COM,JUDITH.LEVIN@AETNA.COM
+COMPANY-VOICE-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,4.16.125.126,PEER_IP,AETH_B2B|KPMG,"Boettlin, Timothy M <BoettlinT@aetna.com>  
+Zagar, Christal A <ZagarC@aetna.com>",BoettlinT@aetna.com,Michael Schabert 215-485-4011  mschabert@glci.net,,,"Boettlin, Timothy M <BoettlinT@aetna.com>  
+Zagar, Christal A <ZagarC@aetna.com>",BoettlinT@aetna.com
+CSM_IPSEC_ACL_272,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,4.21.120.134,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_2,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,4.255.109.227,,,,,,,,,
+TEMPUS_ON_PREM,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,4.28.60.194,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"paul Szeloag - ptszelag@cvshealth.com - 401-770-5201
+Herman Nord - hnord@cvshealth.com - 401-770-1713",ptszelag@cvshealth.com,"Rameez Syed- rameez.syed@tempus.com - 224-330-7169
+Joe Macak - joe.macak@tempus.com",,,paul Szeloag - ptszelag@cvshealth.com - 401-770-5201,ptszelag@cvshealth.com
+CSM_IPSEC_ACL_4,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,4.35.106.222,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Marcia Drummond,CWahl@solutran.com,"Cory Wahl - CWahl@solutran.com - 612-599-9017
+Melonie Jentges - mjentges@solutran.com - 763-519-7206
+Laura Cede - lcedeno@solutran.com - 763-519-7240",,,,
+CSM_IPSEC_ACL_4,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,4.35.106.222,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Marcia Drummond,CWahl@solutran.com,"Cory Wahl - CWahl@solutran.com - 612-599-9017
+Melonie Jentges - mjentges@solutran.com - 763-519-7206
+Laura Cede - lcedeno@solutran.com - 763-519-7240",,,,
+STATEOFPA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,4.35.217.106,PEER_IP,AETH_B2B|KPMG,,,,,,,
+STATEOFPA-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,4.35.217.110,PEER_IP,AETH_B2B|KPMG,,,,,,,
+ASSO-ADMIN-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,4.35.238.93,,,,,,,,,
+CSM_IPSEC_ACL_165,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,40.0.46.175,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+RETINAVUE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,40.121.158.154,,,,,,,,,
+IND_CONSULTING,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,40.142.50.76,,,,,,,,,
+NASH,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,40.143.159.8,,,,,,,,,
+CHI,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,40.143.23.138,,,,,,,,,
+CSM_IPSEC_ACL_157,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,40.143.88.148,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,support@rkon.com,support@rkon.com - 312.654.0300,,,,
+CSM_IPSEC_ACL_157,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,40.143.88.148,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,support@rkon.com,support@rkon.com - 312.654.0300,,,,
+CONNIE_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,40.85.168.224,,,,,,,,,
+HEALTH_EDGE,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,44.193.86.100,,,,,,,,,
+CSM_IPSEC_ACL_237,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,44.198.149.100,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Steve Villari,STEVE.DIETZ@PEGA.COM,STEVE.DIETZ@PEGA.COM,,,,
+ARCADIA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,44.217.44.209,,,,,,,,,
+CSM_IPSEC_ACL_161,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,44.225.3.131,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Steven Calvery,JENGLISH@RXSENSE.COM,JENGLISH@RXSENSE.COM,,,,
+CSM_IPSEC_ACL_190,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,44.228.120.168,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Ankit D Shah - ankit.shah2@cvshealth.com - 480-432-2252,ankit.shah2@cvshealth.com,David Simko 813 304 2800,,,,
+CVS_KEYENG_PRI,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,47.44.130.34,,,,,,,,,
+WPAS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,50.205.146.66,PEER_IP,AETH_B2B|KPMG,Melissa Hostrawser/ Natalie Rodriguez,khicklin@wpas-inc.com,khicklin@wpas-inc.com,,,Melissa Hostrawser/ Natalie Rodriguez,khicklin@wpas-inc.com
+CTLABORERS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,50.210.68.61,NORMALIZED_NAME,AETH_B2B|KPMG,"DePolo, Jacqueline Y (depoloj@cvshealth.com) - incorrect POC
+Chris Marotta",,,,,"DePolo, Jacqueline Y (depoloj@cvshealth.com) - incorrect POC
+Chris Marotta",depoloj@cvshealth.com
+NIRVANAHEALTH_RX_VPN,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,50.216.179.131,,,,,,,,,
+CSM_IPSEC_ACL_78,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,50.226.177.126,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+GENETWORX,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,50.236.19.30,,,,,,,,,
+MERWIN_LYNGBLOMSTEN_2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,50.241.39.249,,,,,,,,,
+MTC-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,50.31.166.50,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Marissa E DiRoma, Sabrina Chimirri",PFX-QUOTE@PAYFLEX.COM,PFX-QUOTE@PAYFLEX.COM,,,,
+MTC-IPSEC,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,50.31.166.50,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Marissa E DiRoma, Sabrina Chimirri",PFX-QUOTE@PAYFLEX.COM,PFX-QUOTE@PAYFLEX.COM,,,,
+MTC-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,50.31.166.50,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Marissa E DiRoma, Sabrina Chimirri",PFX-QUOTE@PAYFLEX.COM,PFX-QUOTE@PAYFLEX.COM,,,,
+CSM_IPSEC_ACL_314,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,50.58.46.130,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,MARC.ASHTON@CONNEXTIONS.COM,MARC.ASHTON@CONNEXTIONS.COM,,,,
+CSM_IPSEC_ACL_92,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,50.58.81.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeremy Morse,MARC.ASHTON@CONNEXTIONS.COM,MARC.ASHTON@CONNEXTIONS.COM,,,,
+HP_PRINT_SAAS,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,51.8.202.151,,,,,,,,,
+AUTORABIT-IPSEC-BACKUP,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,52.11.31.59,PEER_IP,AETH_B2B|KPMG,Dennis Galvin <GalvinD@aetna.com>,GalvinD@aetna.com,Nagarjuna Chinni <nagarjuna.c@autorabit.com>,,,Dennis Galvin <GalvinD@aetna.com> (Not correct),GalvinD@aetna.com
+BENESYS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,52.146.86.133,PEER_IP,AETH_B2B|KPMG,,,,,,,
+SKYTAP,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.167.24.7,,,,,,,,,
+DEMATIC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.177.144.126,,,,,,,,,
+BMI2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,52.188.49.38,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CAREBRIDGE-MIHIN-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,52.204.176.226,PEER_IP,AETH_B2B|KPMG,Senthil Kumaran Vitaranyam/Abhinaya Jayaprakash,help@mihin.org,help@mihin.org/michael.sherman@mihin.org,,,"Manjusha Nair - GuptaM@cvshealth.com
+Naomi Swoboda - SwobodaN@cvshealth.com",GuptaM@cvshealth.com
+PEGAAMAZON,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.22.221.196,,,,,,,,,
+OCUOC_VPN,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.228.17.120,,,,,,,,,
+GD_EUS_NVA2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.249.219.143,,,,,,,,,
+CSM_IPSEC_ACL_213,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,52.25.215.13,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Bradley Lopes,ahmed.abdirahman@collectivehealth.com,ahmed.abdirahman@collectivehealth.com and claims_service@collectivehealth.com.; Michael Garza <michael.garza@collectivehealth.com>,,,,
+CSM_IPSEC_ACL_190,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,52.26.92.228,,,,,,,,,
+ALIGHT-AWS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,52.37.64.40,NORMALIZED_NAME,AETH_B2B|KPMG,,,"Hodge, Gary - Alight <gary.hodge@alight.com>
+Sandeeprajan S <sandeeprajan.s@alight.com>",,,,gary.hodge@alight.com
+CSM_IPSEC_ACL_225,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.40.245.155,,,,,,,,,
+CSM_IPSEC_ACL_225,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,52.40.245.155,,,,,,,,,
+ION_TREASURY_DR,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.41.100.1,,,,,,,,,
+ACCEPTTO-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,52.43.99.198,PEER_IP,AETH_B2B|KPMG,Brian Heemsoth,Support@acccepto.com,Support@acccepto.com/ christopher.chin@aceceptto.co/dieter@accepto.com,,,Brian Heemsoth,Support@acccepto.com
+ACCOLADE-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,52.44.178.108,PEER_IP,AETH_B2B|KPMG,,,"Delage, Janet - Janet.Delage@accolade.com
+Iyer, Lisa - Lisa.Iyer@accolade.com
+Julianne, Rowan - Julianne.Rowan@accolade.com",,,,Janet.Delage@accolade.com
+HELIX,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.44.245.244,,,,,,,,,
+CSM_IPSEC_ACL_64,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,52.7.253.173,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Steven Calvery,JENGLISH@RXSENSE.COM,JENGLISH@RXSENSE.COM,,,,
+CSM_IPSEC_ACL_10,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,52.71.85.142,,,,,,,,,
+CSM_IPSEC_ACL_286,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,52.8.131.96,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Bradley Lopes,ahmed.abdirahman@collectivehealth.com,ahmed.abdirahman@collectivehealth.com and claims_service@collectivehealth.com.; Michael Garza <michael.garza@collectivehealth.com>,,,,
+ALIGHT-AWS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,52.87.124.167,NORMALIZED_NAME,AETH_B2B|KPMG,,,"Hodge, Gary - Alight <gary.hodge@alight.com>
+Sandeeprajan S <sandeeprajan.s@alight.com>",,,,gary.hodge@alight.com
+ION_TREASURY_DR,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,52.89.46.156,,,,,,,,,
+CSM_IPSEC_ACL_156,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.146.251.0,,,,,,,,,
+CSM_IPSEC_ACL_156,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,54.146.251.0,,,,,,,,,
+MEDHOKAWS_DR,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.149.5.229,,,,,,,,,
+CSM_IPSEC_ACL_49,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,54.153.114.137,,,,,,,,,
+MOXIE_AWS_DR,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.156.205.172,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Raag Rajendra Kharadi - Raagrajendra.kharadi@cvshealth.com - 510-974-3342
+Freddy Herrera - Freddy.Herrera@cvshealth.com (602) 571-9138
+Peter Rochard - peter.rochard@cvshealth.com - 480-452-7185",Raagrajendra.kharadi@cvshealth.com,Kristopher Grimm - kgrimm@gomoxie.com - 425-327-0639,,,,
+WORLDQUANT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.156.252.159,,,,,,,,,
+THOUGHTSPOT2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,54.164.118.131,PEER_IP,KPMG,"Julakanti, Rajini <Rajini.Julakanti@CVSHealth.com>
+Guntupalli, Srinivas <Srinivas.Guntupalli@CVSHealth.com>
+Malladi, Harish <Harish.Malladi@CVSHealth.com>
+Swain, Amitav <SwainA@aetna.com>
+Gupta, Vishal <vishal.gupta@cvshealth.com>",,"Pikharkar, Akshay <akshay.pokharkar2@cvshealth.com>",,,,
+THOUGHTSPOT-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,54.173.185.192,NORMALIZED_NAME,AETH_B2B|KPMG,"Julakanti, Rajini <Rajini.Julakanti@CVSHealth.com>
+Guntupalli, Srinivas <Srinivas.Guntupalli@CVSHealth.com>
+Malladi, Harish <Harish.Malladi@CVSHealth.com>
+Swain, Amitav <SwainA@aetna.com>
+Gupta, Vishal <vishal.gupta@cvshealth.com>",,"Pikharkar, Akshay <akshay.pokharkar2@cvshealth.com>",,,"Julakanti, Rajini <Rajini.Julakanti@CVSHealth.com>
+Guntupalli, Srinivas <Srinivas.Guntupalli@CVSHealth.com>
+Malladi, Harish <Harish.Malladi@CVSHealth.com>
+Swain, Amitav <SwainA@aetna.com>
+Gupta, Vishal <vishal.gupta@cvshealth.com>",Rajini.Julakanti@CVSHealth.com
+ALIGHT-AWS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,54.175.158.181,NORMALIZED_NAME,AETH_B2B|KPMG,,,"Hodge, Gary - Alight <gary.hodge@alight.com>
+Sandeeprajan S <sandeeprajan.s@alight.com>",,,,gary.hodge@alight.com
+NICE_DR,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.200.15.69,,,,,,,,DamatoS@AETNA.com/SanchezC3@AETNA.com,DamatoS@AETNA.com
+CREYOS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.209.188.137,,,,,,,,,
+CSM_IPSEC_ACL_334,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.81.143.92,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Peter Rochard - Peter.Rochard@CVSHealth.com - (480) 452-7185
+Freddy Herrera - Freddy.Herrera@cvshealth.com - 602) 571-9138",Peter.Rochard@CVSHealth.com,Kristopher Grimm - kgrimm@gomoxie.com - 425-327-0069,,,,
+CSM_IPSEC_ACL_334,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,54.81.143.92,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Peter Rochard - Peter.Rochard@CVSHealth.com - (480) 452-7185
+Freddy Herrera - Freddy.Herrera@cvshealth.com - 602) 571-9138",Peter.Rochard@CVSHealth.com,Kristopher Grimm - kgrimm@gomoxie.com - 425-327-0069,,,,
+ION_TREASURY_ACTIVE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,54.82.101.65,,,,,,,,,
+FIRST_SOURCE-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,54.85.156.182,PEER_IP,AETH_B2B|KPMG,"Brown, Lisa <BrownL10@aetna.com>",BrownL10@aetna.com,"Selvam Kaliyan
++91-9790981525
+selvam.kaliyan@anuntatech.com",,,,
+CSM_IPSEC_ACL_79,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,58.2.237.55,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Matthew Heck - matthew.heck@cvshealth.com - 412-825-8735,matthew.heck@cvshealth.com,Kamal Srivastava - kamal.srivastava@gnpact.com - +91 9899687243,,,,
+CSM_IPSEC_ACL_294,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,58.2.239.42,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Alicia Michalek - alicia.michalek2@cvshealth.com-972-792-5061
+Patricia Tetreault - patricia.tetreault@cvshealth.com - 401-770-2708",alicia.michalek2@cvshealth.com,"Rajani, Veerababu V <veerababu.rajani1@genpact.com>",,,,
+EXL-CHENNAI-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,61.12.33.68,PEER_IP,AETH_B2B|KPMG,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com,Rubia.Rendon@exlservice.com/Saurabh.Sharma6@exlservice.com/eNOCSupport@exlservice.com/Sanjay.Kurkute2@exlservice.com,,,"Breton, Neal / McGuirl, Margaret M",Rubia.Rendon@exlservice.com
+WITRON,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,62.153.165.170,,,,,,,,,
+OMNITRAC2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.100.176.138,,,,,,,,,
+OMNITRAC1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.100.176.199,,,,,,,,,
+JOINT_VENTURE_RED_OAK,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.101.191.170,,,,,,,,,
+LIAISON-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,63.111.64.4,PEER_IP,AETH_B2B|KPMG,Ana M Rivera - RiveraAM@aetna.com,RiveraAM@aetna.com,"nupathsupport@liaison.com 
+Ethel Montgomery - EMontgomery@liaison.com",,,Ana M Rivera - RiveraAM@aetna.com (Incorrect POC),RiveraAM@aetna.com
+ACS-PITTSBURG-UNCLAIM-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,63.116.31.229,PEER_IP,AETH_B2B|KPMG,Kathy Murr / Patricia Smith SmithPM1@aetna.com,SmithPM1@aetna.com,"Dallas NOC 800-587-4209 24 x 7 support
+Cliff Likens 412-788-3581 Cliff.likens@acs-inc.com",,,Kathy Murr / Patricia Smith SmithPM1@aetna.com (not the appropriate contact),SmithPM1@aetna.com
+CSM_IPSEC_ACL_239,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,63.146.162.106,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Todd Reimann,,"Dan.Nashland@omnicare.com
+Matt.Kuehl@omnicare.com",,,,
+BLUEYONDER2_GRP_POLICY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.160.92.100,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Mohammed Aijaz Yousuf - mohammedaijaz.yousuf@cvshealth.com - 512-363-7556
+Paul DePerry - paul.deperry@cvscaremark.com - 401-770-6282",mohammedaijaz.yousuf@cvshealth.com,"Rajeev Prasad - Rajeev.Prasad@blueyonder.com
+Venkat Ramanan - Venkat.Ramanan@blueyonder.com
+Bernie Wong - Bernie.Wong@blueyonder.com",,,,
+MERWIN_TEST,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.224.17.81,,,,,,,,,
+MERWIN_INTERLUDE_UNITY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.228.2.17,,,,,,,,,
+MERWIN_PRES_BLOOMING,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.228.56.233,,,,,,,,,
+MERWIN_SOUTHVIEW_ACRES_2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.231.182.97,,,,,,,,,
+MERWIN_SOUTHVIEW_ACRES_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.231.183.33,,,,,,,,,
+SYMPHONYHEALTH,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.235.144.5,,,,,,,,,
+CLARKCONSTRUCTION-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,63.237.69.254,PEER_IP,AETH_B2B|KPMG,"Pugh, Meghan A /Dwyer, Sharon P/Jill Kauffman",tatiana.pressau@clarkconstruction.com,tatiana.pressau@clarkconstruction.com,,,"Renee J Wright: WrightR3@aetna.com;
+Suzanne Breda:
+bredas@aetna.com;
+DwyerS@AETNA.com;",WrightR3@aetna.com
+CSM_IPSEC_ACL_121,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,63.241.95.168,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+BMI-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,63.251.157.190,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_316,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,63.86.124.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Breitzka, Michelle R <Michelle.Breitzka@CVSHealth.com>
+Bromley, Stephen J. <Stephen.Bromley@CVSHealth.com>
+Monn, Veronica <Veronica.Monn@CVSHealth.com>",,Clearstone Solutions - Steve Ploof-www.ClearStoneSolutions.com - Office: 651.662.8988,,,,
+CSM_IPSEC_ACL_138,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,63.97.171.84,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Delp Jason,Doug.Knights@Aspect.com,Doug.Knights@Aspect.com/winston.Burgess@aspect.com,,,,
+CSM_IPSEC_ACL_138,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,63.97.171.84,PEER_IP,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,Delp Jason,Doug.Knights@Aspect.com,Doug.Knights@Aspect.com/winston.Burgess@aspect.com,,,,
+TGW,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,64.141.172.99,,,,,,,,,
+CSM_IPSEC_ACL_194,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,64.147.70.248,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Matt Schuberth, Maureen Shea, Nicole Piotrowski",Vinod.Tekkale@sutherlandglobal.com,Vinod Tekkale <Vinod.Tekkale@sutherlandglobal.com>; Hari Krishna Naraharasetty <HariKrishna.N2@sutherlandglobal.com>; Venkatesh Sharma Akkipedi <VenkateshSharma.Akkipedi@sutherlandglobal.com>,,,,
+CSM_IPSEC_ACL_194,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.147.70.248,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Matt Schuberth, Maureen Shea, Nicole Piotrowski",Vinod.Tekkale@sutherlandglobal.com,Vinod Tekkale <Vinod.Tekkale@sutherlandglobal.com>; Hari Krishna Naraharasetty <HariKrishna.N2@sutherlandglobal.com>; Venkatesh Sharma Akkipedi <VenkateshSharma.Akkipedi@sutherlandglobal.com>,,,,
+REHN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,64.238.180.202,NORMALIZED_NAME,AETH_B2B|KPMG,"Nicole Brantley - BrantleyN@AETNA.com
+Sophia Berrios  - BerriosS1@aetna.com",BrantleyN@AETNA.com,John Graham johng@rehnonline.com,,,"Nicole Brantley - BrantleyN@AETNA.com (not found)
+Sophia Berrios  - BerriosS1@aetna.com (not found)",BrantleyN@AETNA.com
+NW-OHIO-AAA-DR-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,64.254.143.66,PEER_IP,AETH_B2B|KPMG,"Smith, Jason <jrsmith@aetna.com>",jrsmith@aetna.com,jCrabtree@nemsys.com  bunderwood@nemsyscom,,,"Smith, Jason <jrsmith@aetna.com>",jrsmith@aetna.com
+CSM_IPSEC_ACL_287,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.30.14.130,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Craighead, Ellen M. <Ellen.Craighead@CVSHealth.com>",Ellen.Craighead@CVSHealth.com,,,,,
+CSM_IPSEC_ACL_17,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.60.141.190,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Buckeridge, Kevin <BuckeridgeK@aetna.com>
+Gawlak, Kristin <GawlakKR@cvshealth.com>",,,,,,
+CSM_IPSEC_ACL_61,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,64.60.18.2,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Leroy Pruitt - leroy.pruitt@cvshealth.com - email address no longer valid,,,,,,
+CSM_IPSEC_ACL_61,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.60.18.2,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Leroy Pruitt - leroy.pruitt@cvshealth.com - email address no longer valid,,,,,,
+CSM_IPSEC_ACL_196,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.73.134.126,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Jaeger,mark.lanie@medica.com,Mark Lanie - mark.lanie@medica.com - 952-992-2653/612-385-3759,,,,
+CSM_IPSEC_ACL_307,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,64.79.174.45,PEER_IP,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,Todd Behrens -Todd.behrens@instamed.com - M: (610) 517-2910 - T: (215) 360-0818,,,,
+CSM_IPSEC_ACL_307,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.79.174.45,PEER_IP,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,Todd Behrens -Todd.behrens@instamed.com - M: (610) 517-2910 - T: (215) 360-0818,,,,
+GUARD,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,64.83.230.54,,,,,,,,,
+CSM_IPSEC_ACL_232,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.9.35.3,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_267,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,64.9.35.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+AVENU-UNCLAIM-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,65.112.187.106,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_147,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,65.118.247.6,PEER_IP,AZ_B2B|KPMG|PSS_B2B,John Simon - john.simon@caremark.com - 480-314-8640,john.simon@caremark.com,"Jim Nofsinger - JNofsinger@covermymeds.com
+Chip Burke - cburke@covermymeds.com - 614 360 1725",,,,
+CSM_IPSEC_ACL_47,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,65.197.234.151,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Adarsh Nagar - adarsh.nagar@cvshealth.com - 224-360-3010,adarsh.nagar@cvshealth.com,"Jim Calano - calanoj@aetna.com - 602-567-2983
+Kangsong (Charlie) Han - hank@payflex.com",,,,
+CSM_IPSEC_ACL_242,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,65.201.154.182,PEER_IP,AZ_B2B|KPMG|PSS_B2B,John Piattoni - John.Piattoni@CVSHealth.com - 480-259-9831,John.Piattoni@CVSHealth.com,"Sung Paek - spaek@umwafunds.org , 202-521-2269",,,,
+CSM_IPSEC_ACL_257,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,65.213.152.2,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeremy Morse; Tory Bell,MARC.ASHTON@CONNEXTIONS.COM,MARC.ASHTON@CONNEXTIONS.COM,,,,
+CSM_IPSEC_ACL_44,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,65.216.170.130,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_27,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,65.242.32.178,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Kelly Straub,-jmblanch@pebtf.org,John-Marc Blanch Emai ID:-jmblanch@pebtf.org,,,,
+CHS-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,65.51.115.25,PEER_IP,AETH_B2B|KPMG,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com,"rich.chsrotek@chsli.org, CHS.ServiceDesk@chsli.org",,,,
+CVS_BIOREFERENCE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,65.51.209.69,,,,,,,,,
+CSM_IPSEC_ACL_66,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,65.64.216.251,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Andrew J Hanser; Kicmal, Kevin T <Kevin.Kicmal@CVSHealth.com>; Taylor, David <David.Taylor4@CVSHealth.com>",Kevin.Kicmal@CVSHealth.com,wbreyfogle@scandata.com,,,,
+MERWIN_HARMONY_RIVER,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,66.103.167.30,,,,,,,,,
+ASSURECARE-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,66.11.3.37,PEER_IP,AETH_B2B|KPMG,Isabel Vilar,rwahnbaeck@assurecare.com,rwahnbaeck@assurecare.com,,,Isabel Vilar,rwahnbaeck@assurecare.com
+COUNCILOFAGING-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,66.117.203.220,,,,,,,,,
+EDIFECS_DATAMART_IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,66.118.13.132,PEER_IP,AETH_B2B|KPMG,"Linnig, Terry E (linnigt@aetna.com)",,,,,"Linnig, Terry E (linnigt@aetna.com)",linnigt@aetna.com
+VERSCEND-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,66.133.113.149,PEER_IP,AETH_B2B|KPMG,Garmell Hudson hudsong@aetna.com 407-984-3168,hudsong@aetna.com,Ryan Hadley 919-313-1661 919-434-4144 ryan.hadley@verscend.com,,,Garmell Hudson hudsong@aetna.com 407-984-3168,hudsong@aetna.com
+OHIO-DAS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,66.144.254.108,PEER_IP,AETH_B2B|KPMG,"Tanzillo, Hollie",ken.carvel@das.ohio.gov,ken.carvel@das.ohio.gov/csc@ohio.gov,,,"DualsInfoMgmt@aetna.com
+OHRISEITOPS@aetna.com",DualsInfoMgmt@aetna.com
+BEECHGLEN-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,66.161.223.142,PEER_IP,AETH_B2B|KPMG,"Brown, Lisa <BrownL10@aetna.com>",BrownL10@aetna.com,"Drew Conroy
+513-922-0509
+drewc@beechglen.com",,,"Brown, Lisa <BrownL10@aetna.com>",BrownL10@aetna.com
+INSPRO-IPSEC2,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,66.179.231.84,,,,,,,,,
+INSPRO-IPSEC2,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,66.179.231.84,,,,,,,,,
+CSM_IPSEC_ACL_34,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,66.187.212.16,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Juan Roman Vickman,,,,,,
+CSM_IPSEC_ACL_12,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,66.192.173.201,PEER_IP,AZ_B2B|KPMG|PSS_B2B,CiorciariEC@aetna.com,,,,,,
+CDS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,66.212.140.202,PEER_IP,AETH_B2B|KPMG,"Arbuthnot, Mark <ArbuthnotM@cvshealth.com> (Incorrect POC)",,,,,"Arbuthnot, Mark <ArbuthnotM@cvshealth.com> (Incorrect POC)",ArbuthnotM@cvshealth.com
+CSM_IPSEC_ACL_177,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,66.246.173.34,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Knueven - michael.knueven@cvshealth.com,,Mike Welliver - 719-423-4423,,,,
+CSM_IPSEC_ACL_226,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,66.248.253.193,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Smith, Jeffrey <Jeffrey.Smith3@CVSHealth.com>",Jeffrey.Smith3@CVSHealth.com,"Michael.skinner@bcbsla.com
+Ricky Gomez - Ricky.Gomez@bcbsla.com
+Corey Mead - Corey.Mead@bcbsla.com",,,,
+CSM_IPSEC_ACL_153,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,66.54.164.61,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Prashant K Kaushik,szagorsk@opentext.com,Sandra Zagorski <szagorsk@opentext.com>; Sariah Kruger <skruger@opentext.com>,,,,
+CSM_IPSEC_ACL_153,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,66.54.164.61,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Prashant K Kaushik,szagorsk@opentext.com,Sandra Zagorski <szagorsk@opentext.com>; Sariah Kruger <skruger@opentext.com>,,,,
+CSM_IPSEC_ACL_163,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.102.49.196,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Alexandra Wilson,GM@EUROSORT.COM,GM@EUROSORT.COM,,,,
+CSM_IPSEC_ACL_202,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.111.67.3,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+IOWA-BENEFIT-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,67.130.9.50,,,,,,,,Deborah Martorelli - MartorelliD@aetna.com,MartorelliD@aetna.com
+GREENDOT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,67.131.213.7,,,,,,,,,
+CSM_IPSEC_ACL_298,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.204.113.188,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Hrdlicka - Jeff.Hrdlicka@CVSCaremark.com - 440-542-4123,Jeff.Hrdlicka@CVSCaremark.com,Prasad Jadhav - prasad.c.jadhav@capgemini.com - (91 - 9004283158),,,,
+CSM_IPSEC_ACL_179,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.204.113.203,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Jeff Hrdlicka - Jeff.Hrdlicka@CVSCaremark.com - 440-542-4123,Jeff.Hrdlicka@CVSCaremark.com,Prasad Jadhav - prasad.c.jadhav@capgemini.com - 9004283158,,,,
+DOVETREE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,67.207.215.131,,,,,,,,,
+RICOH-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,67.214.138.43,PEER_IP,AETH_B2B|KPMG,"Thomas, Michael D <MichaelThomas@cvshealth.com>
+Tompkins, Stephen T <tompkinss2@aetna.com>",,"Blankenship, Ryan (HPS MS Managed Service Delivery) michael.rya.blankenship@hp.com
+Betty, Odell odell.betty@hp.com",,,,
+CSM_IPSEC_ACL_71,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.217.115.178,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Craighead, Ellen M. <Ellen.Craighead@CVSHealth.com>",Ellen.Craighead@CVSHealth.com,,,,,
+CSM_IPSEC_ACL_6,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.227.237.21,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+NURSECOMM,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,67.23.53.226,,,,,,,,,
+MERWIN_WALKER_METHODIST_2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,67.40.161.145,,,,,,,,,
+MATTHEWS_TUNNEL,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,67.52.214.2,,,,,,,,,
+HAWAIILABS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,67.53.46.83,,,,,,,,,
+CSM_IPSEC_ACL_268,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.79.204.211,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Meghan Hinds, Lidia Thomas",DDREGGORS@CARENETHEALTHCARE.COM,"DDREGGORS@CARENETHEALTHCARE.COM; Hanson, Katie N <knhanson@carenethealth.com>",,,,
+CVS_THOMPKINS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,67.9.96.2,,,,,,,,,
+CSM_IPSEC_ACL_241,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.91.179.229,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_137,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.91.179.230,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_23,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.98.187.203,,,,,,,,,
+CSM_IPSEC_ACL_333,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,67.98.187.60,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Steven Sterling - steven.sterling@cvshealth.com - 469-422-8094
+Conway Norwood II - conway.norwoodll@cvshealth.com - 480-236-8207",steven.sterling@cvshealth.com,"Bill Brooks – William_brooks@bcbst.com
+David Fraker – David_fraker@bcbst.com
+Nadeem Khan – Nadeem_khan@bcbst.com
+Bobbie Clack – bobbie_clack@bcbst.com",,,,
+DCX-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,68.109.249.164,PEER_IP,AETH_B2B|KPMG,"Moorthy, Krishna <MoorthyK@AETNA.com>",MoorthyK@AETNA.com,David Brown/david.brown9@dxc.com  (785-580-5104)/866 818 2106 Opt 6 - corenoc@dxc.com,,,"Moorthy, Krishna <MoorthyK@AETNA.com>",MoorthyK@AETNA.com
+CSM_IPSEC_ACL_87,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,68.162.110.5,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Lynrick Pleasant,,Cesar Aviles - T. 610-288-2908 - F. 610-898-4832,,,,
+SYNCHRONOS_ENCRYPT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,68.170.26.9,,,,,,,,,
+CULTURAL-INSURANCE-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,68.171.136.132,PEER_IP,AETH_B2B|KPMG,"Palkanikos, Michelle L PalacioML@aetna.com",PalacioML@aetna.com,Julio Moyano <jmoyano@aifs.com>,,,"Palkanikos, Michelle L PalacioML@aetna.com
+Jaylynn Keener",PalacioML@aetna.com
+PACIFICUNDERWRITERS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,68.178.123.146,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_116,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,69.146.16.131,PEER_IP,AZ_B2B|KPMG|PSS_B2B,jeffrey.smith3@cvshealth.com,jeffrey.smith3@cvshealth.com,Networking_IT_DL@askallegiance.com,,,,
+ALASKA-ELECTRICAL-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,69.161.29.162,PEER_IP,AETH_B2B|KPMG,Melissa Hostrawser / Danielle Aaron,Ben_N@aetf.com,tomwalker@international-data-net/Ben_N@aetf.com,,,Melissa Hostrawser / Danielle Aaron,Ben_N@aetf.com
+AXA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,69.164.123.146,PEER_IP,AETH_B2B|KPMG,"McCormick, Patrick J /Keener, Jaylynn M",Carlos.Bulleri@axa-assistance.us,Carlos.Bulleri@axa-assistance.us,,,"McCormick, Patrick J /Keener, Jaylynn M <keenerj@aetna.com>",keenerj@aetna.com
+INSPRO2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,69.164.124.76,PEER_IP,AETH_B2B|KPMG,"LucianoM@aetna.com/Nelsen, Keith",LucianoM@aetna.com,ksherman@inspro.com/rzabaga@inspro.com,,,"Gordon, Clayton H <Clayton.Gordon@cvshealth.com>
+Dreelin, Alexander M <Alexander.Dreelin@cvshealth.com>
+Khan, Zaheer <Zaheer.Khan@aetna.com>",Clayton.Gordon@cvshealth.com
+INSPRO2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,69.164.124.76,PEER_IP,AETH_B2B|KPMG,"LucianoM@aetna.com/Nelsen, Keith",LucianoM@aetna.com,ksherman@inspro.com/rzabaga@inspro.com,,,"Gordon, Clayton H <Clayton.Gordon@cvshealth.com>
+Dreelin, Alexander M <Alexander.Dreelin@cvshealth.com>
+Khan, Zaheer <Zaheer.Khan@aetna.com>",Clayton.Gordon@cvshealth.com
+CSM_IPSEC_ACL_48,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,69.164.127.45,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309
+Heather Garren - Heather.Garren@omnicare.com - 4017706309",JoAnn.Ercoli@CVSHealth.com,Todd Behrens -Todd.behrens@instamed.com - M: (610) 517-2910 - T: (215) 360-0818,,,,
+CSM_IPSEC_ACL_48,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,69.164.127.45,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309
+Heather Garren - Heather.Garren@omnicare.com - 4017706309",JoAnn.Ercoli@CVSHealth.com,Todd Behrens -Todd.behrens@instamed.com - M: (610) 517-2910 - T: (215) 360-0818,,,,
+CSM_IPSEC_ACL_189,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,69.193.68.218,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Sadruddin Shama,KSmith@apothecarybydesign.com,Kyle Smith - KSmith@apothecarybydesign.com - 207- 899 - 0663 x3577,,,,
+CSM_IPSEC_ACL_288,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,69.2.203.116,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Justin Moniz - justin.moniz@cvshealth.com - 401-318-0723,justin.moniz@cvshealth.com,godwin.pena@getixhealth.com - Office: 800.968.6866 x 203,,,,
+CSM_IPSEC_ACL_288,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,69.2.203.116,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Justin Moniz - justin.moniz@cvshealth.com - 401-318-0723,justin.moniz@cvshealth.com,godwin.pena@getixhealth.com - Office: 800.968.6866 x 203,,,,
+GNOHIE-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,69.2.51.12,PEER_IP,AETH_B2B|KPMG,,,,,,,
+COUNCILOFAGING2-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,69.61.225.34,PEER_IP,AETH_B2B|KPMG,Hollie Tanzillo/Daniel Stegman/Bobby Jennings,rivey@help4seniors.org,"Rick Ivey 513-345-3333 rivey@help4seniors.org 
+ Ken Bailey kbailey@help4seniors.org",,,,
+CSM_IPSEC_ACL_122,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,69.71.58.140,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 4807076608
+Kadavil Rajan - Kadavil.Rajan@CVSHealth.com - 8476919162",Ankit.Shah3@CVSHealth.com,"David Simko - 813-304-2800
+Jeffrey Alway - jeffrey.alway@mhk.com - Simko, David - dsimko@mhk.com",,,,
+CSM_IPSEC_ACL_284,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,69.74.34.116,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Anna Sliz,cspazianto@med-metrix.com,Chris Spazianto - cspazianto@med-metrix.com - 201-580-4250,,,,
+CVS_GHH,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,69.8.118.78,,,,,,,,,
+CSM_IPSEC_ACL_37,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,69.80.69.222,,,,,,,,,
+TAYLOR-COMMUNICATIONS-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,69.84.141.4,PEER_IP,AETH_B2B|KPMG,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com,"brett.peabody@taylortech.io, Andrew.Blosser@taylortech.io, Jeff Bourgery <jbourgery@colospace.com>, Falsone, Chris (TTS) <Chris.Falsone@TaylorTech.io>",,,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com
+CORVEL-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,70.103.104.22,PEER_IP,AETH_B2B|KPMG,"Ratliff-Hobrock, Amy J <ratliffaj@cvshealth.com>
+Christopher Sikorski - SikorskiC@aetna.com",,"Muth, Lisa A <MuthL@meritain.com>
+Cadman, William K <bill.cadman@meritain.com>",,,"Ratliff-Hobrock, Amy J <ratliffaj@cvshealth.com>
+Christopher Sikorski - SikorskiC@aetna.com",ratliffaj@cvshealth.com
+CVS_CARENET,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,70.118.0.130,,,,,,,,"Meghan Hinds <meghan.hinds@cvshealth.com> - no longer correct
+Lidia Thomas <lidia.thomas@cvshealth.com>
+Carrie-Ann Tierney <carrie-ann.tierney@cvshealth.com>
+Abbey Cupp <abbey.cupp@cvshealth.com>",meghan.hinds@cvshealth.com
+70_33_147_106,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,70.33.147.106,,,,,,,,,
+END-GAME-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,70.88.47.61,PEER_IP,AETH_B2B|KPMG,,,,,,,
+DXCCOM-SEC-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,70.96.86.162,PEER_IP,AETH_B2B|KPMG,Thomas Rabbe - RabbeTR@aetna.com,RabbeTR@aetna.com,,,,Thomas Rabbe - RabbeTR@aetna.com,RabbeTR@aetna.com
+MERWIN_MASONIC_HOME_2,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,71.24.200.25,,,,,,,,,
+MERWIN_WALKER_METHODIST_3,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,71.24.226.225,,,,,,,,,
+MERWIN_MASONIC_HOME_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,71.24.229.17,,,,,,,,,
+SELMAN2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,71.66.212.99,PEER_IP,AETH_B2B|KPMG,"Saraceno, Joanna /Harpster, Susan K",cahmad@selmanco.com,cahmad@selmanco.com,,,Ken Butler Sr. Engineer Phone- 860-273-6529,cahmad@selmanco.com
+ING-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,72.0.27.1,PEER_IP,AETH_B2B|KPMG,"Young, Tina/Niemczyk, Heidi A",Marco.Hinds@us.ing.com,Marco.Hinds@us.ing.com,,,"Young, Tina/Niemczyk, Heidi A",Marco.Hinds@us.ing.com
+HEALTH-PLAN-ONE-ORLANDO-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,72.17.37.11,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_255,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,72.44.199.102,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Webb - michael.webb@cvshealth.com - 401-770-4963,michael.webb@cvshealth.com,Tony Russell - tony.russell@preferredhomecare.com - 480-882-0386,,,,
+BOON-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,72.48.144.97,PEER_IP,AETH_B2B|KPMG,"Gorski, Deborah A",jasong@boonchapman.com,Jason Gomes - jasong@boonchapman.com,,,"Gorski, Deborah A",jasong@boonchapman.com
+ASSOCIATED-ADMIN-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,72.9.220.172,,,,,,,,,
+CSM_IPSEC_ACL_77,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,74.120.145.150,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Martins_Point_Shared@CVSHealth.com (Potential contact),,,,,,
+HEALTH_VPN,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,74.201.162.11,,,,,,,,,
+MILLIMAN_MILWAUKEE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,74.203.202.3,,,,,,,,,
+CSM_IPSEC_ACL_133,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,74.203.202.40,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Anna Sliz,marc.frydrychowicz@milliman.com,Marc Frydrychowicz - marc.frydrychowicz@milliman.com - 1 815 675 2929,,,,
+SUNGARD,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,74.205.242.52,NORMALIZED_NAME,AETH_B2B|KPMG,Eva Long - LongEJ@aetna.com,LongEJ@aetna.com,"No contact provided, work through Aetna business owner.",,,Eva Long - LongEJ@aetna.com,LongEJ@aetna.com
+TECHKING,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,74.219.246.106,,,,,,,,,
+CSM_IPSEC_ACL_15,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,74.249.176.145,,,,,,,,,
+DELL-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,74.51.221.132,PEER_IP,AETH_B2B|KPMG,Abraham Lobo LoboA@AETNA.com,LoboA@AETNA.com,James Pearl  - James.pearl@nttdata.com,,,Abraham Lobo LoboA@AETNA.com,LoboA@AETNA.com
+HEALTHCATALYST_IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,74.63.171.228,PEER_IP,AETH_B2B|KPMG,,,,,,,
+CSM_IPSEC_ACL_129,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,75.116.126.15,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Chiran Balasubramanian- Chiranjeev.Balasubramaanian@CVSHealth.com-4017704668
+Kousik Mishra - kmishra2@cvshealth.com - 7702167",Chiranjeev.Balasubramaanian@CVSHealth.com,"ronald elliott - ronald.elliott@verizonwireless.com -
+deborah donahue - deborah.donahue@verizon.com - (856) 912- 0423 - (856)231-2814",,,,
+CSM_IPSEC_ACL_129,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,75.116.126.15,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Chiran Balasubramanian- Chiranjeev.Balasubramaanian@CVSHealth.com-4017704668
+Kousik Mishra - kmishra2@cvshealth.com - 7702167",Chiranjeev.Balasubramaanian@CVSHealth.com,"ronald elliott - ronald.elliott@verizonwireless.com -
+deborah donahue - deborah.donahue@verizon.com - (856) 912- 0423 - (856)231-2814",,,,
+CSM_IPSEC_ACL_97,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,75.78.160.141,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+CSM_IPSEC_ACL_318,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,75.78.99.237,PEER_IP,AZ_B2B|KPMG|PSS_B2B,,,,,,,
+76_76_55_45,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,76.76.55.45,,,,,,,,,
+CSM_IPSEC_ACL_69,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,8.21.212.4,PEER_IP,AZ_B2B|KPMG|PSS_B2B,"Breitzka, Michelle R <Michelle.Breitzka@CVSHealth.com>
+Bromley, Stephen J. <Stephen.Bromley@CVSHealth.com>
+Monn, Veronica <Veronica.Monn@CVSHealth.com>",,,,,,
+CSM_IPSEC_ACL_203,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,8.36.138.249,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Victor Ruberto,Richard_Tonole@tufts-health.com,"Rick Tonole: VPN connections Richard_Tonole@tufts-health.com
+David Antonellis - david.antonelllis@tufts-health.com - 617-972-6838/617-799-9407",,,,
+TTEC-DENVER-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,8.8.243.10,PEER_IP,AETH_B2B|KPMG,JUDITH.LEVIN@AETNA.COM,JUDITH.LEVIN@AETNA.COM,zzzISEngineering@teletech.com,,,JUDITH.LEVIN@AETNA.COM,JUDITH.LEVIN@AETNA.COM
+CSM_IPSEC_ACL_29,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,SHEA,FALSE,89.207.120.89,PEER_IP,AZ_B2B|KPMG|PSS_B2B,Michael Knueven,James.Kelly@CVSHealth.com,"Jim Kelly - James.Kelly@CVSHealth.com
+KNAPP AG Guenter-Knapp-Str. 5–7 8075 Hart bei Graz, Austria Phone: +43 5 04952 5066 Mobile: +43 676 8979 5066 Fax: +43 5 0495299 5066 hannes.woelfler@knapp.com",,,,
+CVS_KEYENG_SEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,96.39.14.110,,,,,,,,,
+DHS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,96.71.248.65,PEER_IP,AETH_B2B|KPMG,dhs_support@cvshealth.com,,,,,dhs_support@cvshealth.com,dhs_support@cvshealth.com
+WCEARHART-IPSEC,VPN (IPsec S2S),win-fw-vpn2,WDC,FALSE,96.76.125.29,PEER_IP,AETH_B2B|KPMG,Gabriella Johnson JohnsonGM@aetna.com,JohnsonGM@aetna.com,Jeffrey Jones jjones@centerlogic.com,,,,
+MERWIN_PARK_RIVER,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,96.82.204.81,,,,,,,,,
+MERWIN_WALKER_METHODIST_1,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,WOONSOCKET,FALSE,96.82.204.89,,,,,,,,,
+CTLABORERS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,MDC,FALSE,96.92.145.165,PEER_IP,AETH_B2B|KPMG,Kimberly O'Key okeyk@aetna.com 860-273-5260,okeyk@aetna.com,Peter Aldrich 203-774-0294 support@cagedata.com,,,"DePolo, Jacqueline Y (depoloj@cvshealth.com) - incorrect POC
+Chris Marotta",depoloj@cvshealth.com
+VOICE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,WDC,FALSE,96.93.32.226,PEER_IP,AETH_B2B|KPMG,"Tim Boettlin - boettlint@aetna.com
+Christal Zagar - zagar@aetna.com",boettlint@aetna.com,Michael Schabert mschabert@glci.net,,,"Boettlin, Timothy M <BoettlinT@aetna.com>  
+Zagar, Christal A <ZagarC@aetna.com>",BoettlinT@aetna.com
+BENEFIT-COMMS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,MDC,FALSE,98.21.177.34,PEER_IP,AETH_B2B|KPMG,MooreM3@aetna.com,MooreM3@aetna.com,dtroglen@benefitcommunications.com/dtroglen@benefitcommunications.com,,,MooreM3@aetna.com,MooreM3@aetna.com
+NAB,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,,,,,,,,,
+ahm,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,,,,,,,,,
+bswift,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,,,,,,,,,
+hdms,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Herman Nord - HNord@cvshealth.com - 401-770-1713,HNord@cvshealth.com,Lakshmi Indlamuri - lindlamuri@hdms.com - O: 312-881-1817 | C: 312-835-0747,,,Herman Nord - HNord@cvshealth.com - 401-770-1713 (Email no longer valid),HNord@cvshealth.com
+meritain,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,,,,,,,,,
+payflex,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Adarsh Nagar - adarsh.nagar@cvshealth.com - 224-360-3010,adarsh.nagar@cvshealth.com,"Jim Calano - calanoj@aetna.com - 602-567-2983
+Kangsong (Charlie) Han - hank@payflex.com",,,Adarsh Nagar - adarsh.nagar@cvshealth.com - 224-360-3010,adarsh.nagar@cvshealth.com
+pdchs,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,,,,,,,,,
+pdchs_ss,MPLS Private Line,pdc-fw-pdchs,PDC,FALSE,,,,,,,,,,
+ANTHEM,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,KPMG,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",,"White, Steve 
+Moody, Tom 
+Swift, John <john.swift@Ingenio-RX.com>steve.white@anthem.com 
+tom.moody@anthem.com
+
+Dat.Truong@anthem.com",,,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",Farhan.Khan@CVSHealth.com
+CONVEYNATIONS,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,KPMG,,,,,,,
+MEDHOK,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 4807076608
+Kadavil Rajan - Kadavil.Rajan@CVSHealth.com - 8476919162",Ankit.Shah3@CVSHealth.com,"David Simko - 813-304-2800
+Jeffrey Alway - jeffrey.alway@mhk.com - Simko, David - dsimko@mhk.com",,,,
+MEDHOKAWS,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,,,,,,,,,
+OMNI-ACCESS-CVS,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,,,,,,,,,
+OUTSIDE_ACCESS_IN,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,,,,,,,,,
+RELAYHEALTH,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,KPMG,"Caswell, Pauline <Pauline.Caswell@CVSHealth.com>
+Smith, Ewelina <Ewelina.Smith@CVSHealth.com> Clifford.Ledoux@CVSHealth.com; Adam.Souza@CVSHealth.com; Christopher.Thompson@CVSHealth.com; att_stratus_edl@CVSHealth.com; Sonum.Chadha2@CVSHealth.com; Bodhisatwa.Mukhopadhyay@CVSHealth.com; Hugo.Teixeira@CVSHealth.com; John.Simon@CVSHealth.com; Benjamin.Selagea@CVSHealth.com;",,"Updated contacts: 
+Becca Yound - Payerswitchacctops@McKesson.com;
+- 2025-05-28  - Relay Health's Randy Stevens manages all connections between Relay Health and their customers. CVS Health is a customer of Relay Health. Caremark is likely also a customer of Relay Health.
+2024-11-07 - 
+- a) Relay Health NOC Manager: Bill Oliver, bill.oliver@mckesson.com
+- b) Relay Health Sr. Network Engineer/Sr. Telecommunications Specialist: Paul Schoen, (404) 728-2625, paul.schoen@relayhealth.com
+
+ 
+
+2024-02-21 -  CVS Health person that owns the business relationship with Relay Health: David Ramos (401) 770-7571, david.ramos@cvshealth.com
+
+ 
+
+2023-12-05
+
+     PRIMARY CONTACTS for Problem Reporting/Support - PLEASE TRY ALL OF THEM!
+
+     Relay Health 24/7 NOC (Network Operations Center)
+
+     1. Phone: (404) 728-2570 AND e-mail: network.ops@mckesson.com (Recommend to use phone and e-mail)
+
+     2. Cory Peterson (Cover My Meds/McKesson) Phone: (844) 621-3956
+
+     3. Relay Health Business Manager/Relationship Manager: Jamaal Beckwith: e-mail: Jamaal.Beckwith@McKesson.com
+
+
+Payerswitchacctops@McKesson.com - main email (Becca Young on the other side as POC)
+Lisa.Durden@relayhealth.com - Main RelayHealth POC
+Bill Oliver, Bill.Oliver@relayhealth.com
+Korey Peterson, Korey.Peterson@RelayHealth.com",,,"Caswell, Pauline <Pauline.Caswell@CVSHealth.com>
+Smith, Ewelina <Ewelina.Smith@CVSHealth.com> Clifford.Ledoux@CVSHealth.com; Adam.Souza@CVSHealth.com; Christopher.Thompson@CVSHealth.com; att_stratus_edl@CVSHealth.com; Sonum.Chadha2@CVSHealth.com; Bodhisatwa.Mukhopadhyay@CVSHealth.com; Hugo.Teixeira@",Pauline.Caswell@CVSHealth.com
+TCS,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com,VIKAS PHOGAT <vikas.phogat@tcs.com> - 9971793557 - +91 124 6214732,,,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com
+conduent,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,"Levin, Judith A <Judith.Levin@cvshealth.com>",Judith.Levin@cvshealth.com,Greg Schwarz ; (609) 775-5829 gregory.schwarz@conduent.com,,,"Graham, Heather L. <Heather.Graham@CVSHealth.com>; (contact)
+
+Levin, Judith A <Judith.Levin@cvshealth.com>",Heather.Graham@CVSHealth.com
+heartland,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,KPMG,Marc Salinasmarc.salinas@cvshealth.com,,,,,Marc Salinasmarc.salinas@cvshealth.com,Salinasmarc.salinas@cvshealth.com
+omnicare,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Todd Reimann,,"Dan.Nashland@omnicare.com
+Matt.Kuehl@omnicare.com",,,Todd Reimann,Dan.Nashland@omnicare.com
+vantiv,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,SHEA,FALSE,,NORMALIZED_NAME,KPMG,"Srinivasan, Kannan <kxsrinivasan@cvshealth.com>
+Peloquin, Henry J <Henry.Peloquin@CVSHealth.com>
+Kline, Terry L <Terry.Kline@CVSHealth.com>",,,,,"Srinivasan, Kannan <kxsrinivasan@cvshealth.com>
+Peloquin, Henry J <Henry.Peloquin@CVSHealth.com>
+Kline, Terry L <Terry.Kline@CVSHealth.com>",kxsrinivasan@cvshealth.com
+MEDHOK,MPLS Private Line,RRICMCP-SEC-MPLEAST-01,WOONSOCKET,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 4807076608
+Kadavil Rajan - Kadavil.Rajan@CVSHealth.com - 8476919162",Ankit.Shah3@CVSHealth.com,"David Simko - 813-304-2800
+Jeffrey Alway - jeffrey.alway@mhk.com - Simko, David - dsimko@mhk.com",,,,
+OMNI-ACCESS-CVS,MPLS Private Line,RRICMCP-SEC-MPLEAST-01,WOONSOCKET,FALSE,,,,,,,,,,
+anthem,MPLS Private Line,RRICMCP-SEC-MPLEAST-01,WOONSOCKET,FALSE,,NORMALIZED_NAME,KPMG,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",,"White, Steve 
+Moody, Tom 
+Swift, John <john.swift@Ingenio-RX.com>steve.white@anthem.com 
+tom.moody@anthem.com
+
+Dat.Truong@anthem.com",,,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",Farhan.Khan@CVSHealth.com
+omnicare,MPLS Private Line,RRICMCP-SEC-MPLEAST-01,WOONSOCKET,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Todd Reimann,,"Dan.Nashland@omnicare.com
+Matt.Kuehl@omnicare.com",,,Todd Reimann,Dan.Nashland@omnicare.com
+opera,MPLS Private Line,RRICMCP-SEC-MPLEAST-01,WOONSOCKET,FALSE,,NORMALIZED_NAME,KPMG,Anna Slizanna.przeczek@cvshealth.com,,,,,Anna Slizanna.przeczek@cvshealth.com,Slizanna.przeczek@cvshealth.com
+SURESCRIPT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Surescript|RRICMCP-SEC-MPLSEAST-02-Surescript,,FALSE,,,,,,,,,,
+B2B_VPN,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-VPN-01|PAZSHDC-SEC-EXT-VPN-02,,FALSE,,,,,,,,,,
+BEECH_ISLAND_DIST,MPLS Private Line (FTD),NAA-SEC-M1A-WMS-01|NAA-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+CONROE_DIST,MPLS Private Line (FTD),CNR-SEC-M1A-WMS-01|CNR-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+ANTHEM,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",,"White, Steve 
+Moody, Tom 
+Swift, John <john.swift@Ingenio-RX.com>steve.white@anthem.com 
+tom.moody@anthem.com
+
+Dat.Truong@anthem.com",,,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",Farhan.Khan@CVSHealth.com
+CONCENTRIX,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentrix.com>
+sumit.bhakri1@concentrix.com; 
+mariacitadel.santos@concentrix.com
+layla.breedy@concentrix.com; 
+nolly.tuazon@concentrix.com; 
+victoria.aldovino@concentrix.com; 
+Leilani Evangelista <leilani.evangelista@concentrix.com>;
+josh.dykstra@concentrix.com 
+Jan Daniel Lingad <jan.lingad@concentrix.com>;  
+Louise Keevy <louise.keevy@concentrix.com>;
+hermie.roque@concentrix.com; 
+Michael J Harrell <michael.harrell@concentrix.com> 
+Capozzo, Daniel <CapozzoD@cvshealth.com>; 
+Napolin, Steven <Steven.Napolin@CVSHealth.com>; 
+Westgaard, Erik C <WestgaardE@cvshealth.com>; 
+Fioravanti, Craig J <FioravantiC@cvshealth.com>; 
+Aaron Kite <aaron.kite@concentrix.com>4403347515",,"Main POC: Ray Hamilton<ray.hamilton@
+concentrix
+.com>, Mitchael Harrell <michael.harrell@concentrix.com>
+
+Secondary POC: Tim Bont <timothy.bont@concentrix.com>
+
+Other POC: Jason Spring <jason.spring@concentrix.com>​, rebecca.dejoie@concentrix.com, mark.lindon@concentrix.com
+
+Shantanu Bera - m 303-882-7480 / 203-349-0360 shantanu.bera@cognizant.com
+Ray.hamilton@concentrix.com",,,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentri",Kathleen.Brett2@CVSHealth.com
+CONDUENT,MPLS Private Line (FTD),RRICMCP-SEC-MPLEAST-01-conduent|RRICMCP-SEC-MPLEAST-01-conduent-fo,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,"Levin, Judith A <Judith.Levin@cvshealth.com>",Judith.Levin@cvshealth.com,Greg Schwarz ; (609) 775-5829 gregory.schwarz@conduent.com,,,"Graham, Heather L. <Heather.Graham@CVSHealth.com>; (contact)
+
+Levin, Judith A <Judith.Levin@cvshealth.com>",Heather.Graham@CVSHealth.com
+FISERV,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",,"deborah donahue - deborah.donahue@verizon.com - (856) 912- 0423 - (856)231-2814, ALSO Try Kathryn",,,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",Smerztimothy.smerz@cvshealth.com
+TCS,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com,VIKAS PHOGAT <vikas.phogat@tcs.com> - 9971793557 - +91 124 6214732,,,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com
+EAST_MPLS_WELLPARTNER,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+FTD,MPLS Private Line (FTD),,,FALSE,,,,,,,,,,
+FTD,MPLS Private Line (FTD),,,FALSE,,,,,,,,,,
+FTD,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+FREDERICKSBURG_DIST,MPLS Private Line (FTD),FRG-SEC-M1A-WMS-01|FRG-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+GLASGOW_DIST,MPLS Private Line (FTD),GLO-SEC-M1A-WMS-01|GLO-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+INDIANAPOLIS_DIST_CTR,MPLS Private Line (FTD),INI-SEC-M1A-WMS-01|INI-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+KAPOLEI_DIST,MPLS Private Line (FTD),KPL-SEC-M1A-WMS-01|KPL-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+LOUDON_DIST,MPLS Private Line (FTD),LDN-SEC-M1A-WMS-01|LDN-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+LUMBERTON_DIST_CTR,MPLS Private Line (FTD),LUM-SEC-M1A-WMS-01|LUM-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+ALORICA,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Alorica|RRICMCP-SEC-MPLSEAST-02-Alorica,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,Brian Doue,servicedesk@alorica.com,"Alorica Help Desk 888-632-2678 servicedesk@alorica.com
+Mike Cherry 402-951-8900 michael.cherry@alorica.com",,,Brian Doue,servicedesk@alorica.com
+COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Aimee Edwards,shantanu.bera@cognizant.com,Shantanu Bera - m 303-882-7480 / 203-349-0360: shantanu.bera@cognizant.com,,,"Yamee, Mohan Reddy (Cognizant) <MohanReddy.Yamee@cognizant.com>
+Vark, Charles <Charlie.Vark@CVSHealth.com>
+Kharadi, Raag (Contractor) <Raag.Kharadi@CVSHealth.com>
+Valakonda, Arun K (Contractor) <Arun.Valakonda@CVSHealth.com>
+KoilJebarajRajasingh, DanielRajImmanuel <Danielrajimmanuel.KoilJebarajRajas",MohanReddy.Yamee@cognizant.com
+EVERISE_ACP,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Everise|RRICMCP-SEC-MPLSEAST-02-Everise,,FALSE,,,,,,,,,Christopher Bolton - christopher.bolton@cvshealth.com,christopher.bolton@cvshealth.com
+GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,,FALSE,,NORMALIZED_NAME,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com>",Phani.Bhushan@CVSHealth.com,"Mr. Jayaramraj 
++91-9052722323; jayaramraj.v@genpact.com",,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+MEDHOK,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-MedHok|RRICMCP-SEC-MPLSEAST-02-MedHok,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 4807076608
+Kadavil Rajan - Kadavil.Rajan@CVSHealth.com - 8476919162",Ankit.Shah3@CVSHealth.com,"David Simko - 813-304-2800
+Jeffrey Alway - jeffrey.alway@mhk.com - Simko, David - dsimko@mhk.com",,,,
+OAK_STREET_HEALTH,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,,,,,,,
+SURESCRIPT,MPLS Private Line (FTD),,,FALSE,,,,,,,,,,
+TELEPERFORMANCE,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Teleperformance|RRICMCP-SEC-MPLSEAST-02-Teleperformance,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,"Dhiren Bohra - Dhiren.Bohra@teleperformancedibs.com - +91 98 2041-0370
+Lawrence Reinholt - jay.reinholt@teleperformance.com - (480) 492-7149
+Jay Reinholt - jay.reinholt@teleperformance.com - +1 757 389 2313",,,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com
+ALORICA,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Alorica|PAZSHDC-SEC-EXT-MPLSWEST-02-Alorica,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,Brian Doue,servicedesk@alorica.com,"Alorica Help Desk 888-632-2678 servicedesk@alorica.com
+Mike Cherry 402-951-8900 michael.cherry@alorica.com",,,Brian Doue,servicedesk@alorica.com
+ANTHEM,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Anthem|PAZSHDC-SEC-EXT-MPLSWEST-02-Anthem,,FALSE,,NORMALIZED_NAME,KPMG,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",,"White, Steve 
+Moody, Tom 
+Swift, John <john.swift@Ingenio-RX.com>steve.white@anthem.com 
+tom.moody@anthem.com
+
+Dat.Truong@anthem.com",,,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",Farhan.Khan@CVSHealth.com
+CAPGEMINI,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Capgemini|PAZSHDC-SEC-EXT-MPLSWEST-02-Capgemini,,FALSE,,NORMALIZED_NAME,KPMG,"Durai Samy, Gowri Shankar <DuraiSamyG1@cvshealth.com>
+Ashley Smith, ashley.smith10@cvshealth.com
+OTIA DevOps <OTIADevOps@CVSHealth.com>
+Tan, Anil <Anil.Tan2@CVSHealth.com>
+Padri, Ramesh <ramesh.padri@capgemini.com>  
+Aymar, Christopher <caymar@cvshealth.com>",,"Gheek, Nikhil <nikhil.gheek@capgemini.com>
+Trehan, Achal <achal.trehan@capgemini.com>
+Angamuthu, Saravanan <saravanan.angamuthu@capgemini.com>
+Kumar, Oruganti V S P <oruganti-v-s-p.kumar@capgemini.com>
+Troy McCleery | Senior Manager Application Develop
+Enterprise Automation
+PSS IT Finance Solutions & Innovation
+385-900-4871 Office
+So we no longer need this MPLS connection.Ray Hamilton - Vendor",,,"Durai Samy, Gowri Shankar <DuraiSamyG1@cvshealth.com>
+Ashley Smith, ashley.smith10@cvshealth.com
+OTIA DevOps <OTIADevOps@CVSHealth.com>
+Tan, Anil <Anil.Tan2@CVSHealth.com>
+Padri, Ramesh <ramesh.padri@capgemini.com>  
+Aymar, Christopher <caymar@cvshealth.com>",DuraiSamyG1@cvshealth.com
+COGNIZANT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Cognizant|PAZSHDC-SEC-EXT-MPLSWEST-02-Cognizant,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Aimee Edwards,shantanu.bera@cognizant.com,Shantanu Bera - m 303-882-7480 / 203-349-0360: shantanu.bera@cognizant.com,,,"Yamee, Mohan Reddy (Cognizant) <MohanReddy.Yamee@cognizant.com>
+Vark, Charles <Charlie.Vark@CVSHealth.com>
+Kharadi, Raag (Contractor) <Raag.Kharadi@CVSHealth.com>
+Valakonda, Arun K (Contractor) <Arun.Valakonda@CVSHealth.com>
+KoilJebarajRajasingh, DanielRajImmanuel <Danielrajimmanuel.KoilJebarajRajas",MohanReddy.Yamee@cognizant.com
+CONCENTRIX,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Concentrix|PAZSHDC-SEC-EXT-MPLSWEST-02-Concentrix,,FALSE,,NORMALIZED_NAME,KPMG,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentrix.com>
+sumit.bhakri1@concentrix.com; 
+mariacitadel.santos@concentrix.com
+layla.breedy@concentrix.com; 
+nolly.tuazon@concentrix.com; 
+victoria.aldovino@concentrix.com; 
+Leilani Evangelista <leilani.evangelista@concentrix.com>;
+josh.dykstra@concentrix.com 
+Jan Daniel Lingad <jan.lingad@concentrix.com>;  
+Louise Keevy <louise.keevy@concentrix.com>;
+hermie.roque@concentrix.com; 
+Michael J Harrell <michael.harrell@concentrix.com> 
+Capozzo, Daniel <CapozzoD@cvshealth.com>; 
+Napolin, Steven <Steven.Napolin@CVSHealth.com>; 
+Westgaard, Erik C <WestgaardE@cvshealth.com>; 
+Fioravanti, Craig J <FioravantiC@cvshealth.com>; 
+Aaron Kite <aaron.kite@concentrix.com>4403347515",,"Main POC: Ray Hamilton<ray.hamilton@
+concentrix
+.com>, Mitchael Harrell <michael.harrell@concentrix.com>
+
+Secondary POC: Tim Bont <timothy.bont@concentrix.com>
+
+Other POC: Jason Spring <jason.spring@concentrix.com>​, rebecca.dejoie@concentrix.com, mark.lindon@concentrix.com
+
+Shantanu Bera - m 303-882-7480 / 203-349-0360 shantanu.bera@cognizant.com
+Ray.hamilton@concentrix.com",,,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentri",Kathleen.Brett2@CVSHealth.com
+CONDUENT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Conduent|PAZSHDC-SEC-EXT-MPLSWEST-02-Conduent|PAZSHDC-SEC-EXT-NET4WIR-01-conduent|PAZSHDC-SEC-EXT-NET4WIR-01-conduent-FO,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,"Levin, Judith A <Judith.Levin@cvshealth.com>",Judith.Levin@cvshealth.com,Greg Schwarz ; (609) 775-5829 gregory.schwarz@conduent.com,,,"Graham, Heather L. <Heather.Graham@CVSHealth.com>; (contact)
+
+Levin, Judith A <Judith.Levin@cvshealth.com>",Heather.Graham@CVSHealth.com
+EVERISE_ACP,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Everise|PAZSHDC-SEC-EXT-MPLSWEST-02-Everise,,FALSE,,,,,,,,,Christopher Bolton - christopher.bolton@cvshealth.com,christopher.bolton@cvshealth.com
+FISERV,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Fiserv|PAZSHDC-SEC-EXT-MPLSWEST-02-Fiserv,,FALSE,,NORMALIZED_NAME,KPMG,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",,"deborah donahue - deborah.donahue@verizon.com - (856) 912- 0423 - (856)231-2814, ALSO Try Kathryn",,,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",Smerztimothy.smerz@cvshealth.com
+JOINTVENTURE_REDOAK,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Jointventure-Redoak|PAZSHDC-SEC-EXT-MPLSWEST-02-Jointventure-Redoak|PAZSHDC-SEC-EXXT-MPLSWEST-02-Jointventure-Redoak,,FALSE,,NORMALIZED_NAME,KPMG,"Joint Venture(Red Oak) - Justin Madeiro  Justin.madeiro@redoaksourcing.com Direct 508.216.1053 | Mobile 508.570.1381; 
+Sipi Krishna &lt;sipi.krishna@centricconsulting.com&gt;; 
+Chrissie Landrigan &lt;christine.landrigan@redoaksourcing.com&gt;; 
+Justin Brockway &lt;justin.brockway@redoaksourcing.com&gt;; 
+Guy Joachim &lt;guy.joachim@redoaksourcing.com&gt;; 
+EDI Infrastructure (PBM) &lt;EDIInfrastructure@CVSHealth.com&gt;",,,,,"Joint Venture(Red Oak) - Justin Madeiro  Justin.madeiro@redoaksourcing.com Direct 508.216.1053 | Mobile 508.570.1381; 
+Sipi Krishna &lt;sipi.krishna@centricconsulting.com&gt;; 
+Chrissie Landrigan &lt;christine.landrigan@redoaksourcing.com&gt;; 
+Justin Brockway &lt;justin.brockway@redoaksourcing.com&",Justin.madeiro@redoaksourcing.com
+MEDHOK,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-MedHok|PAZSHDC-SEC-EXT-MPLSWEST-02-MedHok,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 4807076608
+Kadavil Rajan - Kadavil.Rajan@CVSHealth.com - 8476919162",Ankit.Shah3@CVSHealth.com,"David Simko - 813-304-2800
+Jeffrey Alway - jeffrey.alway@mhk.com - Simko, David - dsimko@mhk.com",,,,
+OAK_STREET_HEALTH,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,,,,,,,
+RELAYHEALTH,MPLS Private Line (FTD),,,FALSE,,NORMALIZED_NAME,KPMG,"Caswell, Pauline <Pauline.Caswell@CVSHealth.com>
+Smith, Ewelina <Ewelina.Smith@CVSHealth.com> Clifford.Ledoux@CVSHealth.com; Adam.Souza@CVSHealth.com; Christopher.Thompson@CVSHealth.com; att_stratus_edl@CVSHealth.com; Sonum.Chadha2@CVSHealth.com; Bodhisatwa.Mukhopadhyay@CVSHealth.com; Hugo.Teixeira@CVSHealth.com; John.Simon@CVSHealth.com; Benjamin.Selagea@CVSHealth.com;",,"Updated contacts: 
+Becca Yound - Payerswitchacctops@McKesson.com;
+- 2025-05-28  - Relay Health's Randy Stevens manages all connections between Relay Health and their customers. CVS Health is a customer of Relay Health. Caremark is likely also a customer of Relay Health.
+2024-11-07 - 
+- a) Relay Health NOC Manager: Bill Oliver, bill.oliver@mckesson.com
+- b) Relay Health Sr. Network Engineer/Sr. Telecommunications Specialist: Paul Schoen, (404) 728-2625, paul.schoen@relayhealth.com
+
+ 
+
+2024-02-21 -  CVS Health person that owns the business relationship with Relay Health: David Ramos (401) 770-7571, david.ramos@cvshealth.com
+
+ 
+
+2023-12-05
+
+     PRIMARY CONTACTS for Problem Reporting/Support - PLEASE TRY ALL OF THEM!
+
+     Relay Health 24/7 NOC (Network Operations Center)
+
+     1. Phone: (404) 728-2570 AND e-mail: network.ops@mckesson.com (Recommend to use phone and e-mail)
+
+     2. Cory Peterson (Cover My Meds/McKesson) Phone: (844) 621-3956
+
+     3. Relay Health Business Manager/Relationship Manager: Jamaal Beckwith: e-mail: Jamaal.Beckwith@McKesson.com
+
+
+Payerswitchacctops@McKesson.com - main email (Becca Young on the other side as POC)
+Lisa.Durden@relayhealth.com - Main RelayHealth POC
+Bill Oliver, Bill.Oliver@relayhealth.com
+Korey Peterson, Korey.Peterson@RelayHealth.com",,,"Caswell, Pauline <Pauline.Caswell@CVSHealth.com>
+Smith, Ewelina <Ewelina.Smith@CVSHealth.com> Clifford.Ledoux@CVSHealth.com; Adam.Souza@CVSHealth.com; Christopher.Thompson@CVSHealth.com; att_stratus_edl@CVSHealth.com; Sonum.Chadha2@CVSHealth.com; Bodhisatwa.Mukhopadhyay@CVSHealth.com; Hugo.Teixeira@",Pauline.Caswell@CVSHealth.com
+TCS,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-TCS|PAZSHDC-SEC-EXT-MPLSWEST-02-TCS,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com,VIKAS PHOGAT <vikas.phogat@tcs.com> - 9971793557 - +91 124 6214732,,,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com
+TCS_NOIDA_HA,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-TCS-Noida|PAZSHDC-SEC-EXT-MPLSWEST-02-TCS_Noida,,FALSE,,,,,,,,,Joni Manohar - jmanohar@cvshealth.com - 401-770-5436,jmanohar@cvshealth.com
+TELEPERFORMANCE,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Teleperformance|PAZSHDC-SEC-EXT-MPLSWEST-02-Teleperformance,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,"Dhiren Bohra - Dhiren.Bohra@teleperformancedibs.com - +91 98 2041-0370
+Lawrence Reinholt - jay.reinholt@teleperformance.com - (480) 492-7149
+Jay Reinholt - jay.reinholt@teleperformance.com - +1 757 389 2313",,,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com
+WELLPOINT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Wellpoint|PAZSHDC-SEC-EXT-MPLSWEST-02-Wellpoint,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Robert Kunkel - robert.kunkel@cvshealth.com
+Rob Hadaway - rob.hadaway@cvshealth.com
+Ram Iyer - ram.iyer@cvshealth.com",,"Mitchell, Latasha",,,"Robert Kunkel - robert.kunkel@cvshealth.com
+Rob Hadaway - rob.hadaway@cvshealth.com
+Ram Iyer - ram.iyer@cvshealth.com",robert.kunkel@cvshealth.com
+WORLDPAY,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-WorldPay|PAZSHDC-SEC-EXT-MPLSWEST-02-WorldPay,,FALSE,,,,,,,,,,
+GENPACT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Genpact|PAZSHDC-SEC-EXT-MPLSWEST-02-Genpact,,FALSE,,NORMALIZED_NAME,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com>",Phani.Bhushan@CVSHealth.com,"Mr. Jayaramraj 
++91-9052722323; jayaramraj.v@genpact.com",,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+NOVI_DIST,MPLS Private Line (FTD),NOV-SEC-M1A-WMS-01|NOV-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+ORLANDO_DIST,MPLS Private Line (FTD),ORA-SEC-M1A-WMS-01|ORA-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+PBM_DR,MPLS Private Line (FTD),RRICMDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+PATTERSON_DIST,MPLS Private Line (FTD),PAT-SEC-M1A-WMS-01|PAT-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+TEMP,MPLS Private Line (FTD),,,FALSE,,,,,,,,,,
+SIP_A_AZ,MPLS Private Line (FTD),PAZSHDC-SEC-EXTSIPA-01|PAZSHDC-SEC-EXTSIPA-02,,FALSE,,,,,,,,,,
+SIP_A_RI,MPLS Private Line (FTD),RRICMDC-SEC-EXTSIPA-01|RRICMDC-SEC-EXTSIPA-02,,FALSE,,,,,,,,,,
+SOMERSET_DIST,MPLS Private Line (FTD),SMR-SEC-M1A-WMS-01-A|SMR-SEC-M1A-WMS-01-S,,FALSE,,,,,,,,,,
+STORESDWAN,MPLS Private Line (FTD),RRICMDC-SEC-EXT-StoreSDWAN-01|RRICMDC-SEC-EXT-StoreSDWAN-02,,FALSE,,,,,,,,,,
+TEMP,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+TOLLESON_DIST,MPLS Private Line (FTD),TON-SEC-M1A-WMS-01|TON-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+IPS_ONLY__LAS_VEGAS_VOYAGER,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+IPS_ONLY__NEXUS_SECURE_PCI,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+ENNIS_DIST_CTR,MPLS Private Line (FTD),ENN-SEC-M1A-WMS-01|ENN-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+KANSASCITY_DIS_CTR,MPLS Private Line (FTD),KNN-SEC-M1A-WMS-01|KNN-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+NORTH_SMITHFIELD_DIS_CTR,MPLS Private Line (FTD),NSF-SEC-M1A-WMS-01|NSF-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+Z_INACTIVE_LEGACY_PCI_PBM,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+CONCENTRIX,MPLS Private Line (FTD),RRICMDC-SEC-INT-PRD-MGT,,FALSE,,NORMALIZED_NAME,KPMG,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentrix.com>
+sumit.bhakri1@concentrix.com; 
+mariacitadel.santos@concentrix.com
+layla.breedy@concentrix.com; 
+nolly.tuazon@concentrix.com; 
+victoria.aldovino@concentrix.com; 
+Leilani Evangelista <leilani.evangelista@concentrix.com>;
+josh.dykstra@concentrix.com 
+Jan Daniel Lingad <jan.lingad@concentrix.com>;  
+Louise Keevy <louise.keevy@concentrix.com>;
+hermie.roque@concentrix.com; 
+Michael J Harrell <michael.harrell@concentrix.com> 
+Capozzo, Daniel <CapozzoD@cvshealth.com>; 
+Napolin, Steven <Steven.Napolin@CVSHealth.com>; 
+Westgaard, Erik C <WestgaardE@cvshealth.com>; 
+Fioravanti, Craig J <FioravantiC@cvshealth.com>; 
+Aaron Kite <aaron.kite@concentrix.com>4403347515",,"Main POC: Ray Hamilton<ray.hamilton@
+concentrix
+.com>, Mitchael Harrell <michael.harrell@concentrix.com>
+
+Secondary POC: Tim Bont <timothy.bont@concentrix.com>
+
+Other POC: Jason Spring <jason.spring@concentrix.com>​, rebecca.dejoie@concentrix.com, mark.lindon@concentrix.com
+
+Shantanu Bera - m 303-882-7480 / 203-349-0360 shantanu.bera@cognizant.com
+Ray.hamilton@concentrix.com",,,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentri",Kathleen.Brett2@CVSHealth.com
+FREDERICKSBURG_DIST,MPLS Private Line (FTD),FRG-SEC-M1A-WMS-01|FRG-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+INDIANAPOLIS_DIST_CTR,MPLS Private Line (FTD),INI-SEC-M1A-WMS-01|INI-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+KAPOLEI_DIST,MPLS Private Line (FTD),KPL-SEC-M1A-WMS-01|KPL-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+LUMBERTON_DIST_CTR,MPLS Private Line (FTD),LUM-SEC-M1A-WMS-01|LUM-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+ALORICA,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Alorica|RRICMCP-SEC-MPLSEAST-02-Alorica,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,Brian Doue,servicedesk@alorica.com,"Alorica Help Desk 888-632-2678 servicedesk@alorica.com
+Mike Cherry 402-951-8900 michael.cherry@alorica.com",,,Brian Doue,servicedesk@alorica.com
+COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Aimee Edwards,shantanu.bera@cognizant.com,Shantanu Bera - m 303-882-7480 / 203-349-0360: shantanu.bera@cognizant.com,,,"Yamee, Mohan Reddy (Cognizant) <MohanReddy.Yamee@cognizant.com>
+Vark, Charles <Charlie.Vark@CVSHealth.com>
+Kharadi, Raag (Contractor) <Raag.Kharadi@CVSHealth.com>
+Valakonda, Arun K (Contractor) <Arun.Valakonda@CVSHealth.com>
+KoilJebarajRajasingh, DanielRajImmanuel <Danielrajimmanuel.KoilJebarajRajas",MohanReddy.Yamee@cognizant.com
+OAK_STREET_HEALTH,MPLS Private Line (FTD),RRICMDC-SEC-INT-PRD-MGT,,FALSE,,NORMALIZED_NAME,KPMG,,,,,,,
+NOVI_DIST,MPLS Private Line (FTD),NOV-SEC-M1A-WMS-01|NOV-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+ORLANDO_DIST,MPLS Private Line (FTD),ORA-SEC-M1A-WMS-01|ORA-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+PATTERSON_DIST,MPLS Private Line (FTD),PAT-SEC-M1A-WMS-01|PAT-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+TEMP,MPLS Private Line (FTD),RRICMDC-SEC-INT-PRD-MGT,,FALSE,,,,,,,,,,
+KANSASCITY_DIS_CTR,MPLS Private Line (FTD),KNN-SEC-M1A-WMS-01|KNN-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+TEMP,MPLS Private Line (FTD),VOB-SEC-M1A-WMS-01|VOB-SEC-M1A-WMS-02,,FALSE,,,,,,,,,,
+DC_LAB,MPLS Private Line (FTD),CBL-SEC-DCLab-01,,FALSE,,,,,,,,,,
+EXT_DCOM,MPLS Private Line (FTD),RRICMDCSECFMCNONPROD-01,,FALSE,,,,,,,,,,
+INT_DCOM,MPLS Private Line (FTD),RRICMDCSECFMCNONPROD-01,,FALSE,,,,,,,,,,
+INT_DCOM,MPLS Private Line (FTD),RRICMDCSECFMCNONPROD-01,,FALSE,,,,,,,,,,
+RRIWSCP_SEC_UMSNP_PT,MPLS Private Line (FTD),RRIWSCP-SEC-UMSNP-RetailPT-01|RRIWSCP-SEC-UMSNP-RetailPT-02,,FALSE,,,,,,,,,,
+RETAIL_RXC_PT2,MPLS Private Line (FTD),RRICMDC-SEC-INTRXC-01|RRICMDC-SEC-INTRXC-02,,FALSE,,,,,,,,,,
+COGITO,MPLS Private Line (FTD),Ashburn-Cogito-Primary|Ashburn-Cogito-Secondary|Dallas-Cogito-Primary|Dallas-Cogito-Secondary,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,Estella Bustos <BustosE@aetna.com>,BustosE@aetna.com,hemam@cogitocorp.com,,,"Denson, Carl J <DensonC@cvshealth.com>
+Karpf, Jeffrey S <KarpfJS@cvshealth.com>",DensonC@cvshealth.com
+CONVAI_GOOGLEAI,MPLS Private Line (FTD),Ashburn-GoogleAI-Primary|Ashburn-GoogleAI-Secondary|Dallas-GoogleAI-Primary|Dallas-GoogleAI-Secondary,,FALSE,,,,,,,,,,
+MEDHOK,MPLS Private Line (FTD),Ashburn-Medhok-Primary|Ashburn-Medhok-Secondary,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 4807076608
+Kadavil Rajan - Kadavil.Rajan@CVSHealth.com - 8476919162",Ankit.Shah3@CVSHealth.com,"David Simko - 813-304-2800
+Jeffrey Alway - jeffrey.alway@mhk.com - Simko, David - dsimko@mhk.com",,,,
+SAP,MPLS Private Line (FTD),RRIWSDCSECCLDFMC-02,,FALSE,,,,,,,,,,
+SAP,MPLS Private Line (FTD),RVAASCP-SEC-SAP-02,,FALSE,,,,,,,,,,
+TWILIO,MPLS Private Line (FTD),Ashburn-Twilio-Primary|Ashburn-Twilio-Secondary,,FALSE,,,,,,,,,,
+YAVA_INTELEPEER,MPLS Private Line (FTD),Ashburn-Yava-Intelepeer-Primary|Ashburn-Yava-Intelepeer-Secondary|Dallas-YAVA-Intelepeer-Secondary,,FALSE,,,,,,,,,,
+B2B_VPN,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-VPN-01|PAZSHDC-SEC-EXT-VPN-02,,FALSE,,,,,,,,,,
+ALORICA,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Alorica|PAZSHDC-SEC-EXT-MPLSWEST-02-Alorica,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,Brian Doue,servicedesk@alorica.com,"Alorica Help Desk 888-632-2678 servicedesk@alorica.com
+Mike Cherry 402-951-8900 michael.cherry@alorica.com",,,Brian Doue,servicedesk@alorica.com
+ANTHEM,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Anthem|PAZSHDC-SEC-EXT-MPLSWEST-02-Anthem,,FALSE,,NORMALIZED_NAME,KPMG,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",,"White, Steve 
+Moody, Tom 
+Swift, John <john.swift@Ingenio-RX.com>steve.white@anthem.com 
+tom.moody@anthem.com
+
+Dat.Truong@anthem.com",,,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",Farhan.Khan@CVSHealth.com
+CAPGEMINI,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Capgemini|PAZSHDC-SEC-EXT-MPLSWEST-02-Capgemini,,FALSE,,NORMALIZED_NAME,KPMG,"Durai Samy, Gowri Shankar <DuraiSamyG1@cvshealth.com>
+Ashley Smith, ashley.smith10@cvshealth.com
+OTIA DevOps <OTIADevOps@CVSHealth.com>
+Tan, Anil <Anil.Tan2@CVSHealth.com>
+Padri, Ramesh <ramesh.padri@capgemini.com>  
+Aymar, Christopher <caymar@cvshealth.com>",,"Gheek, Nikhil <nikhil.gheek@capgemini.com>
+Trehan, Achal <achal.trehan@capgemini.com>
+Angamuthu, Saravanan <saravanan.angamuthu@capgemini.com>
+Kumar, Oruganti V S P <oruganti-v-s-p.kumar@capgemini.com>
+Troy McCleery | Senior Manager Application Develop
+Enterprise Automation
+PSS IT Finance Solutions & Innovation
+385-900-4871 Office
+So we no longer need this MPLS connection.Ray Hamilton - Vendor",,,"Durai Samy, Gowri Shankar <DuraiSamyG1@cvshealth.com>
+Ashley Smith, ashley.smith10@cvshealth.com
+OTIA DevOps <OTIADevOps@CVSHealth.com>
+Tan, Anil <Anil.Tan2@CVSHealth.com>
+Padri, Ramesh <ramesh.padri@capgemini.com>  
+Aymar, Christopher <caymar@cvshealth.com>",DuraiSamyG1@cvshealth.com
+COGNIZANT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Cognizant|PAZSHDC-SEC-EXT-MPLSWEST-02-Cognizant,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Aimee Edwards,shantanu.bera@cognizant.com,Shantanu Bera - m 303-882-7480 / 203-349-0360: shantanu.bera@cognizant.com,,,"Yamee, Mohan Reddy (Cognizant) <MohanReddy.Yamee@cognizant.com>
+Vark, Charles <Charlie.Vark@CVSHealth.com>
+Kharadi, Raag (Contractor) <Raag.Kharadi@CVSHealth.com>
+Valakonda, Arun K (Contractor) <Arun.Valakonda@CVSHealth.com>
+KoilJebarajRajasingh, DanielRajImmanuel <Danielrajimmanuel.KoilJebarajRajas",MohanReddy.Yamee@cognizant.com
+CONCENTRIX,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Concentrix|PAZSHDC-SEC-EXT-MPLSWEST-02-Concentrix,,FALSE,,NORMALIZED_NAME,KPMG,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentrix.com>
+sumit.bhakri1@concentrix.com; 
+mariacitadel.santos@concentrix.com
+layla.breedy@concentrix.com; 
+nolly.tuazon@concentrix.com; 
+victoria.aldovino@concentrix.com; 
+Leilani Evangelista <leilani.evangelista@concentrix.com>;
+josh.dykstra@concentrix.com 
+Jan Daniel Lingad <jan.lingad@concentrix.com>;  
+Louise Keevy <louise.keevy@concentrix.com>;
+hermie.roque@concentrix.com; 
+Michael J Harrell <michael.harrell@concentrix.com> 
+Capozzo, Daniel <CapozzoD@cvshealth.com>; 
+Napolin, Steven <Steven.Napolin@CVSHealth.com>; 
+Westgaard, Erik C <WestgaardE@cvshealth.com>; 
+Fioravanti, Craig J <FioravantiC@cvshealth.com>; 
+Aaron Kite <aaron.kite@concentrix.com>4403347515",,"Main POC: Ray Hamilton<ray.hamilton@
+concentrix
+.com>, Mitchael Harrell <michael.harrell@concentrix.com>
+
+Secondary POC: Tim Bont <timothy.bont@concentrix.com>
+
+Other POC: Jason Spring <jason.spring@concentrix.com>​, rebecca.dejoie@concentrix.com, mark.lindon@concentrix.com
+
+Shantanu Bera - m 303-882-7480 / 203-349-0360 shantanu.bera@cognizant.com
+Ray.hamilton@concentrix.com",,,"Sarah Smith480-620-0462
+Brett, Kathleen E <Kathleen.Brett2@CVSHealth.com>
+Walsh, Kelly M <KellyMWalsh@CVSHealth.com>
+Puckett, Catrina A <Catrina.Puckett@CVSHealth.com>
+Hilton, Brian R <Brian.Hilton@CVSHealth.com>
+Golub, Ilya <Ilya.Golub2@CVSHealth.com> 
+Royo, Candy - Concentrix <Candy.royo@concentri",Kathleen.Brett2@CVSHealth.com
+CONDUENT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Conduent|PAZSHDC-SEC-EXT-MPLSWEST-02-Conduent|PAZSHDC-SEC-EXT-NET4WIR-01-conduent|PAZSHDC-SEC-EXT-NET4WIR-01-conduent-FO,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,"Levin, Judith A <Judith.Levin@cvshealth.com>",Judith.Levin@cvshealth.com,Greg Schwarz ; (609) 775-5829 gregory.schwarz@conduent.com,,,"Graham, Heather L. <Heather.Graham@CVSHealth.com>; (contact)
+
+Levin, Judith A <Judith.Levin@cvshealth.com>",Heather.Graham@CVSHealth.com
+FISERV,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Fiserv|PAZSHDC-SEC-EXT-MPLSWEST-02-Fiserv,,FALSE,,NORMALIZED_NAME,KPMG,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",,"deborah donahue - deborah.donahue@verizon.com - (856) 912- 0423 - (856)231-2814, ALSO Try Kathryn",,,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",Smerztimothy.smerz@cvshealth.com
+JOINTVENTURE_REDOAK,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Jointventure-Redoak|PAZSHDC-SEC-EXT-MPLSWEST-02-Jointventure-Redoak|PAZSHDC-SEC-EXXT-MPLSWEST-02-Jointventure-Redoak,,FALSE,,NORMALIZED_NAME,KPMG,"Joint Venture(Red Oak) - Justin Madeiro  Justin.madeiro@redoaksourcing.com Direct 508.216.1053 | Mobile 508.570.1381; 
+Sipi Krishna &lt;sipi.krishna@centricconsulting.com&gt;; 
+Chrissie Landrigan &lt;christine.landrigan@redoaksourcing.com&gt;; 
+Justin Brockway &lt;justin.brockway@redoaksourcing.com&gt;; 
+Guy Joachim &lt;guy.joachim@redoaksourcing.com&gt;; 
+EDI Infrastructure (PBM) &lt;EDIInfrastructure@CVSHealth.com&gt;",,,,,"Joint Venture(Red Oak) - Justin Madeiro  Justin.madeiro@redoaksourcing.com Direct 508.216.1053 | Mobile 508.570.1381; 
+Sipi Krishna &lt;sipi.krishna@centricconsulting.com&gt;; 
+Chrissie Landrigan &lt;christine.landrigan@redoaksourcing.com&gt;; 
+Justin Brockway &lt;justin.brockway@redoaksourcing.com&",Justin.madeiro@redoaksourcing.com
+OAK_STREET_HEALTH,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,,,,,,,
+TCS,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-TCS|PAZSHDC-SEC-EXT-MPLSWEST-02-TCS,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com,VIKAS PHOGAT <vikas.phogat@tcs.com> - 9971793557 - +91 124 6214732,,,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com
+TELEPERFORMANCE,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Teleperformance|PAZSHDC-SEC-EXT-MPLSWEST-02-Teleperformance,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,"Dhiren Bohra - Dhiren.Bohra@teleperformancedibs.com - +91 98 2041-0370
+Lawrence Reinholt - jay.reinholt@teleperformance.com - (480) 492-7149
+Jay Reinholt - jay.reinholt@teleperformance.com - +1 757 389 2313",,,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com
+WELLPOINT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Wellpoint|PAZSHDC-SEC-EXT-MPLSWEST-02-Wellpoint,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Robert Kunkel - robert.kunkel@cvshealth.com
+Rob Hadaway - rob.hadaway@cvshealth.com
+Ram Iyer - ram.iyer@cvshealth.com",,"Mitchell, Latasha",,,"Robert Kunkel - robert.kunkel@cvshealth.com
+Rob Hadaway - rob.hadaway@cvshealth.com
+Ram Iyer - ram.iyer@cvshealth.com",robert.kunkel@cvshealth.com
+WORLDPAY,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-WorldPay|PAZSHDC-SEC-EXT-MPLSWEST-02-WorldPay,,FALSE,,,,,,,,,,
+GENPACT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Genpact|PAZSHDC-SEC-EXT-MPLSWEST-02-Genpact,,FALSE,,NORMALIZED_NAME,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com>",Phani.Bhushan@CVSHealth.com,"Mr. Jayaramraj 
++91-9052722323; jayaramraj.v@genpact.com",,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+FTD,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+FTD,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+EVERISE_ACP,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Everise|PAZSHDC-SEC-EXT-MPLSWEST-02-Everise,,FALSE,,,,,,,,,Christopher Bolton - christopher.bolton@cvshealth.com,christopher.bolton@cvshealth.com
+MEDHOK,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-MedHok|PAZSHDC-SEC-EXT-MPLSWEST-02-MedHok,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,"Ankit D Shah - Ankit.Shah3@CVSHealth.com - 4807076608
+Kadavil Rajan - Kadavil.Rajan@CVSHealth.com - 8476919162",Ankit.Shah3@CVSHealth.com,"David Simko - 813-304-2800
+Jeffrey Alway - jeffrey.alway@mhk.com - Simko, David - dsimko@mhk.com",,,,
+SIP_A_AZ,MPLS Private Line (FTD),PAZSHDC-SEC-EXTSIPA-01|PAZSHDC-SEC-EXTSIPA-02,,FALSE,,,,,,,,,,
+SIP_A_RI,MPLS Private Line (FTD),RRICMDC-SEC-EXTSIPA-01|RRICMDC-SEC-EXTSIPA-02,,FALSE,,,,,,,,,,
+TEMP,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+IPS_ONLY__LAS_VEGAS_VOYAGER,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+IPS_ONLY__NEXUS_SECURE_PCI,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+Z_INACTIVE_LEGACY_PCI_PBM,MPLS Private Line (FTD),PAZSHDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+PBM_DR,MPLS Private Line (FTD),RRICMDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+EXT_DCOM,MPLS Private Line (FTD),RRICMDC-SEC-MGT-PRD-PCI-01,,FALSE,,,,,,,,,,
+INT_DCOM,MPLS Private Line (FTD),RRIWSCP-SEC-INTDCOM-01|RRIWSCP-SEC-INTDCOM-02,,FALSE,,,,,,,,,,
+PR_CAROLINA_SEMAFONE,MPLS Private Line (FTD),CRA-SEC-M1A-SEMA-02|PPRCASP-SEC-MDF-SEMA-01-A,,FALSE,,,,,,,,,Brian Craft - Brian.Craft@cvshealth.com - 972.523.7166,Brian.Craft@cvshealth.com
+RETAIL_INTPCI,MPLS Private Line (FTD),RRICMDC-SEC-INT-PCI-01|RRICMDC-SEC-INT-PCI-02,,FALSE,,,,,,,,,,
+RETAIL_ATG_EXT,MPLS Private Line (FTD),RRICMDC-SEC-MGT-PRD-PCI-01,,FALSE,,,,,,,,,,
+RETAIL_ATG_INT,MPLS Private Line (FTD),RRICMCP-SEC-INTATG-01,,FALSE,,,,,,,,,,
+STRATUS_ACCESS,MPLS Private Line (FTD),RRICMDC-SEC-MGT-PRD-PCI-01,,FALSE,,,,,,,,,,
+SURESCRIPT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Surescript|RRICMCP-SEC-MPLSEAST-02-Surescript,,FALSE,,,,,,,,,,
+ANTHEM,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",,"White, Steve 
+Moody, Tom 
+Swift, John <john.swift@Ingenio-RX.com>steve.white@anthem.com 
+tom.moody@anthem.com
+
+Dat.Truong@anthem.com",,,"Farhan Khan, Farhan.Khan@CVSHealth.com - correct POC
+
+Ashley Smith, ashley.smith10@cvshealth.com - not the correct POC
+HPSMChgAssist (PBM) HPSMChgAssist@cvscaremark.com
+Herring, Rhonda <Rhonda.Herring@CVSHealth.com>, 
+Basalat, Mohammed <Mohammed.Basalat@CVSHealth.com>",Farhan.Khan@CVSHealth.com
+CONDUENT,MPLS Private Line (FTD),RRICMCP-SEC-MPLEAST-01-conduent|RRICMCP-SEC-MPLEAST-01-conduent-fo,,FALSE,,NORMALIZED_NAME,AETH_B2B|KPMG,"Levin, Judith A <Judith.Levin@cvshealth.com>",Judith.Levin@cvshealth.com,Greg Schwarz ; (609) 775-5829 gregory.schwarz@conduent.com,,,"Graham, Heather L. <Heather.Graham@CVSHealth.com>; (contact)
+
+Levin, Judith A <Judith.Levin@cvshealth.com>",Heather.Graham@CVSHealth.com
+FISERV,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,KPMG,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",,"deborah donahue - deborah.donahue@verizon.com - (856) 912- 0423 - (856)231-2814, ALSO Try Kathryn",,,"Timothy Smerztimothy.smerz@cvshealth.com (Fiserv) - PM
+Pelzek, David M. <David.Pelzek@CVSHealth.com> - Verizon account owner",Smerztimothy.smerz@cvshealth.com
+TCS,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com,VIKAS PHOGAT <vikas.phogat@tcs.com> - 9971793557 - +91 124 6214732,,,Betty Dias - Elizabeth.Dias@CVSHealth.com - 401-770-6602,Elizabeth.Dias@CVSHealth.com
+EAST_MPLS_WELLPARTNER,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,,FALSE,,,,,,,,,,
+EVERISE_ACP,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Everise|RRICMCP-SEC-MPLSEAST-02-Everise,,FALSE,,,,,,,,,Christopher Bolton - christopher.bolton@cvshealth.com,christopher.bolton@cvshealth.com
+GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,,FALSE,,NORMALIZED_NAME,AETH_B2B|AZ_B2B|KPMG|PSS_B2B,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com>",Phani.Bhushan@CVSHealth.com,"Mr. Jayaramraj 
++91-9052722323; jayaramraj.v@genpact.com",,,"Bhushan, Phani <Phani.Bhushan@CVSHealth.com> (no longer owns connection)
+ArunKarthick, Kannan <ArunKarthick.Kannan@CVSHealth.com> (new POC)",Phani.Bhushan@CVSHealth.com
+TELEPERFORMANCE,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Teleperformance|RRICMCP-SEC-MPLSEAST-02-Teleperformance,,FALSE,,NORMALIZED_NAME,AZ_B2B|KPMG|PSS_B2B,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com,"Dhiren Bohra - Dhiren.Bohra@teleperformancedibs.com - +91 98 2041-0370
+Lawrence Reinholt - jay.reinholt@teleperformance.com - (480) 492-7149
+Jay Reinholt - jay.reinholt@teleperformance.com - +1 757 389 2313",,,JoAnn Ercoli - JoAnn.Ercoli@CVSHealth.com - 4017706309,JoAnn.Ercoli@CVSHealth.com

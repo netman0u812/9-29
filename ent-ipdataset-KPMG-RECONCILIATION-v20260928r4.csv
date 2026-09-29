@@ -1,0 +1,675 @@
+#VERSION=20260928r4
+#GENERATED_BY=build_kpmg_reconciliation.py v1.2.0
+KPMG_PARTNER_NAME,KPMG_STATUS,KPMG_PHASE,KPMG_DEVICE,KPMG_LOCATION,GAP_CATEGORY,MATCH_TIER,MASTER_PARTNER_NAME,MASTER_CONNECTION_TYPE,MASTER_DEVICE,MASTER_SHUTDOWN,MASTER_ENTITY_CLASSIFICATION
+nyc-hhc(City of NY Health Hospitals Corporation) -,SHUT  04/08/2019 - CHG0117045 CM0017929,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+nyc-hhc-New York City HHC -,SHUT 04/08/2019 - CHG0117045 CM0017929,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+htmt-philippines(HGS),SHUT FM-4972 10/13/2020,Conversation Ongoing,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+CityofNewYork,not active,Conversation Ongoing,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,CITYOFNEWYORK-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Teamsters,SHUT 4/19/2018 CHG0081763,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+Kencare/DCX,SHUT 6/08/2019CHG0117068 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+ABC/ABSG,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ABSG (AmerisourceBergen Specialty Group),Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Accenture - Fusion,not active,Follow Up Sent,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+Bluetic LLC,SHUT FM-7819 5/3/2021,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+inspro-dr,Active as of Jan 2025,Conversation Ongoing,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,INSPRO-DR-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Staywell,SHUT 05/08/19 CM0018341,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+accent,SHUT 11/05/2018 - CHG0104272,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+AFSPA - Foreign Service Benefit Plan,not active,Confirmed Active,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+Alorica,SHUT 4/15/19,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,EXACT,ALORICA,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Alorica|RRICMCP-SEC-MPLSEAST-02-Alorica,FALSE,UNCLASSIFIED
+aon-hewitt,SHUT 2/08/2019CHG01170204 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,AON-HEWITT-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Care Management Network,not active,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+CDR,Active as of Jan 2025,Email Sent,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,NORMALIZED,CDR-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Central Ohio Area Agency on Aging,not active,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+company-voice,SHUT 4/08/2019CHG011704 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,COMPANY-VOICE-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Council-Of-Aging Primary,SHUT 6/08/2019CHG0117069 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+CT Laborers Health Fund,SHUT 9/08/2019CHG0117096 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+Informis -,SHUT 2/08/2019 @- .-CHG01170209 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+Mewbourne Oil Company,not active,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+NorthWest Ohio Area Agency on Aging,"SHUT 1/08/2019  () /
+CHG0117012 CM0017929",Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+orthonet,not active,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,ORTHONET-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Vizag,SHUT 1/08/2019CHG01170125 CM0017929,Email Sent,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+Co-Ordinated Benefit Plans,Active but not working,Confirmed Active,mid-fw-vpn1,MDC,ACTIVE_GAP,,,,,,
+Co-Ordinated Benefit Plans,not active,Confirmed Active,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+AFSPA-Foreign Service Benefit Plan,not active,Confirmed Active,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+Associated Admins,not active,Confirmed Active,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+AXA-2,not active,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,AXA-IPSEC-2,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+HDI,not active,Email Sent,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,HDI-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+WC Earhart,Active as of Jan 2025,Follow Up Sent,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+abf-emdeon,not active,Email Sent,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+"ACI (Administrative Concepts, Inc.)",Active as of Jan  2025,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,ACI-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+alaska-electrical,Active as of Jan  2025,Follow Up Sent,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,ALASKA-ELECTRICAL-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+AXA,not active,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,AXA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+benefit-comms,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,BENEFIT-COMMS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Best Doctors,not active,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,BEST-DOCTORS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Boon,Active as of Jan 13 2025,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,BOON-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+boon3,DR,Follow Up Sent,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,BOON3-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+bucks-school,SHUT CHG0137520 and CM0019568 10/14/2019,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+"Carpenters Health
+ of Western Washington",not active,Follow Up Sent,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+clarkconstruction,not active,Other,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,CLARKCONSTRUCTION-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Company Voice,not active,Blocked,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,COMPANY-VOICE-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Conduent,Active as of Jan  2025,Not Started,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,EXACT,conduent,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+Cotiviti,Active as of Jan 2025,Pre-Migration,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,COTIVITI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+Council of Aging   DR,not active,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+Deloitte,not active,Conversation Ongoing,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,DELOITTE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+Equian,not active,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,EQUIAN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+EXL-chennai,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,EXL-CHENNAI-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+EXL-chennai-secondary,DR,Conversation Ongoing,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,EXL-CHENNAI-SECONDARY-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+exl-inductis2,not active,Conversation Ongoing,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,EXL-INDUCTIS2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+EXL-secondary-chennai,not active,Conversation Ongoing,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,EXL-SECONDARY-CHENNAI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+Firstsource Solutions Ltd,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,ACTIVE_GAP,,,,,,
+Genpact,not active,Conversation Ongoing,win-fw-vpn1,WDC,SHUTDOWN_NOISE,EXACT,GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,FALSE,UNCLASSIFIED
+HealthSmart,SHUT 4/15/19,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+Iowa Fringe Benefit funds,Active as of Jan 2025,Follow Up Sent,win-fw-vpn1,WDC,ACTIVE_GAP,,,,,,
+Local 195 -,SHUT  REMOVED 04/08/2019 - CHG0117045 CM0017929,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,LOCAL-195-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+national-healthcare,not active,Follow Up Sent,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,NATIONAL-HEALTHCARE-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+nw-Ohio-aaa-DR,Active as of Jan 2025,Blocked,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,NW-OHIO-AAA-DR-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+omhci(Olympus Managed Health Care)  -,SHUT 11/05/2018 - CHG0104272,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+Rehn,not active,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,REHN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+selman,SHUT - FM-7819 5/3/2021,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+selman2,Active as of Jan 2025,Pre-Migration,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,SELMAN2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+William C Earhart,SHUT FM-4972 10/13/2020,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+WPAS,Active as of Jan  2025,Follow Up Sent,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,WPAS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+zenith-american,Active as of Jan 2025,Confirmed Active,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,ZENITH-AMERICAN-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Cultural Insurance (CISI),Active as of Jan 2025,Confirmed Active,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,CULTURAL-INSURANCE-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+wtp(World Travel Protection),SHUT - FM-2169 5/11/2020,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+carebridge-mihin/Medagate,Active as of Jan  2025,Conversation Ongoing,mid-fw-vpn2,MDC,ACTIVE_GAP,,,,,,
+Cotiviti,Active as of Jan 13 2025,Pre-Migration,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,COTIVITI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+Claritev,Active as of Jan 2025,Confirmed Active,win-fw-vpn1,WDC,ACTIVE_GAP,,,,,,
+Elixir (envision-edi),Active as of Jan 2025,Confirmed Active,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+esi-primary,SHUT FM-4972 10/13/2020,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+esi-secondary,not active,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,ESI-SECONDARY-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Medimpact,Active as of Jan  2025,Email Sent,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,MEDIMPACT-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+AIM Healthcare,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn1,WDC,ACTIVE_GAP,,,,,,
+Labcorp,Active as of Jan 2025,Confirmed Active,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,LABCORP,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+alorica-west -,SHUT 4/08/2019 -CHG0117045 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+Dell BPO,not active,Blocked,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+Machinify,Active as of Jan 2025,Confirmed Active,mid-fw-vpn1,MDC,ACTIVE_GAP,,,,,,
+TimeTrade,SHUT 5/08/2019CHG0117052 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+magellan,SHUT - FM-2169 5/11/2020,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+acceptto,not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,ACCEPTTO-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+ABTG (AmerisourceBergen Technology Group),Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Everise,Active,Pre-Migration,Cisco 8300s (CVS-WOO-WAN1 & CVS-WOO-WAN2),RI,ACTIVE_GAP,,,,,,
+accenture-dr-manila,down,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+accenture-ntta,backup of CHC,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+accenture,Down,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ACS,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+accenture-sanantonio,down,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Anthem,,Confirmed Active,,Shea,MATCHED_CONSISTENT,EXACT,ANTHEM,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+APAC/Alorica,,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Arrive,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+Arrive,Inactive,Confirmed Active,,Shea,SHUTDOWN_NOISE,,,,,,
+Arrive,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+aetna,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Arrive_Health,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+Arrive-Stagging,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+ATT_Durham,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+ATT_Mesa,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+corvel,not active,Conversation Ongoing,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,CORVEL-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+21vianet-primary,not active,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,21VIANET-PRIMARY-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+APAC/Alorica,,Confirmed Active,,RI,ACTIVE_GAP,,,,,,
+Cogito,Active as of Jan 2025,Pre-Migration,win-fw-vpn2,WDC,MATCHED_CONSISTENT,EXACT,COGITO,MPLS Private Line (FTD),Ashburn-Cogito-Primary|Ashburn-Cogito-Secondary|Dallas-Cogito-Primary|Dallas-Cogito-Secondary,FALSE,UNCLASSIFIED
+HP MPS-IPsec,Active as of Jan 2025,Pre-Migration,mid-fw-vpn1,MDC,ACTIVE_GAP,,,,,,
+Cognizant,,Pre-Migration,,RI,MATCHED_CONSISTENT,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+BCBSA,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+Medco,,Pre-Migration,mid-ds-l3-edmz-1 Gig1/0/9,MDC,ACTIVE_GAP,,,,,,
+Medco,Inactive,Blocked,win-ds-l2-edmz-1 2/0/17,Shea,SHUTDOWN_NOISE,,,,,,
+Medco,Inactive,Pre-Migration,win-ds-l2-edmz-1 2/0/17,WDC,SHUTDOWN_NOISE,,,,,,
+Taylor Communications,not active,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,TAYLOR-COMMUNICATIONS-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+BCBSLA,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+Catholic Health Services (CHS),Active as of Jan 2025,Blocked,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+BCBSMA,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+firstchoicenw(Dynamic Business Solutions),not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,FIRSTCHOICENW-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Cotiviti,Active as of Jan 2025,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,COTIVITI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+logicor,SHUT - FM-2169 5/11/2020,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+inspro2,Active as of Jan  2025,Conversation Ongoing,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,INSPRO2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+UPS,not active,Conversation Ongoing,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,UPS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Duke HR,SHUT 4/19/2018 CHG0081763,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+ExxonMobil,not active,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,EXXONMOBIL-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+ExxonMobil2,not active,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,EXXONMOBIL2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+ExxonMobil2,not active,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,EXXONMOBIL2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+assurecare,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,ASSURECARE-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+change-health-century,SHUT 1/08/2019 .-CHG01170170 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,CHANGE-HEALTH-CENTURY-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+change-health-memphis,SHUT 1/08/2019CHG01170170 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,CHANGE-HEALTH-MEMPHIS-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+Transcentra - Napa,SHUT - FM-2169 5/11/2020,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+Transcentra Charlotte,SHUT 2/08/2019CHG01170216 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+ing,not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,ING-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+perot-stalford  -,SHUT 11/05/2018 - CHG0104272,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+Dental Xchange(dxcom),not active,Blocked,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+Dental Xchange(dxcom),not active,Blocked,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+Sungard,not active,Conversation Ongoing,win-fw-vpn1,WDC,SHUTDOWN_NOISE,EXACT,SUNGARD,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+jive-sharepoint,SHUT 1/17/2018,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+HewittBoA,not active,Blocked,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+IBM / STSM,Active but not working,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+IBM -,SHUT 1/08/2019CHG01170170 CM0017929,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+ACS-Pittsburg-Unclaim,not active,Conversation Ongoing,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,ACS-PITTSBURG-UNCLAIM-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+inspro,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+Sheet Metal Workers -,REMOVED 04/08/2019 - CHG0117045 CM0017929,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+Innovative,not active,Follow Up Sent,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,INNOVATIVE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+Anthem,,Confirmed Active,,RI,MATCHED_CONSISTENT,EXACT,ANTHEM,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+TCS Mexico (Tata Consultancy),,Confirmed Active,Mid-ds-L3-EDMZ-1 1/0/26(router 1) 2/0/26 (router 2),MDC,ACTIVE_GAP,,,,,,
+Elixir (maxor-pdm),Active as of Jan  2025,Confirmed Active,mid-fw-vpn2,MDC,ACTIVE_GAP,,,,,,
+Liaison,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,LIAISON-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+WEX,,Migration Completed,,PDC,ACTIVE_GAP,,,,,,
+EBIX,,Migration Completed,,PDC,ACTIVE_GAP,,,,,,
+bankofamerica,DR,Conversation Ongoing,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,BANKOFAMERICA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+bankofamerica,not active,Conversation Ongoing,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,BANKOFAMERICA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+bankofamerica2,Active as of Jan  2025,Conversation Ongoing,mid-fw-vpn2,MDC,ACTIVE_GAP,,,,,,
+bankofamerica2-va,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,BANKOFAMERICA2-VA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Citibank,Active as of Jan  2025,Conversation Ongoing,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,CITIBANK-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Citibank,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,CITIBANK-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+acs-pittsburgh,not active,Conversation Ongoing,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,ACS-PITTSBURGH-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+aetna-PAT-cmx,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Nice,SHUT - REMOVED 12/25/2020 FM-5955-5959,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+Perfecto,SHUT FM-7819 5/3/2021,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+clear-vision,not active,Blocked,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,CLEAR-VISION-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+aspect,SHUT 4/19/2018 CHG0081763,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+mckesson,SHUT - FM-2169 5/11/2020,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+TCS Philippines (Tata Consultancy),,Confirmed Active,win-ds-l2-edmz-1 1/0/26(router 1) 2/0/26 (router 2),WDC,ACTIVE_GAP,,,,,,
+Ability-AT&T-IVANS-AGNS-EVPN MPLS,,Follow Up Sent,Mid-ds-L3-EDMZ-1 2/0/6,MDC,ACTIVE_GAP,,,,,,
+Alere,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBS-MN,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBSNC,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+bcbsri,Inactive,Confirmed Active,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBST,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+BCBST,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+bcbs-tennessee,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Blue Genes,,Confirmed Active,-,Shea,ACTIVE_GAP,,,,,,
+BSC-CA,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Capgemini,,Confirmed Active,,Shea,MATCHED_CONSISTENT,EXACT,CAPGEMINI,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Capgemini|PAZSHDC-SEC-EXT-MPLSWEST-02-Capgemini,FALSE,UNCLASSIFIED
+Cardinal,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+CDH (ALLEGIANCE BENEFIT PLAN),Active,Ready for Migration,,Shea,ACTIVE_GAP,,,,,,
+Centene,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+ChangeHealthCare,,Decommissioned,,RI and AZ,SHUTDOWN_NOISE,,,,,,
+CENTENE,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+Ability-AT&T-IVANS-AGNS-EVPN MPLS-CMS,,Follow Up Sent,win-ds-l2-edmz-1 2/0/6,WDC,ACTIVE_GAP,,,,,,
+ChangeHealthCare,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Cover_My_Meds,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+ChangeHealthCare,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+ChangeHealthCare,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+CMC,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Conduent,,Confirmed Active,,RI,MATCHED_CONSISTENT,EXACT,conduent,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+Cognizant,,Pre-Migration,,Shea,MATCHED_CONSISTENT,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+Concentrix,,Pre-Migration,,Shea,MATCHED_CONSISTENT,EXACT,CONCENTRIX,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+Bloomberg,,Pre-Migration,win-ds-l2-edmz-1 1/0/12,WDC,ACTIVE_GAP,,,,,,
+Conduent,,Confirmed Active,,Shea,MATCHED_CONSISTENT,EXACT,conduent,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+Alight,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Capgemini,,Confirmed Active,,RI,MATCHED_CONSISTENT,EXACT,CAPGEMINI,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Capgemini|PAZSHDC-SEC-EXT-MPLSWEST-02-Capgemini,FALSE,UNCLASSIFIED
+CSGI,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+Surescripts,,Ready for Migration,,RI,ACTIVE_GAP,,,,,,
+OpentextAshburn,Active,Pre-Migration,,PDX,ACTIVE_GAP,,,,,,
+OpenTextTintonFalls,Active,Pre-Migration,,PDX,ACTIVE_GAP,,,,,,
+apac,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Aprimo,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+CVS_NICE_DR,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+futrix,SHUT CHG0137520 and CM0019568 10/14/2019,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+Arkema,SHUT CHG0137520 and CM0019568 10/14/2019,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+emc,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+e911 to LA,Active as of Jan 2025,Confirmed Active,win-fw-vpn1,WDC,ACTIVE_GAP,,,,,,
+e911 - NY,SHUT 2/08/2019  -CHG01170208 CM0017929,Confirmed Active,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+emc,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Concentrix,,Pre-Migration,win-ds-l2-edmz-1 Gig1/0/27,WDC,MATCHED_CONSISTENT,EXACT,CONCENTRIX,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+healthfusion2,not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,HEALTHFUSION2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+healthfusionDR,not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,HEALTHFUSIONDR-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+eLoyalty2,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,ELOYALTY2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+SourceOne,not active,Conversation Ongoing,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+commonwealth(Hewlett-Packward Enterprise/KY Medicaid),not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,COMMONWEALTH-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+ohio-das,not active,Confirmed Active,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,OHIO-DAS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+FDMS-ASRX,,Follow Up Sent,Mid-ds-L3-EDMZ-1 Gig1/0/18,MDC,ACTIVE_GAP,,,,,,
+Bupa,Active as of Jan  2025,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,BUPA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+AHCCCS,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,AHCCCS-IPSEC,VPN (IPsec S2S),PAZSHDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+Texas-Mutual,not active,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,TEXAS-MUTUAL-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+fedex,SHUT FM-4972 10/13/2020,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,,,,,,
+FDMS-ASRX (FISERV),,Follow Up Sent,win-ds-l2-edmz-1 1/0/18,WDC,ACTIVE_GAP,,,,,,
+Oak Street Health,,Other,,RI,MATCHED_CONSISTENT,NORMALIZED,OAK_STREET_HEALTH,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+Indian-Health,SHUT 1/08/2019 @CHG0117014 CM0017929,Conversation Ongoing,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,INDIAN-HEALTH-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+emdeon,,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+cognizant,Active,Pre-Migration,,Shea,MATCHED_CONSISTENT,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+vistartech,not active,Email Sent,win-fw-vpn1,WDC,SHUTDOWN_NOISE,,,,,,
+IBM Watson for Aetna and Banner,SHUT 10/02/2019 CM0019601,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+Aprimo,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Medco Health Solutions,Active as of Jan 13 2025,Not Started,win-fw-vpn1,WDC,ACTIVE_GAP,,,,,,
+Beechglen Development Inc.,Active as of Jan  2025,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+medgate,SHUT FM-4972 10/13/2020,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+AutoRabit,not active,Decommissioned,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,AUTORABIT-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+AutoRabit,Active as of Jan 2025,Decommissioned,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,AUTORABIT-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Aprimo2,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+epic,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+State Street Bank,,Pre-Migration,win-ds-l2-edmz-1 2/0/12,WDC,ACTIVE_GAP,,,,,,
+ARES,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Asembia,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Everise,Active,Pre-Migration,Cisco 8300s (CVS-SCO-WAN1 & CVS-SCO-WAN2),Shea,ACTIVE_GAP,,,,,,
+accenture,Up,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Fiserv,,Pre-Migration,,Shea,MATCHED_CONSISTENT,EXACT,FISERV,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+Gemini,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Genpact,,Confirmed Active,,Shea,MATCHED_CONSISTENT,EXACT,GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,FALSE,UNCLASSIFIED
+accolade,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,ACCOLADE-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+AccumTech,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+Athena,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,ATHENA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+acs-raleigh,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+acs-sandy,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+Advent Health,,Conversation Ongoing,,,ACTIVE_GAP,,,,,,
+AEGON,Inactive,Email Sent,,Shea,SHUTDOWN_NOISE,,,,,,
+Athenanet,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Atrion,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Afiniti,Active as of Jan 2025,Blocked,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,AFINITI-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+aimhealth2,Active as of Jan 2025,Conversation Ongoing,win-fw-vpn1,WDC,ACTIVE_GAP,,,,,,
+ATT-SETA,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Avaneer,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,AVANEER,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+alight-aws,Active as of Jan 2025,Blocked,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,ALIGHT-AWS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+bcbs_argus,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS-VLAN88 and tcs,,Pre-Migration,,RI,ACTIVE_GAP,,,,,,
+BCBSAZ,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBSMA,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBSMA,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Benevere,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Asembia,Active,Conversation Ongoing,,Shea,ACTIVE_GAP,,,,,,
+Benevere,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Asembia,Active,Conversation Ongoing,,Shea,ACTIVE_GAP,,,,,,
+Aspect,B,Conversation Ongoing,,Shea,ACTIVE_GAP,,,,,,
+aspera,not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,ASPERA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+British Telecom,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+carefirst-smtp,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+carenet,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,CARENET,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+GetixHealth,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+GoodRx,,Confirmed Active,-,Shea,ACTIVE_GAP,,,,,,
+carenet-san-antonio,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+att-vizgems,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+CBC,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Avenu-Unclaim,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,NORMALIZED,AVENU-UNCLAIM-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Baylor-CMX,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+CBC-2,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Healthcare Services Corporation (HCS),,Confirmed Active,-,Shea,ACTIVE_GAP,,,,,,
+Clear object,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+healthfirst,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBS-NC,Inactive,Email Sent,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBS-VT,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+BCBS-VT,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+benefit-prog,Active as of Jan 2025,Email Sent,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,BENEFIT-PROG-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+benesys-ipsec,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,BENESYS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+clearstone_fortworth,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ClearStoneWaukegan,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Infosys,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+BlueYonder,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+BMI2,not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,BMI2-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+BMI-ipsec,not active,Blocked,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,EXACT,BMI-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+British Telecom,,Decommissioned,,RI,SHUTDOWN_NOISE,,,,,,
+Cognizant,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+instamed,Inactive,Confirmed Active,,Shea,SHUTDOWN_NOISE,,,,,,
+Xerox,,Follow Up Sent,Mid-ds-L3-EDMZ-1 Primary FW port  Gig 1/0/22   Secondary FW port Gig 2/0/22,MDC,ACTIVE_GAP,,,,,,
+Xerox,,Other,win-ds-l2-edmz-1 1/0/22 (primary) 2/0/22 (redundant firewall interface),WDC,ACTIVE_GAP,,,,,,
+CapGemini-Dallas,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+CapGemini-Manassas,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+Cognizant,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+ca-ssh,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+cognizant - bangalor,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+cognizant-chennai,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+CBTS,One connection only but this vendor has 2 tunnels on RI side and also on AZ,Confirmed Active,,RI and AZ,ACTIVE_GAP,,,,,,
+cds,not active,Blocked,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,CDS-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+Cedar_gate,Active as of Jan 2025,Blocked,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,CEDAR_GATE-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+Change Healthcare,not active,Email Sent,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,CHANGE-HEALTHCARE-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+Change Healthcare/Emdeon/Medifax,,Decommissioned,mid-ds-l3-edmz-1 Gig2/0/16,MDC,SHUTDOWN_NOISE,,,,,,
+chenni-accenture-tw1,Active as of Jan 2025,Email Sent,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,CHENNI-ACCENTURE-TW1-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+chenni-accenture-tw1-ipsec,Active as of Jan 2025,Email Sent,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,CHENNI-ACCENTURE-TW1-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+chenni-accenture-tw2-ipsec,Active as of Jan 2025,Email Sent,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,CHENNI-ACCENTURE-TW2-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+cigna,Active,Blocked,,PDX,ACTIVE_GAP,,,,,,
+CISCO,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+cognizant-coimbatore,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ClearObject,SHUT FM-4972 10/13/2020,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,EXACT,CLEAROBJECT,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+cognizant-kolkata,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+cognizant-tampa,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+CLOUD,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+Continuum,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ConveyNations,,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,CONVEYNATIONS,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+CoramApria,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+creehan,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+csc,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Cognizant-Hyderabad,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+CVS_ASB,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+EPCSVerizon,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+CollectiveHealth,Active,Confirmed Active,,PDX,ACTIVE_GAP,,,,,,
+CollectiveHealth,Active,Confirmed Active,,PDX,ACTIVE_GAP,,,,,,
+eReceivables,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Bloomberg,,Pre-Migration,Mid-ds-L3-EDMZ-1 2/0/10,MDC,ACTIVE_GAP,,,,,,
+Concentrix,,Pre-Migration,mid-ds-l3-edmz-1 1/0/27(router 1) 2/0/27 (router 2),MDC,MATCHED_CONSISTENT,EXACT,CONCENTRIX,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+Concentrix_PHL,Inactive,Pre-Migration,,PDX,SHUTDOWN_NOISE,,,,,,
+connextions-charlotte,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+connextions-concord,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+connextions-orlando,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+Connextions-south-orlando,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+Continuum,,Decommissioned,,RI,SHUTDOWN_NOISE,,,,,,
+Eurosort,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Convey,,Decommissioned,,RI,SHUTDOWN_NOISE,,,,,,
+EXL_Health_Manila,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+EXL_Health_Noida,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+country-financial,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+Coventry,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+EXL_Health_NY,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Gateway-Health,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Intrado_LA,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+CTlaborers-ipsec,not active,Conversation Ongoing,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,EXACT,CTLABORERS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Genpact,Inactive,Decommissioned,Mid-ds-L3-EDMZ-1 Gig2/0/9,Shea,SHUTDOWN_NOISE,EXACT,GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,FALSE,UNCLASSIFIED
+Intrado_NY,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+CVS-AcceIQ,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+DELOITTE_SUWANEE,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+DELOITTE_SUWANEE,Inactive,Blocked,,PDX,SHUTDOWN_NOISE,,,,,,
+dhs-ipsec,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,DHS-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+DICE,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+dovetail,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+DVR_SOFTEK,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+edifecs_datamart,Active as of Jan 2025,Blocked,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,EDIFECS_DATAMART_IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+ehealth,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+eLoyalty,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+JointVenture/RedOak,,Other,,Shea,MATCHED_CONSISTENT,NORMALIZED,JOINTVENTURE_REDOAK,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Jointventure-Redoak|PAZSHDC-SEC-EXT-MPLSWEST-02-Jointventure-Redoak|PAZSHDC-SEC-EXXT-MPLSWEST-02-Jointventure-Redoak,FALSE,UNCLASSIFIED
+Maryland_Conduent,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Medhok,,Other,,Shea,MATCHED_CONSISTENT,EXACT,MEDHOK,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+end-game,Active as of Jan 2025,Blocked,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,END-GAME-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+end-game2,DR/Active as of Jan 2025,Blocked,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+ePA,Active,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+Genpact,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,FALSE,UNCLASSIFIED
+equian,not active,Decommissioned,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,EQUIAN-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+GoogleCloud,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ERS,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+headstrong-cincinnati,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ExamOne,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+headstrong-dallas,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Headstrong-Gurgaon,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+HEADSTRONG-MANILA,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+FDMS-ASRX (FISERV),,Follow Up Sent,Mid-ds-L3-EDMZ-1 Gig1/0/18,MDC,ACTIVE_GAP,,,,,,
+Medi-span,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+FIS,Active,Conversation Ongoing,,Shea,ACTIVE_GAP,,,,,,
+FIS,DR/Active as of Jan 2025,Conversation Ongoing,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+Moxie_AWS,Inactive,Confirmed Active,,Shea,SHUTDOWN_NOISE,EXACT,MOXIE_AWS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+State Street Bank,,Pre-Migration,mid-ds-l3-edmz-1 Gig2/0/15,MDC,ACTIVE_GAP,,,,,,
+FIS-NJ,Active as of Jan  2025,Conversation Ongoing,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,FIS-NJ-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+fis-phoenix,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+Frontier,Active as of Jan  2025,Email Sent,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,FRONTIER-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+galaxe,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe-bangalore,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe-detroit,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe-detroit-2,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe-newdelhi,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe-new-delhi,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe-noida,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+galaxe-somerset,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+HEADSTRONG-NOIDA3-CMX,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Geneva,,Decommissioned,,RI,SHUTDOWN_NOISE,,,,,,
+Fiserv,,Pre-Migration,,RI,MATCHED_CONSISTENT,EXACT,FISERV,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+Moxie_AWS,Inactive,Confirmed Active,,Shea,SHUTDOWN_NOISE,EXACT,MOXIE_AWS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+HealthAxis,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Moxie_NV_AWS,Inactive,Confirmed Active,,Shea,SHUTDOWN_NOISE,,,,,,
+GNOHIE-ipsec,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,EXACT,GNOHIE-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+google-clear,not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,,,,,,
+Heartland,,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,heartland,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+Grandview,,Decommissioned,,RI and AZ,SHUTDOWN_NOISE,,,,,,
+HCA,Active as of Jan 2025,Confirmed Active,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,HCA-IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+HDMS,Inactive,Other,,Shea,SHUTDOWN_NOISE,EXACT,HDMS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+hp,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+hp-sacramento,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Ingenix,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Instamed,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+intelrx-1,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+intelrx-2,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+HealthCatalyst,not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,HEALTHCATALYST_IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Moxie_OR_AWS,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+healthnet,Inactive,Follow Up Sent,,PDX,SHUTDOWN_NOISE,,,,,,
+health-plan-one-orlando,not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,HEALTH-PLAN-ONE-ORLANDO-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+health-plan-one-tampa,not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,HEALTH-PLAN-ONE-TAMPA-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+health-plan-one-tampa2,not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,HEALTH-PLAN-ONE-TAMPA2-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+health-plan-one-trumbull,not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,HEALTH-PLAN-ONE-TRUMBULL-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Heartland,,Decommissioned,,RI,SHUTDOWN_NOISE,EXACT,heartland,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+LenovoManagedServices,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+HGSL- Accenture Project Mercury AGB Hinduja Outsourcing,,Decommissioned,mid-ds-l3-edmz-1 Gig1/0/8,MDC,SHUTDOWN_NOISE,,,,,,
+HGSL- Accenture Project Mercury AGB Hinduja Outsourcing,,Other,win-ds-l2-edmz-1 1/0/8,WDC,ACTIVE_GAP,,,,,,
+Highmark,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+horizon,Inactive,Other,,PDX,SHUTDOWN_NOISE,,,,,,
+LenovoManagedServices,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Medica,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+humana,Active,Conversation Ongoing,,PDX,ACTIVE_GAP,,,,,,
+Hydrabad-TS,Active,Blocked,,Shea,ACTIVE_GAP,,,,,,
+IBM_CLOUD,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Bangalore-CMX,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+ibm-bwa,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+ibm-bwa-smyrna,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Chennai,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Manyatha,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Onenet,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Pune,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Pune,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Yellow,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+IBM-Yellow2,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,,,,,,
+ida-ipsec,not active,Blocked,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,EXACT,IDA-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+incomm,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+MTCPayFlex,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+medica,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+NICE,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+medica,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+nuance,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Oak Street Health,,Other,,Shea,MATCHED_CONSISTENT,NORMALIZED,OAK_STREET_HEALTH,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+intrust,Active as of Jan 2025,Blocked,win-fw-vpn1,WDC,MATCHED_CONSISTENT,NORMALIZED,INTRUST_IPSEC,VPN (IPsec S2S),win-fw-vpn1,FALSE,UNCLASSIFIED
+ivans,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+JointVenture/RedOak,,Confirmed Active,,RI,MATCHED_CONSISTENT,NORMALIZED,JOINTVENTURE_REDOAK,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Jointventure-Redoak|PAZSHDC-SEC-EXT-MPLSWEST-02-Jointventure-Redoak|PAZSHDC-SEC-EXXT-MPLSWEST-02-Jointventure-Redoak,FALSE,UNCLASSIFIED
+Omnicare,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,EXACT,omnicare,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+Kansas-Department-of-Health-and-Environment,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,KANSAS-DEPARTMENT-OF-HEALTH-AND-ENVIRONMENT,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+knapp,Active,Confirmed Active,,PDX,ACTIVE_GAP,,,,,,
+KnowledgeShift,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+la-colonial,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,LA-COLONIAL-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+medica,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+MMM,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+lilly,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+majesco,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,MAJESCO-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+majesco-prod,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,MAJESCO-PROD-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+MARS,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+MartinsPoint,Inactive,Follow Up Sent,,Shea,SHUTDOWN_NOISE,,,,,,
+Mckess,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+mckesson,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+Mckesson,,Decommissioned,,RI,SHUTDOWN_NOISE,,,,,,
+McKessonCoram,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+md-abroad,not active,Blocked,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,MD-ABROAD-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Medcare,,Conversation Ongoing,,RI,ACTIVE_GAP,,,,,,
+Concentrix,,Pre-Migration,,RI,MATCHED_CONSISTENT,EXACT,CONCENTRIX,MPLS Private Line (FTD),RRIMDC-SEC-INT-PRD-MGT-01,FALSE,UNCLASSIFIED
+medhok,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,EXACT,MEDHOK,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+medhok,Inactive,Conversation Ongoing,,PDX,SHUTDOWN_NOISE,EXACT,MEDHOK,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+Omnicare,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,EXACT,omnicare,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+Genpact,,Confirmed Active,,RI,MATCHED_CONSISTENT,EXACT,GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,FALSE,UNCLASSIFIED
+MedHok_AWS_DR,Active,Conversation Ongoing,,PDX,ACTIVE_GAP,,,,,,
+medhok-amazon,Active,Conversation Ongoing,,PDX,ACTIVE_GAP,,,,,,
+MedHOK-caremark,Active as of Jan 2025,Blocked,win-fw-vpn1,WDC,ACTIVE_GAP,,,,,,
+medhokIII,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+medhok-richardson,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+MMM2,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+mmm-georgia,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+nice,Inactive,Decommissioned,win-fw-vpn1,Shea,SHUTDOWN_NOISE,,,,,,
+novologix,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Medimpact-Sandiego-DBAR,not active,Email Sent,win-fw-vpn2,WDC,SHUTDOWN_NOISE,NORMALIZED,MEDIMPACT-SANDIEGO-DBAR-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+MedMetrix,Active,Blocked,,Shea,ACTIVE_GAP,,,,,,
+merwin,,Decommissioned,,RI,SHUTDOWN_NOISE,,,,,,
+Microsoft,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+novologix-minnetonka,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Partner,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Pega,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+MTC-ipsec,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,MTC-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+NATELEV,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+nationshealth,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+netcare,not active,Blocked,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,NETCARE-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+netcare-ipsec,not active,Blocked,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,EXACT,NETCARE-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+Omnicare,,Pre-Migration,,Shea,MATCHED_CONSISTENT,EXACT,omnicare,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+pega,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+pega-cloud,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+nreca,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+OmniCare_Integration,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+PayFlex,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,EXACT,payflex,MPLS Private Line,pdc-fw-pdchs,FALSE,UNCLASSIFIED
+Serco and Endeavor,,Pre-Migration,Scottsdale Device Details     Primary Router : Cisco ISR4331/K9   Serial Number : FLM25491158 Secondary Router : Cisco ISR4331/K9   Serial Number : FLM2549115B    Woonsocket Device Details     Primary Router : CISCO2911/K9  Serial Number : FGL193010JJ,RI,ACTIVE_GAP,,,,,,
+omhc,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,OMHC-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+pebtf,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Pega IPI (eProject),Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Pega IPI (eProject),Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Premera,Active,Confirmed Active,,Shea,ACTIVE_GAP,,,,,,
+Opera,,Conversation Ongoing,,RI,MATCHED_CONSISTENT,EXACT,opera,MPLS Private Line,RRICMCP-SEC-MPLEAST-01,FALSE,UNCLASSIFIED
+Oracle,Active,Conversation Ongoing,,Shea,ACTIVE_GAP,,,,,,
+pacific,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+PacificUnderwriters,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,MATCHED_CONSISTENT,NORMALIZED,PACIFICUNDERWRITERS-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+pega-cloud,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+patni-el-paso,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+patni-el-paso2,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+patni-noida,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+patni-noida,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+patni-redwood-city,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+QS1(RedSail),,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Project_Edison,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ProtectionOne,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+pennderm,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+Performant-Pri,Active as of Jan  2025,Blocked,mid-fw-vpn2,MDC,ACTIVE_GAP,,,,,,
+Performant-Sec,Secondary tunnel,Blocked,mid-fw-vpn2,MDC,ACTIVE_GAP,,,,,,
+Preferred,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+Quadax,Inactive,Other,,Shea,SHUTDOWN_NOISE,EXACT,QUADAX,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+Premera-Prod,Inactive,Other,,Shea,SHUTDOWN_NOISE,,,,,,
+Premera-Test,Inactive,Other,,Shea,SHUTDOWN_NOISE,,,,,,
+Premier,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+principal,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+PWC,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+rackspace,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+RANDSTAD_INDIA,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,RANDSTAD_INDIA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+RelayHealth,,Ready for Migration,,Shea,MATCHED_CONSISTENT,EXACT,RELAYHEALTH,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+RANDSTAD_INDIA,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,RANDSTAD_INDIA,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+RKON,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+RMK_PointWes,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+RDS_Broke,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+repeng,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+RKON,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+Rowan,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+RMK,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+RXConnectDR,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+RMK_PointWest,Active,Other,,Shea,ACTIVE_GAP,,,,,,
+rms-parsippany,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+rms-parsippany,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+RxPartner,,Decommissioned,-,Shea,SHUTDOWN_NOISE,,,,,,
+rte-intranet,not active,Conversation Ongoing,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,NORMALIZED,RTE-INTRANET-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+SAP-Germany,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,NORMALIZED,SAP_GERMANY,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+sapient,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ScanData,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+SCIO Health Analytics,Active as of Jan 2025,Blocked,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+ScanData,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+SEMA_INST_DEV,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+SEMA_INST_PRD,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+ScanData,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+Serco,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+soasta,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+SEMAFONE,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Solutran,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Spearhead,Active,Blocked,,Shea,ACTIVE_GAP,,,,,,
+Serco,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Genpact,,Pre-Migration,Mid-ds-L3-EDMZ-1 Gig2/0/9,MDC,MATCHED_CONSISTENT,EXACT,GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,FALSE,UNCLASSIFIED
+stateofnj,Active as of Jan 2025,Blocked,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,STATEOFNJ-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+STATEofPA,not active,Blocked,mid-fw-vpn2,MDC,SHUTDOWN_NOISE,NORMALIZED,STATEOFPA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+STATEofPA,not active,Blocked,win-fw-vpn1,WDC,SHUTDOWN_NOISE,NORMALIZED,STATEOFPA-IPSEC,VPN (IPsec S2S),mid-fw-vpn2,FALSE,UNCLASSIFIED
+Solutran_Minnesota,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Serco and Endeavor,,Pre-Migration,Scottsdale Device Details     Primary Router : Cisco ISR4331/K9   Serial Number : FLM25491158 Secondary Router : Cisco ISR4331/K9   Serial Number : FLM2549115B    Woonsocket Device Details     Primary Router : CISCO2911/K9  Serial Number : FGL193010JJ,Shea,ACTIVE_GAP,,,,,,
+State of Arizona,Inactive,Other,,Shea,SHUTDOWN_NOISE,,,,,,
+SXC,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+storagetek,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Taylor Communications,Active as of Jan 2025,Pre-Migration,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,TAYLOR-COMMUNICATIONS-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+Taylor,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,TCS,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+TCS_Bangalore,Active,Follow Up Sent,,Shea,MATCHED_CONSISTENT,EXACT,TCS_BANGALORE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+TCS_Bangalore,Inactive,Follow Up Sent,,Shea,SHUTDOWN_NOISE,EXACT,TCS_BANGALORE,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+TCS offshore,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS_CANADA,Active,Follow Up Sent,,PDX,ACTIVE_GAP,,,,,,
+TCS_KOCHI,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS_KOCHI,Active,Conversation Ongoing,,PDX,ACTIVE_GAP,,,,,,
+TCS_MX,Active,Conversation Ongoing,,PDX,ACTIVE_GAP,,,,,,
+TCS_Bhuvneshwar,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+SUTHERLAND_ASHBURN,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS_MX,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS_MX,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+tcs-cincinnati,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+tcs-cincinnati,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS-Kochi,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+tcs-noida,Active,Blocked,,Shea,ACTIVE_GAP,,,,,,
+tcs-gurgaon,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+EXL,,Ready for Migration,Mid-ds-L3-EDMZ-1 1/0/12 (router1) 2/0/7 (router2),MDC,ACTIVE_GAP,,,,,,
+EXL,,Ready for Migration,win-ds-l2-edmz-1 1/0/13,WDC,ACTIVE_GAP,,,,,,
+Tech Mahindra,,Decommissioned,Mid-ds-L3-EDMZ-1 1/0/17(router 1) 2/0/20 (router 2),MDC,SHUTDOWN_NOISE,,,,,,
+Tech Mahindra,,Decommissioned,Mid-ds-L3-EDMZ-1 1/0/17(router 1) 2/0/20 (router 2),MDC,SHUTDOWN_NOISE,,,,,,
+tcs-gurgeon,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS-SAP,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TELEPERFORMANCE,Active,Other,,Shea,MATCHED_CONSISTENT,EXACT,TELEPERFORMANCE,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Teleperformance|RRICMCP-SEC-MPLSEAST-02-Teleperformance,FALSE,UNCLASSIFIED
+TechM,Active,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TELESOFT-CMX,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+SUTHERLAND_LASVEGAS,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+Tension,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+TELADOC,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,EXACT,TELADOC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+TimeTrade,SHUT - FM-2169 5/11/2020,Decommissioned,mid-fw-vpn1,MDC,SHUTDOWN_NOISE,,,,,,
+transamerican-ipsec,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,EXACT,TRANSAMERICAN-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+tritek,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+TELEPERFORMANCE(IGS-121),Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,NORMALIZED,TELEPERFORMANCE,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Teleperformance|RRICMCP-SEC-MPLSEAST-02-Teleperformance,FALSE,UNCLASSIFIED
+teradata,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Trizetto,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TTEC Austin,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,NORMALIZED,TTEC-AUSTIN-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+TTEC Denver,Active as of Jan 2025,Blocked,mid-fw-vpn1,MDC,MATCHED_CONSISTENT,NORMALIZED,TTEC-DENVER-IPSEC,VPN (IPsec S2S),mid-fw-vpn1,FALSE,UNCLASSIFIED
+trizetto-albuquerque,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+trizetto-highlands-ranch,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+TCS_SIRUSERI,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+TCS-VLAN88 and tcs,,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+TUFTS,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+UAIC,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Vantiv,,Conversation Ongoing,,Shea,MATCHED_CONSISTENT,EXACT,vantiv,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+universal-american,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Verizon-CVS,Inactive,Conversation Ongoing,,Shea,SHUTDOWN_NOISE,,,,,,
+universal-american-atlanta,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Tempus,Inactive,Other,,Shea,SHUTDOWN_NOISE,EXACT,TEMPUS,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+Vendor-14,,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+west1,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+West2,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+wellcare,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+wellpartner,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+wipro,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+wipro_coimbatore,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+wipro-atlanta,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+wipro-atlanta,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+wipro-chennai,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Wolfram,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+WiproPune,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+UMWA,Inactive,Pre-Migration,,Shea,SHUTDOWN_NOISE,,,,,,
+RelayHealth,,Ready for Migration,,RI,MATCHED_CONSISTENT,EXACT,RELAYHEALTH,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+ZS,Inactive,Blocked,,Shea,SHUTDOWN_NOISE,,,,,,
+Alight,,Not Started,,WDC,ACTIVE_GAP,,,,,,
+ChangeHealthCare,,Not Started,,WDC,ACTIVE_GAP,,,,,,
+Cognizant,,Not Started,,WDC,MATCHED_CONSISTENT,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+Continuum,,Not Started,,WDC,ACTIVE_GAP,,,,,,
+Genpact,,Not Started,,WDC,MATCHED_CONSISTENT,EXACT,GENPACT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Genpact|RRICMCP-SEC-MPLSEAST-02-Genpact,FALSE,UNCLASSIFIED
+WIN-RR-L2-CLSIP-VOIP-1,,Not Started,,WDC,ACTIVE_GAP,,,,,,
+WIN-RR-L2-CLSIP-VOIP-19-1,,Not Started,,WDC,ACTIVE_GAP,,,,,,
+WNS,,Not Started,,WDC,ACTIVE_GAP,,,,,,
+VXI,,Not Started,,WDC,ACTIVE_GAP,,,,,,
+ThoughtSpot,Active as of Jan 2025,Pre-Migration,win-fw-vpn2,WDC,MATCHED_CONSISTENT,NORMALIZED,THOUGHTSPOT-IPSEC,VPN (IPsec S2S),win-fw-vpn2,FALSE,UNCLASSIFIED
+ThoughtSpot-Dev,Active as of Jan 2025,Pre-Migration,win-fw-vpn2,WDC,ACTIVE_GAP,,,,,,
+Alight,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+Accenture,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+Cognizant,,Not Started,,MDC,MATCHED_CONSISTENT,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+Change Healthcare,,Not Started,,MDC,MATCHED_CONSISTENT,NORMALIZED,CHANGE-HEALTHCARE-IPSEC,VPN (IPsec S2S),RRIWSDC-SEC-EXT-VPN-01,FALSE,UNCLASSIFIED
+Continuum,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+WIN-RR-L2-CLSIP-VOIP-19-1,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+VXI,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+WIN-RR-L2-CLSIP-VOIP-1,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+HGS,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+EMDEON,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+WNS,,Not Started,,MDC,ACTIVE_GAP,,,,,,
+Medhok,,Other,,RI,MATCHED_CONSISTENT,EXACT,MEDHOK,MPLS Private Line,PAZSHDC-SEC-EXT-NET4WIR-01,FALSE,UNCLASSIFIED
+UMWA Washington DC,Active,Pre-Migration,,Shea,ACTIVE_GAP,,,,,,
+RXSENSE_ORE,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+RXSENSE_VA,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+WalthHealth,,Confirmed Active,-,Shea,ACTIVE_GAP,,,,,,
+WellPoint,Active,Pre-Migration,,Shea,MATCHED_CONSISTENT,EXACT,WELLPOINT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Wellpoint|PAZSHDC-SEC-EXT-MPLSWEST-02-Wellpoint,FALSE,UNCLASSIFIED
+Wellpoint,,Other,,Shea,MATCHED_CONSISTENT,EXACT,WELLPOINT,MPLS Private Line (FTD),PAZSHDC-SEC-EXT-MPLSWEST-01-Wellpoint|PAZSHDC-SEC-EXT-MPLSWEST-02-Wellpoint,FALSE,UNCLASSIFIED
+WIPRO-TAMPA,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+Wellpartner,,Confirmed Active,,RI,ACTIVE_GAP,,,,,,
+MedHok AWS,,Conversation Ongoing,,RI,ACTIVE_GAP,,,,,,
+First Data Resources (FDR),,Not Started,,MDC,ACTIVE_GAP,,,,,,
+Hartford Insurance (AARP),,Not Started,,MDC,ACTIVE_GAP,,,,,,
+Wolfram,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
+cognizant,,Pre-Migration,,Shea,MATCHED_CONSISTENT,EXACT,COGNIZANT,MPLS Private Line (FTD),RRICMCP-SEC-MPLSEAST-01-Cognizant|RRICMCP-SEC-MPLSEAST-02-Cognizant,FALSE,UNCLASSIFIED
+mckesson,Inactive,Decommissioned,,PDX,SHUTDOWN_NOISE,,,,,,
+workcomprx,Inactive,Decommissioned,,Shea,SHUTDOWN_NOISE,,,,,,
